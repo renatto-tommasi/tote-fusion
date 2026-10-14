@@ -77,5 +77,10 @@
     "docs/images/gazebo-three-camera-scene.png": "74e6556fca3af5f1b51877b5dde85d935ba9b2a7d55d5dda2f5e74480af85879",
     "docs/images/rviz-three-clouds-masks.png": "5fb73d27057acd5af2a6a9d3c978413980aaccd43a741df94ffc5be7dc93462c",
     "tools/live-simulation.rviz": "762cb771ab1576384e29eae723af13d553ae0899253de45fd5211c6fe6e72884"
+  },
+  "cleanup": {
+    "scene_launch_exit_code": 0,
+    "rviz_exit_code": 139,
+    "rviz_event": "RViz segfaulted after SIGINT during cleanup, after screenshots and stream verification completed. No estimator process or action was run."
   }
 }
