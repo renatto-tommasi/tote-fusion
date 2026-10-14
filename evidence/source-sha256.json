@@ -1,0 +1,31 @@
+{
+  "scope": "Publication source; package description/contact metadata updated. Runtime estimator, interfaces and sensor/model configuration match the final workspace contribution.",
+  "files": {
+    "src/tote_fusion/CMakeLists.txt": "4134d745530bd1b358f2b01e4c045e668f0e12ad691c1bd97c6adca835237520",
+    "src/tote_fusion/config/ATTRIBUTION.txt": "d53ae595dd8f7be2985204020e25d19862bd6838a2458e7620c216c22ea7e962",
+    "src/tote_fusion/config/EU6423_geometry.yaml": "7c4ffb013cc103105740e1b7c7a925f6631279b18b23e37b6121e3845c02d22a",
+    "src/tote_fusion/config/cameras.yaml": "0e9ce63955c27e4229c076fe274ec9fab1de768185a0a2982f71ac01f7689c92",
+    "src/tote_fusion/config/tote_model.yaml": "ce1c0a4f096adfcbb566993cf96d6fa2d6ebe8151840f14a0dc638143b292192",
+    "src/tote_fusion/include/tote_fusion/core.hpp": "841910c2d8752c3590422d2b0cd2c6b1961c287f24dde74a7528594117630764",
+    "src/tote_fusion/launch/tote_fusion.launch.py": "6f2435bda6d24549e8052f0f78e8df63f03c3eee21e24e4c5d91cc8cb98ee561",
+    "src/tote_fusion/package.xml": "db9b8bb69b97822f8cf325fb25daa28c17b3f712c0151cdf5b875e106a327ce2",
+    "src/tote_fusion/src/core.cpp": "24ed10539a70dc500af0d11540579e423a1d33570ddbc9977bd0ed25790d0f78",
+    "src/tote_fusion/src/geometry.cpp": "0e9fb113d7eef3809c27c2a09032325d8a5da86573d1f9a306549181887695ab",
+    "src/tote_fusion/src/node.cpp": "8c8770f428aa81621058aa70f33f09234c97db7e351ebebd5a9fec634e1ee84e",
+    "src/tote_fusion/test/evaluate_geometry.cpp": "e40777f6133a4c18c06a894af247aea06904e0af62332231dc11337356cdfca9",
+    "src/tote_fusion/test/evaluate_noise.cpp": "ba62b2d9bc36f26be3bf14f04aab8cd75cd4e273a1977f4a4b3ceb5114c823a6",
+    "src/tote_fusion/test/fixtures.hpp": "7616a6ae7f6114484f7b1fc7d432618e1b29b71e449d6fb39acd1a16bd1ca013",
+    "src/tote_fusion/test/geometry_fixture.hpp": "6311a4b25156d74d107afa35b18d26b5e6a641c33fc5086b7f30e53bb3fdcbc9",
+    "src/tote_fusion/test/multiview_fixture.py": "4d35ee497375f61d16b777218faaf8354f8381528e41756e8d29ef90e5ab3466",
+    "src/tote_fusion/test/ros_test.py": "f63a25ff158dd4ae07fbc87da4e6a44a8eed4edd08c8aeb82b9484172f80a01d",
+    "src/tote_fusion/test/test_action.py": "5900103a927ea2a630bea8a13878db1467a467941bfb175019cba38d60f3c7d2",
+    "src/tote_fusion/test/test_core.cpp": "682c4b1fc5835f639c98af0fa7acfafad7b853dc0c2328586623377aca0cc9f9",
+    "src/tote_fusion/test/test_geometry.cpp": "53024a1d5936476ebda607d4e88dc63ccd50926ae3ef6c183fd4f4972d4be150",
+    "src/tote_fusion/test/test_geometry_action.py": "e55365554ce9aa729ff5bca3ddc5b157b57cee8de343ef55799896e76ba99b36",
+    "src/tote_fusion/test/test_multiview.py": "d4d68cabadd59519d2079c015a2c266e85ff843bb38d44460580836ac95c9fc7",
+    "src/tote_fusion_interfaces/CMakeLists.txt": "3f7b8653a0c17af7aab5f6ab7f0b8dab859aac78bdf864cf8e24e3da5c736cfa",
+    "src/tote_fusion_interfaces/action/EstimateTote.action": "40e3fd84c1dd85da8a203594be782a221c8581266ce4b8ea6572f9767946103e",
+    "src/tote_fusion_interfaces/msg/TotePoseCandidate.msg": "145decd55d9e9a8befb750bee01af95414e9c70c7cc1ecd8a5265fd293f57439",
+    "src/tote_fusion_interfaces/package.xml": "674681506adda360244da3276592c12954140072f17dff1ae65d73be07b53687"
+  }
+}

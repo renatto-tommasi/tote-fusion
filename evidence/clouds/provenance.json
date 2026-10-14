@@ -1,0 +1,654 @@
+{
+  "source_bag_sha256": "e02905ce90cd8a9ea8bd22423365afaf1881c9c31415c46a4074d3f0f4554471",
+  "source_report_sha256": "8fbfc9756940ed0f310945bb6ae549861d69b48994882e856dd6c6d00db14015",
+  "scope": "Recorded analytic RGB-D simulation; test-only masks; visualization only.",
+  "sampling": "Every fourth pixel, matching the estimator projection stride; finite masked 0.3..3 m axial depth.",
+  "after_fusion": "Union of capture-time body points with candidate model overlay; points are not denoised or moved by the fit.",
+  "cases": {
+    "accepted": {
+      "trial_index": 93,
+      "seed": 3093,
+      "code": "OK",
+      "message": "",
+      "captures_ns": [
+        403950000000,
+        404050000000,
+        404150000000,
+        404250000000,
+        404350000000,
+        404450000000
+      ],
+      "frames": 18,
+      "points": {
+        "head_first": 2698,
+        "head_all": 16188,
+        "left_first": 2515,
+        "left_all": 14676,
+        "right_first": 2263,
+        "right_all": 12671
+      },
+      "result": {
+        "success": true,
+        "code": "OK",
+        "message": "",
+        "candidate": {
+          "schema_version": 3,
+          "estimation_mode": 1,
+          "header": {
+            "stamp": {
+              "sec": 404,
+              "nanosec": 450000000
+            },
+            "frame_id": "base_link"
+          },
+          "object_id": "m2-fixture",
+          "candidate_id": "9446eb23540ae7e3083cab4f388f54256525252f387a7e7aea578d4cfaa79590",
+          "model_id": "EU6423",
+          "parent_model_revision": 0,
+          "geometry_hash": "7c4ffb013cc103105740e1b7c7a925f6631279b18b23e37b6121e3845c02d22a",
+          "pose": {
+            "pose": {
+              "position": {
+                "x": 1.0204179125440933,
+                "y": -0.00028289956498465685,
+                "z": 0.5236504309514014
+              },
+              "orientation": {
+                "x": 0.000253552257657774,
+                "y": 0.0001190988513406535,
+                "z": 0.21601920345853717,
+                "w": 0.9763890747360171
+              }
+            },
+            "covariance": [
+              9.219762090512481e-06,
+              1.0266966333372796e-08,
+              -1.1183563525598492e-07,
+              1.594474743224018e-07,
+              -1.0087858045325374e-06,
+              -1.1661174476092422e-07,
+              1.026696633337174e-08,
+              9.226908388306313e-06,
+              -9.109944300800849e-08,
+              1.09566926473208e-06,
+              -1.5765804885563572e-07,
+              1.3329119275351191e-07,
+              -1.1183563525598468e-07,
+              -9.109944300800873e-08,
+              9.345046663365718e-06,
+              -8.587182557579202e-07,
+              1.0470265826403692e-06,
+              1.828512182951218e-09,
+              1.5944747432239324e-07,
+              1.0956692647320851e-06,
+              -8.58718255757916e-07,
+              8.653653639931398e-05,
+              -1.4506946640453369e-06,
+              5.096327229902751e-09,
+              -1.0087858045325357e-06,
+              -1.57658048855639e-07,
+              1.0470265826403708e-06,
+              -1.4506946640453688e-06,
+              8.562653501165349e-05,
+              1.969650043229052e-08,
+              -1.1661174476092443e-07,
+              1.3329119275350535e-07,
+              1.8285121829556815e-09,
+              5.096327229840554e-09,
+              1.96965004322924e-08,
+              7.778783040607597e-05
+            ]
+          },
+          "pi_equivalent_pose": {
+            "position": {
+              "x": 1.0204179125440929,
+              "y": -0.000282899564983945,
+              "z": 0.5236504309514011
+            },
+            "orientation": {
+              "x": 0.0001190988513398542,
+              "y": -0.00025355225765896923,
+              "z": 0.9763890747360165,
+              "w": -0.21601920345853973
+            }
+          },
+          "solver_iterations": 42,
+          "first_capture": {
+            "sec": 403,
+            "nanosec": 950000000
+          },
+          "last_capture": {
+            "sec": 404,
+            "nanosec": 450000000
+          },
+          "issue_time": {
+            "sec": 405,
+            "nanosec": 200000000
+          },
+          "valid_until": {
+            "sec": 406,
+            "nanosec": 450000000
+          },
+          "source_camera_ids": [
+            "head",
+            "left",
+            "right"
+          ],
+          "missing_camera_ids": [],
+          "source_frame_counts": [
+            6,
+            6,
+            6
+          ],
+          "camera_noise_sigma_m": [
+            0.003,
+            0.004,
+            0.005
+          ],
+          "camera_held_out_rmse_m": [
+            0.0011573195325178273,
+            0.0018094873099749867,
+            0.001854887603878807
+          ],
+          "calibration_ids": [
+            "6fc0f3cf48a4ec9b025108b0e61c33a064b2970be9fac2ffddc0278cf9598c7e",
+            "f0667bbf6d9b5504acde54530e41d487aa8812f026822b8a230992211de1ff75",
+            "4286a9e2be49c3238ac1c1618172dba52078f4a214069be9d18c919755fa20af"
+          ],
+          "optical_frames": [
+            "head_front_camera_depth_optical_frame",
+            "wrist_left_camera_depth_optical_frame",
+            "wrist_right_camera_depth_optical_frame"
+          ],
+          "tf_lookup_stamps": [
+            {
+              "sec": 403,
+              "nanosec": 950000000
+            },
+            {
+              "sec": 403,
+              "nanosec": 950000000
+            },
+            {
+              "sec": 403,
+              "nanosec": 950000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 50000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 50000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 50000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 150000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 150000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 150000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 250000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 250000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 250000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 350000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 350000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 350000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 450000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 450000000
+            },
+            {
+              "sec": 404,
+              "nanosec": 450000000
+            }
+          ],
+          "tf_lookup_camera_ids": [
+            "head",
+            "left",
+            "right",
+            "head",
+            "left",
+            "right",
+            "head",
+            "left",
+            "right",
+            "head",
+            "left",
+            "right",
+            "head",
+            "left",
+            "right",
+            "head",
+            "left",
+            "right"
+          ],
+          "depth_convention": "registered_axial_Z_metres",
+          "noise_profile": "geometry_sim_pi_equivalent",
+          "sample_count": 18,
+          "point_count": 21664,
+          "held_out_point_count": 21470,
+          "training_rmse_m": 0.0015920046419723164,
+          "held_out_rmse_m": 0.0016120027740649484,
+          "inlier_fraction": 0.9906741702078787,
+          "covered_surface_count": 8,
+          "observable_rank": 8,
+          "data_information_eigenvalues": [
+            37745.27620505656,
+            71340.9785766388,
+            384864.8962161201,
+            8074364.446542343,
+            18897145.731272068,
+            23829587.915249936
+          ],
+          "ambiguity_status": "PI_YAW_EQUIVALENT_LOCAL_COVARIANCE",
+          "covariance_convention": "body-frame xyz/rotation perturbation; local pi-yaw class; uncalibrated; joint ROS xyz/left-rotation and metres; conditional on nominal unresolved geometry",
+          "covariance_calibrated": false,
+          "parameter_names": [
+            "width",
+            "length"
+          ],
+          "parameter_values_m": [
+            0.42057553111064283,
+            0.6200348129108368
+          ],
+          "parameter_sigma_m": [
+            0.0020973812957427902,
+            0.002102860726625997
+          ],
+          "proposed_outer_dimensions_m": {
+            "x": 0.6200348129108368,
+            "y": 0.42057553111064283,
+            "z": 0.23
+          },
+          "conditional_inner_opening_m": {
+            "x": 0.6150348129108368,
+            "y": 0.4155755311106428,
+            "z": 0.0
+          },
+          "inner_opening_assumption": "XY only; nominal wall thickness and unchanged internal features; Z unresolved",
+          "unresolved_geometry": [
+            "height",
+            "wall_thickness",
+            "floor_and_stacking_foot_offsets",
+            "underside",
+            "hidden_defects"
+          ],
+          "geometry_generator": "EU6423_17_boxes_v1",
+          "proposed_geometry_hash": "30e62395fbcfe81de8820e3b9040b3faea509c2c5678daa277f5ea9158d9e4f0",
+          "collision_lower_m": {
+            "x": -0.3151716975453574,
+            "y": -0.2154338374989356,
+            "z": -0.002
+          },
+          "collision_upper_m": {
+            "x": 0.3151716975453574,
+            "y": 0.2154338374989356,
+            "z": 0.232
+          },
+          "joint_state_order": [
+            "x",
+            "y",
+            "z",
+            "rotX",
+            "rotY",
+            "rotZ",
+            "width",
+            "length"
+          ],
+          "joint_covariance": [
+            9.219762090512481e-06,
+            1.0266966333372796e-08,
+            -1.1183563525598492e-07,
+            1.594474743224018e-07,
+            -1.0087858045325374e-06,
+            -1.1661174476092422e-07,
+            -1.4569854266775876e-08,
+            5.696738758538754e-08,
+            1.026696633337174e-08,
+            9.226908388306313e-06,
+            -9.109944300800849e-08,
+            1.09566926473208e-06,
+            -1.5765804885563572e-07,
+            1.3329119275351191e-07,
+            2.827696560846601e-08,
+            2.264976213734475e-08,
+            -1.1183563525598468e-07,
+            -9.109944300800873e-08,
+            9.345046663365718e-06,
+            -8.587182557579202e-07,
+            1.0470265826403692e-06,
+            1.828512182951218e-09,
+            -1.5975943784332741e-10,
+            3.6259002338417655e-09,
+            1.5944747432239324e-07,
+            1.0956692647320851e-06,
+            -8.58718255757916e-07,
+            8.653653639931398e-05,
+            -1.4506946640453369e-06,
+            5.096327229902751e-09,
+            5.591441255635431e-09,
+            -1.6033517856528678e-08,
+            -1.0087858045325357e-06,
+            -1.57658048855639e-07,
+            1.0470265826403708e-06,
+            -1.4506946640453688e-06,
+            8.562653501165349e-05,
+            1.969650043229052e-08,
+            2.042641933425538e-09,
+            2.5352070791997802e-08,
+            -1.1661174476092443e-07,
+            1.3329119275350535e-07,
+            1.8285121829556815e-09,
+            5.096327229840554e-09,
+            1.96965004322924e-08,
+            7.778783040607597e-05,
+            4.5620939195406755e-08,
+            -2.989933220118265e-08,
+            -1.4569854266775893e-08,
+            2.827696560846582e-08,
+            -1.5975943784318886e-10,
+            5.591441255633672e-09,
+            2.0426419334257147e-09,
+            4.5620939195406794e-08,
+            4.399008299731706e-06,
+            -8.377066169301902e-10,
+            5.6967387585387564e-08,
+            2.264976213734488e-08,
+            3.6259002338416663e-09,
+            -1.6033517856527364e-08,
+            2.53520707919977e-08,
+            -2.989933220118281e-08,
+            -8.377066169301938e-10,
+            4.422023235586015e-06
+          ],
+          "joint_data_information_eigenvalues": [
+            5.97699645546885,
+            17.56468386274082,
+            230.6690767666519,
+            250.23909091773862,
+            541.6635882961742,
+            1061.1476654010598,
+            28261.485298334934,
+            35519.454841347455
+          ],
+          "joint_information_convention": "scaled data-only left body tangent rho/phi followed by dimensions; not ROS position covariance coordinates",
+          "joint_information_scales": [
+            0.01,
+            0.01,
+            0.01,
+            0.05,
+            0.05,
+            0.05,
+            0.01,
+            0.01
+          ],
+          "fixed_geometry_boundary_rmse_m": 0.011508397741628979,
+          "held_out_boundary_rmse_m": 0.0005465657164443967,
+          "boundary_parameter_names": [
+            "width",
+            "width",
+            "length"
+          ],
+          "boundary_camera_ids": [
+            "head",
+            "right",
+            "left"
+          ],
+          "boundary_support_counts": [
+            168,
+            98,
+            52
+          ],
+          "boundary_measurements_m": [
+            0.42026908967216947,
+            0.4200153698416772,
+            0.6203483353903321
+          ],
+          "boundary_measurement_sigma_m": [
+            0.00235133178397476,
+            0.002864028620431885,
+            0.002589099908498016
+          ],
+          "fixed_geometry_converged": true,
+          "fixed_geometry_iterations": 16,
+          "fixed_geometry_held_out_rmse_m": 0.008987746988091395
+        },
+        "accepted_frames": 18,
+        "rejected_frames": 0
+      }
+    },
+    "rejected": {
+      "trial_index": 90,
+      "seed": 3090,
+      "code": "INSUFFICIENT_GEOMETRY",
+      "message": "Held-out camera dimension lacks fitting support",
+      "captures_ns": [
+        391050000000,
+        391150000000,
+        391250000000,
+        391350000000,
+        391450000000,
+        391550000000
+      ],
+      "frames": 18,
+      "points": {
+        "head_first": 2698,
+        "head_all": 16188,
+        "left_first": 2515,
+        "left_all": 14676,
+        "right_first": 2263,
+        "right_all": 12671
+      },
+      "result": {
+        "success": false,
+        "code": "INSUFFICIENT_GEOMETRY",
+        "message": "Held-out camera dimension lacks fitting support",
+        "candidate": {
+          "schema_version": 3,
+          "estimation_mode": 0,
+          "header": {
+            "stamp": {
+              "sec": 0,
+              "nanosec": 0
+            },
+            "frame_id": ""
+          },
+          "object_id": "",
+          "candidate_id": "",
+          "model_id": "",
+          "parent_model_revision": 0,
+          "geometry_hash": "",
+          "pose": {
+            "pose": {
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              }
+            },
+            "covariance": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "pi_equivalent_pose": {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "orientation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "solver_iterations": 0,
+          "first_capture": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "last_capture": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "issue_time": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "valid_until": {
+            "sec": 0,
+            "nanosec": 0
+          },
+          "source_camera_ids": [],
+          "missing_camera_ids": [],
+          "source_frame_counts": [],
+          "camera_noise_sigma_m": [],
+          "camera_held_out_rmse_m": [],
+          "calibration_ids": [],
+          "optical_frames": [],
+          "tf_lookup_stamps": [],
+          "tf_lookup_camera_ids": [],
+          "depth_convention": "",
+          "noise_profile": "",
+          "sample_count": 0,
+          "point_count": 0,
+          "held_out_point_count": 0,
+          "training_rmse_m": 0.0,
+          "held_out_rmse_m": 0.0,
+          "inlier_fraction": 0.0,
+          "covered_surface_count": 0,
+          "observable_rank": 0,
+          "data_information_eigenvalues": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ambiguity_status": "",
+          "covariance_convention": "",
+          "covariance_calibrated": false,
+          "parameter_names": [],
+          "parameter_values_m": [],
+          "parameter_sigma_m": [],
+          "proposed_outer_dimensions_m": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "conditional_inner_opening_m": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "inner_opening_assumption": "",
+          "unresolved_geometry": [],
+          "geometry_generator": "",
+          "proposed_geometry_hash": "",
+          "collision_lower_m": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "collision_upper_m": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "joint_state_order": [],
+          "joint_covariance": [],
+          "joint_data_information_eigenvalues": [],
+          "joint_information_convention": "",
+          "joint_information_scales": [],
+          "fixed_geometry_boundary_rmse_m": 0.0,
+          "held_out_boundary_rmse_m": 0.0,
+          "boundary_parameter_names": [],
+          "boundary_camera_ids": [],
+          "boundary_support_counts": [],
+          "boundary_measurements_m": [],
+          "boundary_measurement_sigma_m": [],
+          "fixed_geometry_converged": false,
+          "fixed_geometry_iterations": 0,
+          "fixed_geometry_held_out_rmse_m": 0.0
+        },
+        "accepted_frames": 18,
+        "rejected_frames": 0
+      }
+    }
+  }
+}

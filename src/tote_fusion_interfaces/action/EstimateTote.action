@@ -1,0 +1,20 @@
+uint8 POSE_ONLY=0
+uint8 POSE_AND_GEOMETRY=1
+string object_id
+uint64 expected_model_revision
+builtin_interfaces/Duration collection_duration
+uint8 min_distinct_views
+uint8 mode
+string validation_profile
+---
+bool success
+string code
+string message
+tote_fusion_interfaces/TotePoseCandidate candidate
+uint32 accepted_frames
+uint32 rejected_frames
+---
+string state
+string code
+uint32 accepted_frames
+uint32 point_count

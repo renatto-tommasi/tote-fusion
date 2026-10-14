@@ -1,0 +1,38 @@
+{
+  "status": "accepted_simulation_milestone",
+  "blocking_findings": [],
+  "resolved_findings": [
+    "R1: physical endpoint fixture placement"
+  ],
+  "production_source_modified_by_reviewer": false,
+  "final_ros_domain": 90,
+  "tests": {
+    "core.xml": {
+      "cases": 46,
+      "failures": 0
+    },
+    "head-action-domain90.xml": {
+      "cases": 14,
+      "failures": 0
+    },
+    "multiview-action.xml": {
+      "cases": 13,
+      "failures": 0
+    },
+    "geometry-action.xml": {
+      "cases": 7,
+      "failures": 0
+    }
+  },
+  "owner_final_corpus_audited": true,
+  "owner_final_source_mutations_audited": true,
+  "independent_source_compile_and_fresh_seeds": true,
+  "remaining_limits": [
+    "high noisy pixel rejection rate",
+    "uncalibrated conditional covariance",
+    "test-only masks",
+    "calibration scale/pose ambiguity",
+    "unseen geometry",
+    "no hardware or production deadline/model-manager/control validation"
+  ]
+}

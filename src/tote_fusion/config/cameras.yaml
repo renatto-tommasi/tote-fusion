@@ -1,0 +1,22 @@
+schema_version: 1
+provenance: Checked Gazebo camera contract; sigma is a simulation exercise assumption,
+  not hardware calibration.
+cameras:
+  head:
+    depth_topic: /head_front_camera/depth/image_rect_raw
+    camera_info_topic: /head_front_camera/depth/camera_info
+    mask_topic: /tote_segmentation/head/mask
+    optical_frame: head_front_camera_depth_optical_frame
+    noise_sigma_m: 0.003
+  left:
+    depth_topic: /tote_sensors/left/depth/image_rect_raw
+    camera_info_topic: /tote_sensors/left/depth/camera_info
+    mask_topic: /tote_segmentation/left/mask
+    optical_frame: wrist_left_camera_depth_optical_frame
+    noise_sigma_m: 0.003
+  right:
+    depth_topic: /tote_sensors/right/depth/image_rect_raw
+    camera_info_topic: /tote_sensors/right/depth/camera_info
+    mask_topic: /tote_segmentation/right/mask
+    optical_frame: wrist_right_camera_depth_optical_frame
+    noise_sigma_m: 0.003

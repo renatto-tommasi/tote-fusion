@@ -1,0 +1,325 @@
+{
+  "passed": true,
+  "covariance_calibrated_for_hardware": false,
+  "population": {
+    "camera_axial_sigma_m": [
+      0.0015,
+      0.002,
+      0.0025
+    ],
+    "frame_sigma_m": 0.00075,
+    "camera_rigid_sigma_m_rad": [
+      0.0005,
+      0.00174532925
+    ],
+    "shared_rigid_sigma_m_rad": [
+      0.001,
+      0.0034906585
+    ],
+    "outliers": "Every twentieth raw sample shifted 20 mm on contaminated odd seeds; subsampling changes retained fraction.",
+    "calibration_seeds": [
+      1000,
+      1059
+    ],
+    "independent_validation_seeds": [
+      1060,
+      1119
+    ],
+    "correct_prior_validation_seeds": [
+      1120,
+      1139
+    ],
+    "configuration_sigma_m": [
+      0.003,
+      0.004,
+      0.005
+    ],
+    "covariance_scale": 1.35,
+    "hardware_calibration": false
+  },
+  "noise": {
+    "two": {
+      "prior": {
+        "codes": {
+          "OK": 120
+        },
+        "accepted_validation": 60,
+        "translation_m": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        },
+        "rotation_rad": {
+          "p50": 0.05235987755982985,
+          "p95": 0.05235987755982985,
+          "p99": 0.05235987755982985,
+          "max": 0.05235987755982985
+        },
+        "held_out_rmse_m": {
+          "p50": 0.012284911661480224,
+          "p95": 0.023380828306907096,
+          "p99": 0.02594196992885511,
+          "max": 0.026101334393366322
+        }
+      },
+      "unweighted": {
+        "codes": {
+          "OK": 109,
+          "CAMERA_CONFLICT": 6,
+          "POOR_FIT": 5
+        },
+        "accepted_validation": 54,
+        "translation_m": {
+          "p50": 0.00546336803848091,
+          "p95": 0.01163206192124131,
+          "p99": 0.012576969727396114,
+          "max": 0.012861503709585295
+        },
+        "rotation_rad": {
+          "p50": 0.01224615846582107,
+          "p95": 0.02501902776434167,
+          "p99": 0.027508918685087858,
+          "max": 0.029766105402035916
+        },
+        "held_out_rmse_m": {
+          "p50": 0.003248399038100238,
+          "p95": 0.003567102692817025,
+          "p99": 0.0037719794586156662,
+          "max": 0.00385627267499366
+        },
+        "calibration_required_scale": 1.3757099857353403,
+        "validation_95_ellipsoid_inside": 50,
+        "validation_95_ellipsoid_fraction": 0.9259259259259259,
+        "mean_nees": 5.045338014859742
+      },
+      "robust": {
+        "codes": {
+          "POOR_FIT": 10,
+          "OK": 89,
+          "CAMERA_CONFLICT": 21
+        },
+        "accepted_validation": 47,
+        "translation_m": {
+          "p50": 0.005228202818173106,
+          "p95": 0.011268871686518701,
+          "p99": 0.012511129382243347,
+          "max": 0.012797403888605122
+        },
+        "rotation_rad": {
+          "p50": 0.00695699830202361,
+          "p95": 0.015141692839253556,
+          "p99": 0.018920664758194344,
+          "max": 0.02059306903769017
+        },
+        "held_out_rmse_m": {
+          "p50": 0.0032764930674783793,
+          "p95": 0.00360902514821147,
+          "p99": 0.003763134754681153,
+          "max": 0.003890347928098597
+        },
+        "calibration_required_scale": 1.3058362856961532,
+        "validation_95_ellipsoid_inside": 46,
+        "validation_95_ellipsoid_fraction": 0.9787234042553191,
+        "mean_nees": 4.067854460109157
+      },
+      "correct_prior": {
+        "codes": {
+          "OK": 18,
+          "CAMERA_CONFLICT": 2
+        },
+        "accepted_translation_m": {
+          "p50": 0.003761084673795031,
+          "p95": 0.007827952369683849,
+          "p99": 0.007964486332657889,
+          "max": 0.0079986198234014
+        }
+      }
+    },
+    "three": {
+      "prior": {
+        "codes": {
+          "OK": 120
+        },
+        "accepted_validation": 60,
+        "translation_m": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        },
+        "rotation_rad": {
+          "p50": 0.05235987755982985,
+          "p95": 0.05235987755982985,
+          "p99": 0.05235987755982985,
+          "max": 0.05235987755982985
+        },
+        "held_out_rmse_m": {
+          "p50": 0.01229339297904231,
+          "p95": 0.02270012626293325,
+          "p99": 0.02600963495469722,
+          "max": 0.02885022578224464
+        }
+      },
+      "unweighted": {
+        "codes": {
+          "POOR_FIT": 6,
+          "OK": 111,
+          "CAMERA_CONFLICT": 3
+        },
+        "accepted_validation": 56,
+        "translation_m": {
+          "p50": 0.004844368417736598,
+          "p95": 0.010622756732734719,
+          "p99": 0.0136532778634355,
+          "max": 0.015328119627553401
+        },
+        "rotation_rad": {
+          "p50": 0.010078536049416387,
+          "p95": 0.0243306406964788,
+          "p99": 0.02645545976445069,
+          "max": 0.02811761317897372
+        },
+        "held_out_rmse_m": {
+          "p50": 0.003045426195676216,
+          "p95": 0.0038580999011595942,
+          "p99": 0.003960724041154398,
+          "max": 0.003971011893939835
+        },
+        "calibration_required_scale": 1.4261083242821344,
+        "validation_95_ellipsoid_inside": 52,
+        "validation_95_ellipsoid_fraction": 0.9285714285714286,
+        "mean_nees": 4.686332308972443
+      },
+      "robust": {
+        "codes": {
+          "OK": 105,
+          "CAMERA_CONFLICT": 5,
+          "POOR_FIT": 10
+        },
+        "accepted_validation": 54,
+        "translation_m": {
+          "p50": 0.004807950953515086,
+          "p95": 0.011368126639892236,
+          "p99": 0.01289841514357139,
+          "max": 0.014113943858615472
+        },
+        "rotation_rad": {
+          "p50": 0.006135597933684645,
+          "p95": 0.014350005517906396,
+          "p99": 0.01769531044636695,
+          "max": 0.019997595368006344
+        },
+        "held_out_rmse_m": {
+          "p50": 0.002541914457938297,
+          "p95": 0.003759343870791625,
+          "p99": 0.0038548777397721303,
+          "max": 0.0038692978084027547
+        },
+        "calibration_required_scale": 1.2286187537646622,
+        "validation_95_ellipsoid_inside": 52,
+        "validation_95_ellipsoid_fraction": 0.9629629629629629,
+        "mean_nees": 3.7490239389784574
+      },
+      "correct_prior": {
+        "codes": {
+          "POOR_FIT": 2,
+          "OK": 16,
+          "CAMERA_CONFLICT": 2
+        },
+        "accepted_translation_m": {
+          "p50": 0.004158410988636033,
+          "p95": 0.007008790419021838,
+          "p99": 0.007568884044931035,
+          "max": 0.007708907451408334
+        }
+      }
+    }
+  },
+  "corpus": {
+    "workload": "Three configured cameras; six 160x120 captures per participating camera, stride 2; two and three active camera workloads.",
+    "2_camera_summary": {
+      "count": 60,
+      "codes": {
+        "DEGRADED_OK": 56,
+        "POOR_FIT": 4
+      },
+      "latency_s": {
+        "p50": 1.2436766234968673,
+        "p95": 1.266461448452901,
+        "p99": 1.3037914422721952,
+        "max": 1.3039084670017473
+      },
+      "cpu_peak_percent": 19.98069684866287,
+      "rss_peak_bytes": 38572032,
+      "rejected_frames": 0
+    },
+    "3_camera_summary": {
+      "count": 60,
+      "codes": {
+        "OK": 59,
+        "POOR_FIT": 1
+      },
+      "latency_s": {
+        "p50": 1.2436597125051776,
+        "p95": 1.2636628353026027,
+        "p99": 1.2640832997029066,
+        "max": 1.2644695550043252
+      },
+      "cpu_peak_percent": 16.683666210210628,
+      "rss_peak_bytes": 38752256,
+      "rejected_frames": 0
+    },
+    "estimator_inputs": [
+      "/clock",
+      "/m2/head/depth",
+      "/m2/head/info",
+      "/m2/head/mask",
+      "/m2/left/depth",
+      "/m2/left/info",
+      "/m2/left/mask",
+      "/m2/right/depth",
+      "/m2/right/info",
+      "/m2/right/mask",
+      "/parameter_events",
+      "/tf",
+      "/tf_static"
+    ],
+    "all_codes": {
+      "DEGRADED_OK": 56,
+      "POOR_FIT": 5,
+      "OK": 59,
+      "CAMERA_CONFLICT": 1,
+      "INVALID_INTRINSICS": 1,
+      "UNOBSERVABLE": 1,
+      "CANCELED": 1,
+      "SIM_TIME_RESET": 1
+    },
+    "clean_workloads": {
+      "2": {
+        "count": 30,
+        "latency_s": {
+          "p50": 1.2437064360019576,
+          "p95": 1.2860698063526796,
+          "p99": 1.3038509463719674,
+          "max": 1.3039084670017473
+        }
+      },
+      "3": {
+        "count": 30,
+        "latency_s": {
+          "p50": 1.2436975700002222,
+          "p95": 1.2636654183002975,
+          "p99": 1.2637722138208483,
+          "max": 1.2638148850019206
+        }
+      }
+    }
+  },
+  "limits": [
+    "Covariance is local and conditional on the pi-yaw equivalence class.",
+    "Finite simulated population and finite workload samples do not establish hardware accuracy or production timing.",
+    "Shared calibration biases outside the population may remain invisible to residuals.",
+    "Seeded baseline comparisons use identical observations; rejected trials do not have accepted pose-error claims."
+  ]
+}

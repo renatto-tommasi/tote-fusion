@@ -1,0 +1,4 @@
+EU6423 source: "Industrial Storage Unit 3D Models" by Daniel Rosehill, copyright 2026, CC BY 4.0.
+https://github.com/danielrosehill/storage-box-3d-models
+https://creativecommons.org/licenses/by/4.0/
+Adaptation: GLB to metre/Z-up DAE, baked node transforms, preserved source topology, compound-box collision and analytic surfaces.

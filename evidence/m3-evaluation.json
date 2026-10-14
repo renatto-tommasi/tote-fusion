@@ -1,0 +1,398 @@
+{
+  "scope": "Simulation geometry candidates; uncertainty is conditional and uncalibrated.",
+  "covariance_calibrated": false,
+  "seeds": [
+    4000,
+    4099
+  ],
+  "methods": {
+    "prior": {
+      "clean": {
+        "trials": 25,
+        "codes": {
+          "PRIOR": 25
+        },
+        "translation_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        },
+        "rotation_rad_error": {
+          "p50": 0.05235987755982985,
+          "p95": 0.05235987755982985,
+          "p99": 0.05235987755982985,
+          "max": 0.05235987755982985
+        },
+        "width_m_error": {
+          "p50": 0.019999999999999962,
+          "p95": 0.019999999999999962,
+          "p99": 0.019999999999999962,
+          "max": 0.019999999999999962
+        },
+        "length_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        }
+      },
+      "noise": {
+        "trials": 50,
+        "codes": {
+          "PRIOR": 50
+        },
+        "translation_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        },
+        "rotation_rad_error": {
+          "p50": 0.05235987755982985,
+          "p95": 0.05235987755982985,
+          "p99": 0.05235987755982985,
+          "max": 0.05235987755982985
+        },
+        "width_m_error": {
+          "p50": 0.019999999999999962,
+          "p95": 0.019999999999999962,
+          "p99": 0.019999999999999962,
+          "max": 0.019999999999999962
+        },
+        "length_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        }
+      },
+      "outliers": {
+        "trials": 25,
+        "codes": {
+          "PRIOR": 25
+        },
+        "translation_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        },
+        "rotation_rad_error": {
+          "p50": 0.05235987755982985,
+          "p95": 0.05235987755982985,
+          "p99": 0.05235987755982985,
+          "max": 0.05235987755982985
+        },
+        "width_m_error": {
+          "p50": 0.019999999999999962,
+          "p95": 0.019999999999999962,
+          "p99": 0.019999999999999962,
+          "max": 0.019999999999999962
+        },
+        "length_m_error": {
+          "p50": 0.020000000000000018,
+          "p95": 0.020000000000000018,
+          "p99": 0.020000000000000018,
+          "max": 0.020000000000000018
+        }
+      }
+    },
+    "unweighted": {
+      "clean": {
+        "trials": 25,
+        "codes": {
+          "OK": 25
+        },
+        "translation_m_error": {
+          "p50": 2.454979862764743e-05,
+          "p95": 2.454979862764743e-05,
+          "p99": 2.454979862764743e-05,
+          "max": 2.454979862764743e-05
+        },
+        "rotation_rad_error": {
+          "p50": 0.00030518959285458485,
+          "p95": 0.00030518959285458485,
+          "p99": 0.00030518959285458485,
+          "max": 0.00030518959285458485
+        },
+        "width_m_error": {
+          "p50": 6.968455692313302e-06,
+          "p95": 6.968455692313302e-06,
+          "p99": 6.968455692313302e-06,
+          "max": 6.968455692313302e-06
+        },
+        "length_m_error": {
+          "p50": 6.169577743464494e-06,
+          "p95": 6.169577743464494e-06,
+          "p99": 6.169577743464494e-06,
+          "max": 6.169577743464494e-06
+        },
+        "width_within_1_96_sigma": 25,
+        "length_within_1_96_sigma": 25
+      },
+      "noise": {
+        "trials": 50,
+        "codes": {
+          "OK": 50
+        },
+        "translation_m_error": {
+          "p50": 0.002643594562825824,
+          "p95": 0.006339717283346316,
+          "p99": 0.00900471948153062,
+          "max": 0.010677515858285391
+        },
+        "rotation_rad_error": {
+          "p50": 0.002628703457353345,
+          "p95": 0.006635679483916803,
+          "p99": 0.008667496412974972,
+          "max": 0.010182775357973614
+        },
+        "width_m_error": {
+          "p50": 0.0005347299910845871,
+          "p95": 0.001388702666031366,
+          "p99": 0.0016636700423707713,
+          "max": 0.0017830229734323022
+        },
+        "length_m_error": {
+          "p50": 0.0006226310111142053,
+          "p95": 0.0012354913873134305,
+          "p99": 0.0017301228761608578,
+          "max": 0.0017306646910368872
+        },
+        "width_within_1_96_sigma": 50,
+        "length_within_1_96_sigma": 50
+      },
+      "outliers": {
+        "trials": 25,
+        "codes": {
+          "OK": 25
+        },
+        "translation_m_error": {
+          "p50": 0.0023844736808443724,
+          "p95": 0.0058011102586882435,
+          "p99": 0.006490162092727396,
+          "max": 0.006683822994058422
+        },
+        "rotation_rad_error": {
+          "p50": 0.0087229513572254,
+          "p95": 0.010200699548666132,
+          "p99": 0.010702260696921042,
+          "max": 0.01084585619508848
+        },
+        "width_m_error": {
+          "p50": 0.0004918043828455732,
+          "p95": 0.0014464459371709365,
+          "p99": 0.001630059122537217,
+          "max": 0.0016744770156441047
+        },
+        "length_m_error": {
+          "p50": 0.0004403200995981571,
+          "p95": 0.0013623297765226188,
+          "p99": 0.0016192125947426155,
+          "max": 0.0016880034050444914
+        },
+        "width_within_1_96_sigma": 25,
+        "length_within_1_96_sigma": 25
+      }
+    },
+    "robust": {
+      "clean": {
+        "trials": 25,
+        "codes": {
+          "OK": 25
+        },
+        "translation_m_error": {
+          "p50": 2.9028809606145797e-05,
+          "p95": 2.9028809606145797e-05,
+          "p99": 2.9028809606145797e-05,
+          "max": 2.9028809606145797e-05
+        },
+        "rotation_rad_error": {
+          "p50": 0.0003649809104510086,
+          "p95": 0.0003649809104510086,
+          "p99": 0.0003649809104510086,
+          "max": 0.0003649809104510086
+        },
+        "width_m_error": {
+          "p50": 7.671799344799446e-06,
+          "p95": 7.671799344799446e-06,
+          "p99": 7.671799344799446e-06,
+          "max": 7.671799344799446e-06
+        },
+        "length_m_error": {
+          "p50": 6.416295261435501e-06,
+          "p95": 6.416295261435501e-06,
+          "p99": 6.416295261435501e-06,
+          "max": 6.416295261435501e-06
+        },
+        "width_within_1_96_sigma": 25,
+        "length_within_1_96_sigma": 25
+      },
+      "noise": {
+        "trials": 50,
+        "codes": {
+          "OK": 50
+        },
+        "translation_m_error": {
+          "p50": 0.0026383251140354464,
+          "p95": 0.006323819925676978,
+          "p99": 0.009006618430425101,
+          "max": 0.010650444654463898
+        },
+        "rotation_rad_error": {
+          "p50": 0.002594027852923687,
+          "p95": 0.006723179275670743,
+          "p99": 0.008704224648818737,
+          "max": 0.010221755403513734
+        },
+        "width_m_error": {
+          "p50": 0.0005454536954534184,
+          "p95": 0.0014239844647065678,
+          "p99": 0.0017275342771752513,
+          "max": 0.0018496890084559459
+        },
+        "length_m_error": {
+          "p50": 0.0006494066179926206,
+          "p95": 0.0012922068718222762,
+          "p99": 0.001798636114596287,
+          "max": 0.0018000935137787444
+        },
+        "width_within_1_96_sigma": 50,
+        "length_within_1_96_sigma": 50
+      },
+      "outliers": {
+        "trials": 25,
+        "codes": {
+          "OK": 25
+        },
+        "translation_m_error": {
+          "p50": 0.0024733879093381895,
+          "p95": 0.005253383370108769,
+          "p99": 0.005881041883720875,
+          "max": 0.006060021197668578
+        },
+        "rotation_rad_error": {
+          "p50": 0.003975341536918715,
+          "p95": 0.006467975013946009,
+          "p99": 0.007732654702243763,
+          "max": 0.00810831647355989
+        },
+        "width_m_error": {
+          "p50": 0.00041828709824820454,
+          "p95": 0.0014228720358179677,
+          "p99": 0.0016082710450994317,
+          "max": 0.001658362011632053
+        },
+        "length_m_error": {
+          "p50": 0.000489022809499029,
+          "p95": 0.001353964422722797,
+          "p99": 0.0016335215784314709,
+          "max": 0.0017084370241458036
+        },
+        "width_within_1_96_sigma": 25,
+        "length_within_1_96_sigma": 25
+      }
+    }
+  },
+  "corpus": {
+    "workload": "Three configured cameras; six 640x480 captures per participating camera, stride 4; two and three active camera workloads.",
+    "parameters": {
+      "use_sim_time": true,
+      "model_file": "/home/renatto-tommasi/workspaces/avatar_tote_ws/install/tote_fusion/share/tote_fusion/config/tote_model.yaml",
+      "camera_ids": [
+        "head",
+        "left",
+        "right"
+      ],
+      "validation_profile": "geometry_sim_pi_equivalent",
+      "reliable_sensor_qos": true,
+      "noise_sigma_m": 0.003,
+      "left.noise_sigma_m": 0.004,
+      "right.noise_sigma_m": 0.005,
+      "pixel_stride": 4,
+      "max_frames": 18,
+      "wall_timeout_s": 5.0,
+      "candidate_validity_s": 2.0,
+      "depth_topic": "/m2/head/depth",
+      "mask_topic": "/m2/head/mask",
+      "camera_info_topic": "/m2/head/info",
+      "left.depth_topic": "/m2/left/depth",
+      "left.mask_topic": "/m2/left/mask",
+      "left.camera_info_topic": "/m2/left/info",
+      "right.depth_topic": "/m2/right/depth",
+      "right.mask_topic": "/m2/right/mask",
+      "right.camera_info_topic": "/m2/right/info"
+    },
+    "2_camera_summary": {
+      "count": 60,
+      "codes": {
+        "DEGRADED_OK": 40,
+        "POOR_FIT": 2,
+        "INSUFFICIENT_GEOMETRY": 17,
+        "CAMERA_CONFLICT": 1
+      },
+      "latency_s": {
+        "p50": 2.151329666499805,
+        "p95": 2.252495623302457,
+        "p99": 2.2749474652415667,
+        "max": 2.2796480329998303
+      },
+      "cpu_peak_percent": 109.99779674752246,
+      "rss_peak_bytes": 46931968,
+      "rejected_frames": 0
+    },
+    "3_camera_summary": {
+      "count": 60,
+      "codes": {
+        "OK": 41,
+        "INSUFFICIENT_GEOMETRY": 17,
+        "POOR_FIT": 2
+      },
+      "latency_s": {
+        "p50": 2.5416878020005242,
+        "p95": 2.7126909139060444,
+        "p99": 2.7351128468297246,
+        "max": 2.7398147709973273
+      },
+      "cpu_peak_percent": 109.98935632961282,
+      "rss_peak_bytes": 49938432,
+      "rejected_frames": 0
+    },
+    "estimator_inputs": [
+      "/clock",
+      "/m2/head/depth",
+      "/m2/head/info",
+      "/m2/head/mask",
+      "/m2/left/depth",
+      "/m2/left/info",
+      "/m2/left/mask",
+      "/m2/right/depth",
+      "/m2/right/info",
+      "/m2/right/mask",
+      "/parameter_events",
+      "/tf",
+      "/tf_static"
+    ],
+    "negatives": {
+      "geometry_conflict": "GEOMETRY_CONFLICT",
+      "invalid_metadata": "INVALID_INTRINSICS",
+      "crop": "INSUFFICIENT_GEOMETRY",
+      "cancel": "CANCELED",
+      "reset": "SIM_TIME_RESET"
+    },
+    "clean_accepted": 60,
+    "noisy_accepted": 21,
+    "max_accepted_dimension_error_m": {
+      "width": 0.0005755311106428462,
+      "length": 0.0002782485323585826
+    }
+  },
+  "limitations": [
+    "Qualified-boundary numerical trials do not validate pixel extraction.",
+    "Accuracy is conditional on acceptance; noisy pixel rejection remains high.",
+    "Fixed simulation-clock shared-host wall latency is not a production deadline guarantee.",
+    "Nominal hidden geometry, trusted calibration and local pi-yaw class remain assumptions.",
+    "No hardware validation or authoritative model commit."
+  ]
+}

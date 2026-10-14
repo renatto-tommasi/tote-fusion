@@ -1,0 +1,97 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+Visualization Manager:
+  Class: ''
+  Displays:
+  - Class: rviz_default_plugins/Grid
+    Name: Metric grid
+    Enabled: true
+    Cell Size: 0.05
+    Plane Cell Count: 20
+    Color: 75; 82; 94
+    Alpha: 0.35
+    Offset:
+      X: 1.02
+      Y: 0.0
+      Z: 0.5
+  - Class: rviz_default_plugins/PointCloud2
+    Name: head recorded points
+    Enabled: true
+    Topic:
+      Value: /documentation/head
+      Depth: 5
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+    Style: Points
+    Size (Pixels): 3
+    Position Transformer: XYZ
+    Color Transformer: FlatColor
+    Color: 30; 205; 240
+    Alpha: 0.8
+    Decay Time: 0.0
+  - Class: rviz_default_plugins/PointCloud2
+    Name: left recorded points
+    Enabled: true
+    Topic:
+      Value: /documentation/left
+      Depth: 5
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+    Style: Points
+    Size (Pixels): 3
+    Position Transformer: XYZ
+    Color Transformer: FlatColor
+    Color: 255; 180; 45
+    Alpha: 0.8
+    Decay Time: 0.0
+  - Class: rviz_default_plugins/PointCloud2
+    Name: right recorded points
+    Enabled: true
+    Topic:
+      Value: /documentation/right
+      Depth: 5
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+    Style: Points
+    Size (Pixels): 3
+    Position Transformer: XYZ
+    Color Transformer: FlatColor
+    Color: 235; 100; 195
+    Alpha: 0.8
+    Decay Time: 0.0
+  - Class: rviz_default_plugins/MarkerArray
+    Name: Nominal prior (orange) or candidate (green)
+    Enabled: true
+    Topic:
+      Value: /documentation/model
+      Depth: 5
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+  Enabled: true
+  Global Options:
+    Background Color: 18; 24; 34
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Tools:
+  - Class: rviz_default_plugins/Interact
+  - Class: rviz_default_plugins/MoveCamera
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.55
+      Pitch: 0.38
+      Yaw: 3.8
+      Focal Point:
+        X: 1.02
+        Y: 0.0
+        Z: 0.64
+      Target Frame: base_link
+      Near Clip Distance: 0.01
+Window Geometry:
+  Width: 1400
+  Height: 1000
+  X: 20
+  Y: 20
+  Hide Left Dock: false
+  Hide Right Dock: true

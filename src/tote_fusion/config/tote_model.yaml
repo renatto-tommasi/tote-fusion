@@ -1,0 +1,94 @@
+schema_version: 1
+model_id: EU6423
+model_revision: 0
+geometry_hash: 7c4ffb013cc103105740e1b7c7a925f6631279b18b23e37b6121e3845c02d22a
+geometry_file: EU6423_geometry.yaml
+geometry_frame: tote
+source_geometry_frame: tote_base
+body_frame: base_link
+estimation_mode: POSE_ONLY
+prior_pose:
+  position_m:
+  - 1.04
+  - 0.0
+  - 0.5237999999999999
+  orientation_xyzw:
+  - 0.0
+  - 0.0
+  - 0.24192189559966773
+  - 0.9702957262759965
+prior_covariance:
+  ordering:
+  - x
+  - y
+  - z
+  - rotX
+  - rotY
+  - rotZ
+  convention: left body-frame tangent perturbation; metres/radians
+  matrix:
+  - - 0.0025000000000000005
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0025000000000000005
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0025000000000000005
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.030461741978670857
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.030461741978670857
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.030461741978670857
+  provenance: 'proposed simulation regularizer: 50 mm / 10 deg standard deviations;
+    uncalibrated'
+provenance:
+  source: public /tote_planning/model and /tf_static only
+  environment_bundle: /home/renatto-tommasi/workspaces/avatar_tote_ws/verification/m1/20261014T004923Z
+  source_attempt_id: m1_20261014t004923z
+  source_initialization_stamp:
+    nanosec: 1000000
+    sec: 1
+  model_revision_policy: local exercise revision 0, not an authoritative production
+    revision
+  T_world_base_link:
+  - - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+  - - 0.0
+    - 0.0
+    - 1.0
+    - 0.0762
+  - - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+  geometry_frame_alias: 'identity relabeling: identical bottom-centre origin and axes'
