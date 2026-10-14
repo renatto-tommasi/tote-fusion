@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-14",
+  "scope": "Live stationary Gazebo sensor visualization only; no estimator request, M3 geometry acceptance or hardware claim.",
+  "ros_domain_id": 96,
+  "gazebo_partition": "tote_readme_20261014",
+  "launch": "ros2 launch tote_experiment controlled_trial.launch.py gui:=True rviz:=False attempt_id:=readme_20261014 record_path:=/tmp/tote-readme-scene.json sensor_profile:=three",
+  "rviz": "rviz2 -d tools/live-simulation.rviz --ros-args -p use_sim_time:=true",
+  "cloud_colors": {
+    "head": "cyan",
+    "left": "gold",
+    "right": "pink"
+  },
+  "mask_source": "Live RGB/depth-only tote_segmentation adapter; no simulator object labels.",
+  "stream_verification": {
+    "/tote_segmentation/head/mask": {
+      "frame_id": "head_front_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 271000000
+      },
+      "width": 640,
+      "height": 480,
+      "encoding": "mono8",
+      "selected_pixels": 32084
+    },
+    "/tote_segmentation/left/mask": {
+      "frame_id": "wrist_left_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 337000000
+      },
+      "width": 640,
+      "height": 480,
+      "encoding": "mono8",
+      "selected_pixels": 65593
+    },
+    "/tote_segmentation/right/mask": {
+      "frame_id": "wrist_right_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 304000000
+      },
+      "width": 640,
+      "height": 480,
+      "encoding": "mono8",
+      "selected_pixels": 55900
+    },
+    "/tote_sensors/left/depth/color/points": {
+      "frame_id": "wrist_left_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 337000000
+      },
+      "width": 640,
+      "height": 480
+    },
+    "/head_front_camera/depth/color/points": {
+      "frame_id": "head_front_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 139000000
+      },
+      "width": 640,
+      "height": 480
+    },
+    "/tote_sensors/right/depth/color/points": {
+      "frame_id": "wrist_right_camera_depth_optical_frame",
+      "stamp": {
+        "sec": 39,
+        "nanosec": 337000000
+      },
+      "width": 640,
+      "height": 480
+    }
+  },
+  "files": {
+    "docs/images/gazebo-three-camera-scene.png": "74e6556fca3af5f1b51877b5dde85d935ba9b2a7d55d5dda2f5e74480af85879",
+    "docs/images/rviz-three-clouds-masks.png": "5fb73d27057acd5af2a6a9d3c978413980aaccd43a741df94ffc5be7dc93462c",
+    "tools/live-simulation.rviz": "762cb771ab1576384e29eae723af13d553ae0899253de45fd5211c6fe6e72884"
+  }
+}

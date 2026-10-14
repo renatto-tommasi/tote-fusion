@@ -83,3 +83,27 @@ uncalibrated, and finite workload timings are not production deadline guarantees
 
 No additional README changes are required for these stated simulation claims.
 Public repository creation/upload and runtime deployment are outside this review.
+
+## Addendum — live simulation screenshots, 2026-10-14
+
+The new opening section, Gazebo screenshot and live RViz screenshot were reviewed
+against `tools/live-simulation.rviz` and
+`evidence/live-simulation-screenshots.json`. No blocking findings were identified;
+the README remains ready for publication.
+
+The Gazebo image shows the stationary TIAGo Pro and open EU6423 tote. The RViz
+image displays three overlapping scene point clouds with the stated cyan/gold/pink
+camera colors, a `world` fixed frame and three nonempty black/white mask panels.
+The saved configuration selects the stated cloud/mask topics and colors. The
+provenance records receipt of all three 640x480 PointCloud2 streams and nonempty
+640x480 `mono8` image-derived masks. Both screenshots and the RViz configuration
+match their retained SHA-256 hashes.
+
+The captions correctly distinguish surrounding-scene point clouds from the
+estimator's masked-depth inputs. They distinguish this live Gazebo visualization
+from the analytic recorded M3 examples and disclose that simulator/robot/
+segmentation support belongs to the separate development workspace. Neither
+the opening section nor the provenance claims a new estimate, M3 geometry
+acceptance or hardware result. These screenshots establish the illustrated live
+sensor visualization; they do not independently validate synchronization,
+camera calibration, estimator accuracy or collision safety.

@@ -1,5 +1,17 @@
 # Tote fusion
 
+## Gazebo simulation and live RViz view
+
+The development scene uses a stationary TIAGo Pro, an open EU6423 tote, and head/left-wrist/right-wrist RGB-D cameras.
+
+[![Gazebo simulation with TIAGo Pro and the tote](docs/images/gazebo-three-camera-scene.png)](docs/images/gazebo-three-camera-scene.png)
+
+RViz shows all three registered point clouds together in `world`: **head cyan**, **left wrist gold**, **right wrist pink**. The panels on the right show the corresponding image-derived tote masks; white pixels select the tote. The clouds include the surrounding scene, while the estimator uses masked depth.
+
+[![RViz with three overlapping camera point clouds and head, left and right masks](docs/images/rviz-three-clouds-masks.png)](docs/images/rviz-three-clouds-masks.png)
+
+These are fresh screenshots of the live Gazebo sensor setup, separate from the recorded analytic M3 acceptance examples below. Simulator, robot and segmentation support packages belong to the development workspace and are not bundled in this repository. [Live RViz configuration](tools/live-simulation.rviz) and [capture provenance](evidence/live-simulation-screenshots.json) are included.
+
 ROS 2 packages for bounded, model-based tote pose estimation and observable width/length refinement from registered RGB-D observations. A C++17 geometry core fits an immutable tote model; the ROS adapter collects masked depth from up to three cameras, transforms each observation at its acquisition time, validates the fit and publishes a **candidate**. Simulator truth is never an estimator input.
 
 **Current scope: ROS 2 Jazzy simulation profiles.** The node requires `use_sim_time=true` and `/clock`. Hardware operation and calibrated uncertainty remain future work. The package does not control robot motion, run segmentation, commit model revisions, or publish a fused/denoised point cloud.
