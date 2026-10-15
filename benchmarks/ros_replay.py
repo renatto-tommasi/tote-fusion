@@ -17,6 +17,8 @@ from scipy.spatial.transform import Rotation
 import rclpy
 from rclpy.action import ActionClient
 from rclpy.parameter import Parameter
+from rclpy.context import Context
+from rclpy.executors import SingleThreadedExecutor
 from rclpy.event_handler import SubscriptionEventCallbacks
 from rclpy.qos import QoSProfile, DurabilityPolicy
 from rclpy.time import Time
@@ -93,8 +95,9 @@ def summary(rows, criteria):
 
 
 class Replay:
-    def __init__(self):
-        self.node = rclpy.create_node('paired_ros_evaluator', parameter_overrides=[Parameter('use_sim_time', value=True)])
+    def __init__(self, context):
+        self.node = rclpy.create_node('paired_ros_evaluator', context=context, parameter_overrides=[Parameter('use_sim_time', value=True)])
+        self.executor = SingleThreadedExecutor(context=context); self.executor.add_node(self.node)
         self.origin_wall = time.monotonic_ns(); self.origin_ros = 10**10; self.hold = None
         self.clock = self.node.create_publisher(Clock, '/clock', 10)
         self.dynamic = self.node.create_publisher(TFMessage, '/tf', 10)
@@ -106,9 +109,7 @@ class Replay:
             lambda message, c=c, k=kind: self.received.__setitem__((c, k, ns(message.header.stamp)), hashlib.sha256(bytes(message.data)).hexdigest()), 10)
             for c, name in enumerate(CAMERAS) for kind in ('depth', 'mask')]
         self.published = []; self.sub = self.node.create_subscription(TotePoseCandidate, '/tote_fusion/candidate', self.published.append, 10)
-        self.feedback_matches = 0; self.collecting = {}
-        self.feedback_sub = self.node.create_subscription(EstimateTote.Impl.FeedbackMessage, '/tote_fusion/estimate/_action/feedback',
-            self.feedback, 10, event_callbacks=SubscriptionEventCallbacks(matched=lambda event: setattr(self, 'feedback_matches', event.current_count)))
+        self.collecting = {}
         self.process = None; self.clock_gaps = []; self.last_tick = None; self.maximum_lag = 0
 
     def ros_now(self):
@@ -124,7 +125,7 @@ class Replay:
             self.clock_gaps.append((wall-self.last_tick)/1e9)
         self.last_tick = wall
         self.clock.publish(Clock(clock=Time(nanoseconds=self.ros_now()).to_msg()))
-        rclpy.spin_once(self.node, timeout_sec=.001)
+        self.executor.spin_once(timeout_sec=.001)
         observed = self.node.get_clock().now().nanoseconds
         if observed:
             self.maximum_lag = max(self.maximum_lag, abs(self.ros_now()-observed)/1e9)
@@ -144,7 +145,8 @@ class Replay:
     def request(self, inputs, arrays, subset, variant, model_file, output):
         selected = (0, 1) if subset == 'AB' else (0,) if subset == 'A' else (1,)
         identity = inputs['scene_id']+'-'+subset+'-'+variant
-        self.wait(lambda: self.feedback_matches == 0, 3); self.collecting.clear()
+        request_uuid = uuid.uuid4(); action_name = '/tote_fusion/estimate'
+        request_object = identity+'-'+request_uuid.hex[:8]; self.collecting.clear()
         self.hold = self.ros_now()
         optical = [f'paired_{c}_{time.monotonic_ns()}' for c in range(2)]
         self.published.clear(); self.received.clear(); self.maximum_lag = 0; self.clock_gaps.clear(); self.last_tick = None
@@ -165,21 +167,25 @@ class Replay:
                 for field, topic in (('depth', 'depth'), ('mask', 'mask'), ('camera_info', 'info')):
                     parameters[prefix+field+'_topic'] = f'/paired/{CAMERAS[camera]}/{topic}'
             (temp/'params.yaml').write_text(yaml.safe_dump({'/**': {'ros__parameters': parameters}}))
-            client = ActionClient(self.node, EstimateTote, '/tote_fusion/estimate')
+            matches = [0]
+            observer = self.node.create_subscription(EstimateTote.Impl.FeedbackMessage, action_name+'/_action/feedback', self.feedback, 10,
+                event_callbacks=SubscriptionEventCallbacks(matched=lambda event: matches.__setitem__(0, event.current_count)))
+            client = ActionClient(self.node, EstimateTote, action_name)
+            self.wait(lambda: matches[0] == 0, 3)
             with (output/(identity+'.log')).open('x') as log:
                 self.process = subprocess.Popen([str(ROOT/'build/tote_fusion/tote_fusion_node'), '--ros-args', '--params-file', str(temp/'params.yaml')], stdout=log, stderr=log)
                 try:
-                    self.wait(lambda: client.server_is_ready() and self.feedback_matches > 0, 8)
+                    self.wait(lambda: client.server_is_ready() and matches[0] > 0, 8)
                     fixed = []
                     for camera in selected:
                         frames = [f for f in inputs['frames'] if f['camera'] == camera]
                         if frames and not (inputs['condition'] == 'tf_gap' and camera == 1):
                             fixed.append(transform(np.asarray(frames[0]['body_camera']), optical[camera], 0))
                     self.static.publish(TFMessage(transforms=fixed)); self.until(time.monotonic_ns()+150_000_000)
-                    goal = EstimateTote.Goal(object_id=identity, expected_model_revision=0, min_distinct_views=1,
+                    goal = EstimateTote.Goal(object_id=request_object, expected_model_revision=0, min_distinct_views=1,
                         mode=inputs['mode'], validation_profile=profile)
                     goal.collection_duration.sec = 1
-                    goal_uuid = UUID(uuid=list(uuid.uuid4().bytes)); goal_key = bytes(goal_uuid.uuid)
+                    goal_uuid = UUID(uuid=list(request_uuid.bytes)); goal_key = bytes(goal_uuid.uuid)
                     sent_wall = time.monotonic_ns(); sent_ros = self.ros_now()
                     future = client.send_goal_async(goal, goal_uuid=goal_uuid); self.wait(future.done)
                     ack_wall = time.monotonic_ns(); handle = future.result()
@@ -271,7 +277,7 @@ class Replay:
                         'send_to_result_s': (finished_wall-sent_wall)/1e9, 'ack_to_result_s': (finished_wall-ack_wall)/1e9,
                         'ack_delay_s': (ack_wall-sent_wall)/1e9, 'compute_s': None, 'age_s': None, 'wall_age_s': None,
                         'pre_acquisition_pause_s': (released_wall-sent_wall)/1e9, 'collecting_feedback_wall_ns': self.collecting[goal_key],
-                        'goal_uuid': goal_key.hex(), 'feedback_matched_publishers': self.feedback_matches,
+                        'goal_uuid': goal_key.hex(), 'action_name': action_name, 'feedback_matched_publishers': matches[0],
                         'released_wall_ns': released_wall, 'released_ros_ns': sent_ros,
                         'sent_wall_ns': sent_wall, 'sent_ros_ns': sent_ros, 'ack_wall_ns': ack_wall, 'result_wall_ns': finished_wall,
                         'clock_anchor': {'monotonic_ns': self.origin_wall, 'ros_ns': self.origin_ros},
@@ -280,7 +286,7 @@ class Replay:
                     if reply.success:
                         candidate = reply.candidate
                         if candidate != self.published[0]: raise RuntimeError('Published candidate fields differ from action result')
-                        if candidate.object_id != identity: raise RuntimeError('Candidate belongs to another request')
+                        if candidate.object_id != request_object: raise RuntimeError('Candidate belongs to another request')
                         p, q = candidate.pose.pose.position, candidate.pose.pose.orientation
                         pose = np.eye(4); pose[:3, 3] = [p.x, p.y, p.z]
                         pose[:3, :3] = Rotation.from_quat([q.x, q.y, q.z, q.w]).as_matrix()
@@ -302,6 +308,29 @@ class Replay:
                     self.process.send_signal(signal.SIGINT); exit_code = self.process.wait(timeout=5); self.process = None
                     if exit_code != 0: raise RuntimeError(f'Native node cleanup returned{exit_code}')
                     self.wait(lambda: not client.server_is_ready(), 3); client.destroy()
+                    self.node.destroy_subscription(observer)
+
+
+def fresh_request(inputs, arrays, subset, variant, model, output):
+    transport = Context()
+    lifecycle = {'scene_id': inputs['scene_id'], 'subset': subset, 'variant': variant, 'started_wall_ns': time.monotonic_ns()}
+    try:
+        with transport:
+            replay = Replay(transport)
+            lifecycle['ready_wall_ns'] = time.monotonic_ns()
+            try:
+                row = replay.request(inputs, arrays, subset, variant, model, output)
+                row['context_lifecycle'] = lifecycle
+            finally:
+                lifecycle['teardown_started_wall_ns'] = time.monotonic_ns()
+                stopped = replay.executor.shutdown(timeout_sec=2)
+                replay.node.destroy_node()
+                if not stopped: raise RuntimeError('Replay executor teardown timed out')
+        return row
+    finally:
+        lifecycle.update(finished_wall_ns=time.monotonic_ns(), context_closed=not transport.ok())
+        with (output/'contexts.jsonl').open('a') as events:
+            events.write(json.dumps(lifecycle)+'\n')
 
 
 def main():
@@ -312,10 +341,10 @@ def main():
     parser.add_argument('--variants', nargs='+', choices=('normal', 'valid_bracket', 'wide_gap', 'stale_triplet', 'mask_skew'), default=['normal'])
     parser.add_argument('--domain', type=int, default=91)
     args = parser.parse_args(); args.output.mkdir(parents=True, exist_ok=False)
-    os.environ['ROS_DOMAIN_ID'] = str(args.domain); rclpy.init()
+    os.environ['ROS_DOMAIN_ID'] = str(args.domain)
     criteria = json.loads((ROOT/'benchmarks/criteria.json').read_text()); model = ROOT/'src/tote_fusion/config/tote_model.yaml'
-    index = json.loads((args.cache/'index.json').read_text()); rows = []; replay = Replay()
-    manifest = {'stage': 'ros', 'profile': 'paired_ros_v3', 'criteria': criteria, 'domain': args.domain,
+    index = json.loads((args.cache/'index.json').read_text()); rows = []
+    manifest = {'stage': 'ros', 'profile': 'paired_ros_v5', 'criteria': criteria, 'domain': args.domain,
         'cache_index_sha256': hashlib.sha256((args.cache/'index.json').read_bytes()).hexdigest(),
         'source_sha256': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in [Path(__file__).resolve(), ROOT/'benchmarks/ros-contract.md', ROOT/'benchmarks/metrics.py', ROOT/'src/tote_fusion/src/node.cpp', *sorted((ROOT/'src/tote_fusion/config').glob('*'))]},
         'node_sha256': hashlib.sha256((ROOT/'build/tote_fusion/tote_fusion_node').read_bytes()).hexdigest(),
@@ -336,7 +365,7 @@ def main():
                         if variant in ('valid_bracket', 'wide_gap') and inputs['condition'] != 'tf_gap': continue
                         for subset in ('A', 'B', 'AB'):
                             context = {'scene_id': inputs['scene_id'], 'subset': subset, 'variant': variant}
-                            row = replay.request(inputs, arrays, subset, variant, model, args.output)
+                            row = fresh_request(inputs, arrays, subset, variant, model, args.output)
                             truth_bytes = (folder/'truth.json').read_bytes()
                             if hashlib.sha256(truth_bytes).hexdigest() != entry['truth_sha256']: raise ValueError('Truth identity mismatch')
                             row = score(row, inputs, json.loads(truth_bytes), criteria); row['tf_admission_exercised'] = True
@@ -350,9 +379,5 @@ def main():
     except Exception as error:
         (args.output/'protocol-failure.json').write_text(json.dumps({'context': context, 'type': type(error).__name__, 'message': str(error)}, indent=2)+'\n')
         raise
-    finally:
-        replay.node.destroy_node(); rclpy.shutdown()
-
-
 if __name__ == '__main__':
     main()

@@ -14,6 +14,10 @@ def check(rows):
         assert row['candidate_publications'] == int(row['accepted'])
         assert row['wire_payloads_verified'] == len(row['delivered'])*2
         assert row['feedback_matched_publishers'] == 1
+        lifecycle = row['context_lifecycle']
+        assert lifecycle['context_closed']
+        assert lifecycle['started_wall_ns'] <= lifecycle['ready_wall_ns'] <= row['sent_wall_ns']
+        assert row['result_wall_ns'] <= lifecycle['teardown_started_wall_ns'] <= lifecycle['finished_wall_ns']
         assert row['sent_ros_ns'] == row['released_ros_ns']
         assert row['sent_wall_ns'] <= row['collecting_feedback_wall_ns'] <= row['released_wall_ns']
         assert row['ack_wall_ns'] <= row['released_wall_ns']

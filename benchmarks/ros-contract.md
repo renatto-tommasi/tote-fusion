@@ -1,4 +1,4 @@
-# B2 same-byte ROS replay contract v3 — 2026-10-15
+# B2 same-byte ROS replay contract v5 — 2026-10-15
 
 Starting revision: `3fd75de403ac19aee8fc934d23b58946e53ed1b2`.
 The B1 criteria, generator, numerical workers and production node remain fixed.
@@ -17,7 +17,7 @@ expiry and dropout interfaces before replay. This stage has these requirements:
   declared precision/Huber and stride4 across A/B/AB. Native DEGRADED_OK is an
   acceptance with explicit missing cameras. No production sampling or weight hook.
   Equal-sample and precision/loss ablations remain B1/core-only evidence.
-- R03: Freeze named profile `paired_ros_v3`: collection1s, six acquisitions at
+- R03: Freeze named profile `paired_ros_v5`: collection1s, six acquisitions at
   release+0.05…0.55s, candidate validity2s, wall containment10s, maxframes12,
   maxpoints60000, reliable sensor QoS. Candidate validity explicitly differs from
   shipped0.5s expiry, before seeing results. Other fit/admission gates remain shipped.
@@ -33,6 +33,12 @@ expiry and dropout interfaces before replay. This stage has these requirements:
   Use a reliable explicit feedback observer with current DDS match count zero
   before the fresh node, and at least one match plus action readiness before
   sending. Supply the goal UUID and correlate COLLECTING to that exact UUID.
+  Give each request a fresh explicit rclpy Context, SingleThreadedExecutor,
+  evaluator node and all ROS entities, in addition to the fresh native process.
+  Spin only that explicit executor. Restore the canonical fixed action name:
+  unique names did not remove the observed transport failure. Record context
+  startup/teardown and completion, separately from goal latency. This measures
+  isolated requests, not reliability of a continuously running client.
   ActionClient service discovery alone does not establish feedback delivery.
   Retain native result code/timings as a protocol-failure attempt if it precedes
   the feedback gate, separately from nominal estimator-performance summaries.
@@ -77,3 +83,20 @@ Both controls and all later populations must identify their protocol revision.
 Protocol v2 passed24 control requests before missing its one-shot initial
 feedback and stopping before acquisition. The v3 matched observer addresses
 that readiness race. Both failed preflights remain preserved, without retries.
+Protocol v3 passed30 controls and39 all-condition requests, then timed out
+waiting for goal acknowledgement. The native log reports failure to send the
+goal response. Protocol v4 isolates sequential action endpoints; a DDS-cache
+cause remains unproven. Retain a fixed-count reused/unique-name no-image probe
+before population execution, with cancellation and read-only heartbeat diagnostics.
+The fixed40-request probe returned37 cancellations/3 ACK timeouts with reused
+names,35 cancellations/5 timeouts with unique names. Parameter heartbeats remained
+responsive during ACK timeouts. Namespace isolation did not resolve the fault.
+Protocol v5 tests fresh parent contexts with canonical names in a third40-request
+arm before dependent controls/populations. No failed request is retried/replaced.
+
+Separate production availability finding: response-send timeout returns from
+installed rclcpp_action28.1.21 before its accepted callback. Native reservation
+is already set, while goal_/wall deadline are not initialized. The resulting
+unwatched reservation is established by source/binary inspection; persistent
+BUSY has not been dynamically reproduced. This benchmark preserves production
+source and makes no broader bounded-admission-recovery qualification.
