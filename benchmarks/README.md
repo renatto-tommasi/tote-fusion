@@ -1,5 +1,8 @@
 # Paired camera benchmark
 
+[Pilot results and retained evidence](results-20261015.md): 600 cached scenes,
+14,400 sensor requests, no general fusion-superiority claim.
+
 [Contract and provisional criteria](contract.md) fix the comparisons before
 results. The production core is unchanged from434803c. The primary is the shipped
 declared-noise/Huber solver. An isolated build supplies equal-precision ablations;
@@ -26,6 +29,13 @@ camera's reference variance. Exact source seams must match or generation fails.
 Sigmas still set Huber standardization and quality gates in every method. Squared
 loss uses the existing large Huber transition, with all other configuration fixed.
 No production registration code or release default is changed.
+
+The robotics advisor checked that the `1e12` transition is exactly quadratic for
+this bounded corpus: gated surface residual/sigma is at most26.7. Pixel-derived
+boundary sigma is at least0.003m. Finite scene coordinates, bounded dimensions
+and at most160 steps below0.5m give a conservative boundary residual below100m,
+far below that transition. This reasoning applies to these fixtures; the generic
+boundary API permits any positive sigma and has no global quadratic-mode promise.
 
 ## Cache once, replay subsets
 
@@ -83,9 +93,12 @@ smaller nonempty per-camera available count. Boundary budgets use the smaller
 nonempty observed count separately. All budgets are chosen BEFORE optimization. A/B receive that budget; A+B
 splits it equally by camera. Proportional deterministic thinning preserves
 observed frame/axis/side strata. Missing support is not replenished; report the
-actual counts and resulting rejection. The300-surface limit keeps this six-frame control below the100-per-frame cap,
-so raw density does not silently double capped surface strength. Selected
-potential cap budgets are exported. Boundary group caps still differ when views
+actual counts and resulting rejection. The300-surface limit equalizes capped
+surface strength in the static six-frame fixtures. Moving views can have unequal
+frame populations: proportional selection can still exceed100 in one frame and
+lose a small amount at the cap. Selected potential cap budgets are exported, and
+that residual difference must remain visible. Dropout also retains its shortage.
+Boundary group caps still differ when views
 supply distinct axes/lines; equal raw counts do not equalize joint information. Selected-data hashes must match across all four
 precision/loss ablations.
 
@@ -112,3 +125,10 @@ admission. Actual transport, TF/timestamp faults, dropout policy, action timing
 and capture-to-publication age require separately identified same-byte ROS replay.
 Never describe pixel-core results as proof of those node behaviors or hardware
 picking safety. No superiority claim is implied by generating this report.
+
+Method execution order is fixed and timings share one host. Do not interpret small
+compute-time differences as a latency advantage. A dedicated timing study needs
+randomized method order and controlled host load.
+
+Use the [operating procedure](procedure.md) for exact commands and failure handling.
+The [session record](session-20261015.md) records evidence, review and remaining work.

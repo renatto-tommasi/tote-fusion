@@ -16,7 +16,7 @@ ROS 2 packages for bounded, model-based tote pose estimation and observable widt
 
 **Current scope: ROS 2 Jazzy simulation profiles.** The node requires `use_sim_time=true` and `/clock`. Hardware operation and calibrated uncertainty remain future work. The package does not control robot motion, run segmentation, commit model revisions, or publish a fused/denoised point cloud.
 
-The experimental [paired A/B/fusion benchmark](benchmarks/README.md) caches scenes once and separates precision from robust loss. Its [contract](benchmarks/contract.md) defines provisional simulation criteria and distinguishes pixel-core evidence from ROS/hardware validation.
+The experimental [paired A/B/fusion benchmark](benchmarks/README.md) caches scenes once and separates precision from robust loss. Its [contract](benchmarks/contract.md) defines provisional simulation criteria and distinguishes pixel-core evidence from ROS/hardware validation. The [600-scene pilot](benchmarks/results-20261015.md) recovers clean complementary geometry but exposes noisy rejection and accepted shared-calibration errors; it does not establish a general fusion advantage.
 
 ## Noisy accepted versus noisy rejected
 

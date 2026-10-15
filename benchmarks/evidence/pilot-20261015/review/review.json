@@ -1,0 +1,67 @@
+{
+  "reviewer": "/root/verify_paired_core",
+  "context_independent": true,
+  "source_revision": "5e890d2ac7159020f61075caa71f4873656a0e8c",
+  "production_core_revision": "434803c4bc30c4d8f759dc8409f13e7bfdfce063",
+  "contract": "benchmarks/contract.md B01-B10",
+  "verdict": "closed within approved scope",
+  "scope": "B1 cached paired pixel-core simulation pilot/harness",
+  "unresolved_blocking_findings": [],
+  "findings": [
+    {
+      "id": "B1-DOC-01",
+      "severity": "low",
+      "blocking": false,
+      "requirement": "B03",
+      "location": "benchmarks/README.md original equal-sample cap wording",
+      "observed": "moving B has raw budget300 but cap97..97.6667 pose or99.6667 geometry",
+      "expected": "report exported residual cap imbalance; do not claim equal effective information",
+      "disposition": "resolved by independently inspected README correction and retained cap-range audit",
+      "production_code_change": false
+    }
+  ],
+  "reproduced": {
+    "benchmark_tests": 10,
+    "core_gtests": 46,
+    "reviewer_authored_groups": 6,
+    "same_byte_replay_scenes": 12,
+    "same_byte_replay_rows": 300,
+    "cache_scenes_verified": 600,
+    "original_rows_verified": 15000,
+    "original_accepted_states_rescored": 7689,
+    "output_artifact_hashes_verified": 1202,
+    "implementation_source_hashes_verified": 17,
+    "bootstrap_intervals_verified": 1124,
+    "critical_invariant_mutants_detected": 3
+  },
+  "inspected_only": [
+    "owner ROS action/multiview/geometry launch test logs",
+    "closeout operating procedure and session draft"
+  ],
+  "not_run": [
+    "same-byte native ROS replay",
+    "fresh200/condition confirmation populations",
+    "hardware, deployment, gripper/task validation"
+  ],
+  "claim_limits": [
+    "30-scene cells cannot prove1% accepted-wrong bound",
+    "oracle masks, shared calibration bias and uncalibrated confidence remain",
+    "equal raw samples do not imply equal information; moving cap residual explicitly reported",
+    "fixed method order and shared-host timing cannot establish comparative latency advantage",
+    "pixel-core age and end-to-end usability are null"
+  ],
+  "failed_reviewer_runs_retained": [
+    "logs/unit-initial.log",
+    "diagnostic-contaminated-run",
+    "logs/original-first-audit.log"
+  ],
+  "owner_original_command_exit_reported": 0,
+  "independent_final_audit_exit": 0,
+  "technical_documentation_review": "final session/procedure status and numerical results claims verified within B1; editorial awaiting review, STE pending; publication-copy packaging owned by implementer",
+  "ste_language_review": "pending",
+  "public_claims_audit": {
+    "table_rows_verified": 40,
+    "compressed_raw_roundtrip_and_original_copies": "verified",
+    "external_publication": "not performed by verifier"
+  }
+}

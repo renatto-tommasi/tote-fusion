@@ -1,0 +1,19 @@
+test_cache_identity_covers_prior_and_pixels_but_not_truth (test_benchmark.GeometryAndStatistics.test_cache_identity_covers_prior_and_pixels_but_not_truth) ... ok
+test_false_acceptance_bound_does_not_invent_evidence (test_benchmark.GeometryAndStatistics.test_false_acceptance_bound_does_not_invent_evidence) ... ok
+test_first_hit_is_front_not_back (test_benchmark.GeometryAndStatistics.test_first_hit_is_front_not_back) ... ok
+test_handle_is_open_not_an_infinite_wall (test_benchmark.GeometryAndStatistics.test_handle_is_open_not_an_infinite_wall) ... ok
+test_joint_cross_covariance_is_used (test_benchmark.GeometryAndStatistics.test_joint_cross_covariance_is_used) ... ok
+test_missing_accepted_evidence_fails (test_benchmark.GeometryAndStatistics.test_missing_accepted_evidence_fails) ... ok
+test_missing_required_axis_is_incomplete_not_zero_error (test_benchmark.GeometryAndStatistics.test_missing_required_axis_is_incomplete_not_zero_error) ... ok
+test_paired_statistics_retain_rejections_and_scene_identity (test_benchmark.GeometryAndStatistics.test_paired_statistics_retain_rejections_and_scene_identity) ... ok
+test_pi_equivalent_pose_scores_zero_with_matching_corners (test_benchmark.GeometryAndStatistics.test_pi_equivalent_pose_scores_zero_with_matching_corners) ... ok
+test_same_cached_pixels_and_budgets_across_real_ablations (test_benchmark.WorkerIntegration.test_same_cached_pixels_and_budgets_across_real_ablations) ... cached pilot-m0-clean-100321
+cached pilot-m1-clean-100321
+replayed pilot-m0-clean-100321
+replayed pilot-m1-clean-100321
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 6.174s
+
+OK

@@ -1,0 +1,39 @@
+{
+  "reviewer": "/root/verify_paired_core",
+  "context": "fresh parent task brief; no implementation conversation",
+  "source_commit": "5e890d2ac7159020f61075caa71f4873656a0e8c",
+  "production_base_commit": "434803c4bc30c4d8f759dc8409f13e7bfdfce063",
+  "isolated_source": "/tmp/paired-core-verify-20261015",
+  "source_archive_sha256": "1f3a2a292b9a6648c3b76d622a4bc3e606a32eaf435674642edc27b7bba8ec5c",
+  "files": {
+    "build/tote_fusion/benchmark_declared": "c91da5303a6f6ef41fd5f6dfd5ae7918d362635738926b9da0cc414b4dc33217",
+    "build/tote_fusion/benchmark_equal": "0991737779775b2d6f651298e2feb049127e286eafb82f91c92604af6fe66ea7",
+    "build/tote_fusion/test_core": "16fd50296747b590565db82842e3354e30b4f32b5b87b9ec66d0fb6ba244d501",
+    "build/tote_fusion/equal_precision_core.cpp": "934aa1931049bcb100edd487a5075211895719c6b0ed214c33c41deb3f8c92fb",
+    "src/tote_fusion/src/core.cpp": "24ed10539a70dc500af0d11540579e423a1d33570ddbc9977bd0ed25790d0f78",
+    "src/tote_fusion/src/geometry.cpp": "0e9fb113d7eef3809c27c2a09032325d8a5da86573d1f9a306549181887695ab",
+    "benchmarks/contract.md": "b6e13959ebba7680a9c5de0999cc18bd52a06fd9821ecc3882878b0a4dcaefe9",
+    "benchmarks/criteria.json": "da33a73a32671cd37b9f1695d783604709b309cb621883422e3eff1fa26f4597",
+    "mutants/budget-worker": "ddd85e318d9a437b8bc07c175e0d7dc361972b064bac58c41d8f55aa87ad54f2",
+    "mutants/budget-worker.cpp": "7026aba12165fad8b450db686e6ece21b8a6deb7498a2a9ec31ac3a0c97fcab9"
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "dependencies": [
+    "3.4.0",
+    "0.8.0",
+    "3.0.13"
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "compile_flags": "-std=c++17 -O2 -g -Wall -Wextra -Wpedantic; no -DNDEBUG; pure core linked yaml-cpp/OpenSSL, Eigen3 headers",
+  "build_status": "exit 0, two worker binaries and 46-case gtest binary built from own archive; Eigen maybe-uninitialized warnings observed",
+  "invalid_reviewer_runs": [
+    {
+      "path": "logs/unit-initial.log",
+      "reason": "reviewer launched integration suite before own binary build completed; 9 checks passed, worker integration FileNotFoundError; superseded by completed-build passes"
+    },
+    {
+      "path": "diagnostic-contaminated-run",
+      "reason": "reviewer budget mutation temporarily exchanged own declared worker while first representative replay was active; binary consistency during run not guaranteed. Excluded in full. Fresh representative-results ran after restoration."
+    }
+  ]
+}

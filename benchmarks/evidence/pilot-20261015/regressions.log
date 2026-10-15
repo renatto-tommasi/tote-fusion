@@ -1,0 +1,338 @@
+Starting >>> tote_fusion_interfaces
+Finished <<< tote_fusion_interfaces [0.03s]
+Starting >>> tote_fusion
+[Processing: tote_fusion]
+--- output: tote_fusion
+UpdateCTestConfiguration  from :/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/CTestConfiguration.ini
+Parse Config file:/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/CTestConfiguration.ini
+   Site: TheDestroyer
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261015-1721 - Experimental
+UpdateCTestConfiguration  from :/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/CTestConfiguration.ini
+Parse Config file:/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/CTestConfiguration.ini
+Test project /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_core
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml" "--package-name" "tote_fusion" "--output-file" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/ament_cmake_gtest/test_core.txt" "--command" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_core" "--gtest_output=xml:/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml"
+1: Working Directory: /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion':
+1:  - /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_core --gtest_output=xml:/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml
+1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 46 tests from 7 test suites.
+1: [----------] Global test environment set-up.
+1: [----------] 2 tests from Model
+1: [ RUN      ] Model.ExactGeometryHashDimensionsAndBottomCentrePrior
+1: [       OK ] Model.ExactGeometryHashDimensionsAndBottomCentrePrior (3 ms)
+1: [ RUN      ] Model.MissingModelFailsWithoutConstructingADefault
+1: [       OK ] Model.MissingModelFailsWithoutConstructingADefault (0 ms)
+1: [----------] 2 tests from Model (3 ms total)
+1: 
+1: [----------] 12 tests from Geometry
+1: [ RUN      ] Geometry.OpenFloorOuterFaceAndHandleAperture
+1: [       OK ] Geometry.OpenFloorOuterFaceAndHandleAperture (1 ms)
+1: [ RUN      ] Geometry.FirstOpaqueSurfaceWinsOverAnOccludedBackFace
+1: [       OK ] Geometry.FirstOpaqueSurfaceWinsOverAnOccludedBackFace (1 ms)
+1: [ RUN      ] Geometry.WidthSeparatesRigidPoseFromPhysicalSize
+1: [       OK ] Geometry.WidthSeparatesRigidPoseFromPhysicalSize (6 ms)
+1: [ RUN      ] Geometry.LengthAndWidthHaveJointCovarianceAndObservedRank
+1: [       OK ] Geometry.LengthAndWidthHaveJointCovarianceAndObservedRank (3 ms)
+1: [ RUN      ] Geometry.SingleWallCanMeasureWidthButCannotEstablishFullPose
+1: [       OK ] Geometry.SingleWallCanMeasureWidthButCannotEstablishFullPose (1 ms)
+1: [ RUN      ] Geometry.PatchOrOneEdgeCannotInventDimensions
+1: [       OK ] Geometry.PatchOrOneEdgeCannotInventDimensions (1 ms)
+1: [ RUN      ] Geometry.Camera420Versus405CannotBeAveraged
+1: [       OK ] Geometry.Camera420Versus405CannotBeAveraged (0 ms)
+1: [ RUN      ] Geometry.SharedRigidCalibrationBiasPreservesWidthButCanBiasPose
+1: [       OK ] Geometry.SharedRigidCalibrationBiasPreservesWidthButCanBiasPose (3 ms)
+1: [ RUN      ] Geometry.CommonLateralScaleBiasIsNotOnlineCalibration
+1: [       OK ] Geometry.CommonLateralScaleBiasIsNotOnlineCalibration (0 ms)
+1: [ RUN      ] Geometry.ParametricBoxesPreserveThicknessHandlesAndUnseenZ
+1: [       OK ] Geometry.ParametricBoxesPreserveThicknessHandlesAndUnseenZ (1 ms)
+1: [ RUN      ] Geometry.BoundaryCameraPlacementCannotHideBehindDensityAndSigma
+1: [       OK ] Geometry.BoundaryCameraPlacementCannotHideBehindDensityAndSigma (3 ms)
+1: [ RUN      ] Geometry.ValidUnequalCameraDensityAndSigmaStillPass
+1: [       OK ] Geometry.ValidUnequalCameraDensityAndSigmaStillPass (5 ms)
+1: [----------] 12 tests from Geometry (30 ms total)
+1: 
+1: [----------] 4 tests from Projection
+1: [ RUN      ] Projection.OffAxisAxialDepthUsesMetricUnitsAndImageRowStride
+1: [       OK ] Projection.OffAxisAxialDepthUsesMetricUnitsAndImageRowStride (0 ms)
+1: [ RUN      ] Projection.InvalidEncodingsTruncationIntrinsicsAndMaskReject
+1: [       OK ] Projection.InvalidEncodingsTruncationIntrinsicsAndMaskReject (0 ms)
+1: [ RUN      ] Projection.InvalidMaskedDepthDoesNotBecomeGuessedPoints
+1: [       OK ] Projection.InvalidMaskedDepthDoesNotBecomeGuessedPoints (0 ms)
+1: [ RUN      ] Projection.DenseImageFailsAtTheProjectionBudget
+1: [       OK ] Projection.DenseImageFailsAtTheProjectionBudget (0 ms)
+1: [----------] 4 tests from Projection (0 ms total)
+1: 
+1: [----------] 3 tests from Frames
+1: [ RUN      ] Frames.NonidentityTransformUsesBodyFromCameraDirection
+1: [       OK ] Frames.NonidentityTransformUsesBodyFromCameraDirection (0 ms)
+1: [ RUN      ] Frames.StaleFutureAndPreviousRequestStampsReject
+1: [       OK ] Frames.StaleFutureAndPreviousRequestStampsReject (0 ms)
+1: [ RUN      ] Frames.Se3ExpLogRoundTripWithCoupledTranslationRotation
+1: [       OK ] Frames.Se3ExpLogRoundTripWithCoupledTranslationRotation (0 ms)
+1: [----------] 3 tests from Frames (0 ms total)
+1: 
+1: [----------] 11 tests from Registration
+1: [ RUN      ] Registration.ExactPriorDoesNotDrift
+1: [       OK ] Registration.ExactPriorDoesNotDrift (2 ms)
+1: [ RUN      ] Registration.SeparateTranslationAndYawBiasesImproveOnHeldOutFrames
+1: [       OK ] Registration.SeparateTranslationAndYawBiasesImproveOnHeldOutFrames (8 ms)
+1: [ RUN      ] Registration.PlanarDataCannotBecomeObservableThroughThePrior
+1: [       OK ] Registration.PlanarDataCannotBecomeObservableThroughThePrior (1 ms)
+1: [ RUN      ] Registration.StrictProfileRejectsGlobalPiYawAmbiguity
+1: [       OK ] Registration.StrictProfileRejectsGlobalPiYawAmbiguity (2 ms)
+1: [ RUN      ] Registration.CorrelatedPixelsCannotBeSharedWithHoldOut
+1: [       OK ] Registration.CorrelatedPixelsCannotBeSharedWithHoldOut (1 ms)
+1: [ RUN      ] Registration.CancellationProducesNoEstimate
+1: [       OK ] Registration.CancellationProducesNoEstimate (1 ms)
+1: [ RUN      ] Registration.CancellationInterruptsAnInProgressBatch
+1: [       OK ] Registration.CancellationInterruptsAnInProgressBatch (1 ms)
+1: [ RUN      ] Registration.SparseInputsRejectWithoutReusingAPriorCandidate
+1: [       OK ] Registration.SparseInputsRejectWithoutReusingAPriorCandidate (1 ms)
+1: [ RUN      ] Registration.EquivalentHypothesisIsExplicitAndIndependentlyFitted
+1: [       OK ] Registration.EquivalentHypothesisIsExplicitAndIndependentlyFitted (3 ms)
+1: [ RUN      ] Registration.LargeSegmentationContaminationRejects
+1: [       OK ] Registration.LargeSegmentationContaminationRejects (5 ms)
+1: [ RUN      ] Registration.DuplicatedPixelsDoNotMultiplyConfidence
+1: [       OK ] Registration.DuplicatedPixelsDoNotMultiplyConfidence (10 ms)
+1: [----------] 11 tests from Registration (42 ms total)
+1: 
+1: [----------] 10 tests from Multiview
+1: [ RUN      ] Multiview.PerCameraNoiseChangesInfluenceWithoutChangingGeometry
+1: [       OK ] Multiview.PerCameraNoiseChangesInfluenceWithoutChangingGeometry (6 ms)
+1: [ RUN      ] Multiview.ExtraIdenticalCameraFramesCannotDominateOrMultiplyConfidence
+1: [       OK ] Multiview.ExtraIdenticalCameraFramesCannotDominateOrMultiplyConfidence (16 ms)
+1: [ RUN      ] Multiview.ConflictingViewsCannotBecomeASuccessfulAverage
+1: [       OK ] Multiview.ConflictingViewsCannotBecomeASuccessfulAverage (3 ms)
+1: [ RUN      ] Multiview.RotationalViewDisagreementRejects
+1: [       OK ] Multiview.RotationalViewDisagreementRejects (8 ms)
+1: [ RUN      ] Multiview.DroppedCameraDoesNotCreateObservedDegreesOfFreedom
+1: [       OK ] Multiview.DroppedCameraDoesNotCreateObservedDegreesOfFreedom (1 ms)
+1: [ RUN      ] Multiview.ReceivedCameraWithoutModelSupportCannotDisappear
+1: [       OK ] Multiview.ReceivedCameraWithoutModelSupportCannotDisappear (2 ms)
+1: [ RUN      ] Multiview.CommonCalibrationBiasRemainsInvisibleToResiduals
+1: [       OK ] Multiview.CommonCalibrationBiasRemainsInvisibleToResiduals (3 ms)
+1: [ RUN      ] Multiview.InvalidCameraAndNoiseProfilesReject
+1: [       OK ] Multiview.InvalidCameraAndNoiseProfilesReject (3 ms)
+1: [ RUN      ] Multiview.LostCameraCannotMakeCovarianceMorePrecise
+1: [       OK ] Multiview.LostCameraCannotMakeCovarianceMorePrecise (5 ms)
+1: [ RUN      ] Multiview.FiniteButUnrepresentableExternalRaysAndSigmasRejectBeforeAssertions
+1: [       OK ] Multiview.FiniteButUnrepresentableExternalRaysAndSigmasRejectBeforeAssertions (3 ms)
+1: [----------] 10 tests from Multiview (56 ms total)
+1: 
+1: [----------] 4 tests from GeometryImages
+1: [ RUN      ] GeometryImages.PositiveBackgroundAndPairedLinesEstablishWidth
+1: [       OK ] GeometryImages.PositiveBackgroundAndPairedLinesEstablishWidth (3 ms)
+1: [ RUN      ] GeometryImages.MaskCropWithoutFreeSpaceIsNotAnEdge
+1: [       OK ] GeometryImages.MaskCropWithoutFreeSpaceIsNotAnEdge (3 ms)
+1: [ RUN      ] GeometryImages.InvalidBackgroundOrCloserOcclusionDoesNotEstablishWidth
+1: [       OK ] GeometryImages.InvalidBackgroundOrCloserOcclusionDoesNotEstablishWidth (4 ms)
+1: [ RUN      ] GeometryImages.ImageBorderIsNotAVisibleEndpoint
+1: [       OK ] GeometryImages.ImageBorderIsNotAVisibleEndpoint (2 ms)
+1: [----------] 4 tests from GeometryImages (13 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 46 tests from 7 test suites ran. (147 ms total)
+1: [  PASSED  ] 46 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml'
+1: -- run_test.py: verify result file '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml'
+1/4 Test #1: test_core ........................   Passed    0.21 sec
+test 2
+    Start 2: test_test_action.py
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_action.py.xunit.xml" "--package-name" "tote_fusion" "--output-file" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/launch_test/test_test_action.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_action.py" "--junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_action.py.xunit.xml" "--package-name=tote_fusion"
+2: Working Directory: /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion
+2: Test timeout computed to be: 90
+2: -- run_test.py: invoking following command in '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion':
+2:  - /usr/bin/python3 -m launch_testing.launch_test /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_action.py --junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_action.py.xunit.xml --package-name=tote_fusion
+2: [INFO] [launch]: All log files can be found below /home/renatto-tommasi/.ros/log/2026-10-15-11-21-13-518606-TheDestroyer-1998976
+2: [INFO] [launch]: Default logging verbosity is set to INFO
+2: [INFO] [tote_fusion_node-1]: process started with pid [1999041]
+2: test_clock_reset_invalidates_collection (tote_fusion.ActionContract.test_clock_reset_invalidates_collection) ... [tote_fusion_node-1] [ERROR] [1792084873.926755064] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+2: ok
+2: test_completed_empty_collection_rejects (tote_fusion.ActionContract.test_completed_empty_collection_rejects) ... [tote_fusion_node-1] [ERROR] [1792084874.106755533] [tote_fusion]: INSUFFICIENT_DATA: Too few cameras with separate acquisition samples
+2: ok
+2: test_concurrent_request_is_rejected_and_cancel_releases_session (tote_fusion.ActionContract.test_concurrent_request_is_rejected_and_cancel_releases_session) ... [tote_fusion_node-1] [ERROR] [1792084874.271211614] [tote_fusion]: BUSY: One bounded request at a time
+2: [tote_fusion_node-1] [ERROR] [1792084874.286744859] [tote_fusion]: CANCELED: Request canceled by client
+2: [tote_fusion_node-1] [ERROR] [1792084874.306751679] [tote_fusion]: CANCELED: Request canceled by client
+2: ok
+2: test_fresh_pretrigger_frame_is_excluded_and_cannot_supply_a_candidate (tote_fusion.ActionContract.test_fresh_pretrigger_frame_is_excluded_and_cannot_supply_a_candidate) ... [tote_fusion_node-1] [ERROR] [1792084874.586775961] [tote_fusion]: INSUFFICIENT_DATA: Too few cameras with separate acquisition samples
+2: ok
+2: test_invalid_depth_fails_without_a_candidate (tote_fusion.ActionContract.test_invalid_depth_fails_without_a_candidate) ... ok
+2: test_invalid_startup_parameters_fail_instead_of_using_defaults (tote_fusion.ActionContract.test_invalid_startup_parameters_fail_instead_of_using_defaults) ... [tote_fusion_node-1] [ERROR] [1792084874.830567397] [tote_fusion]: INVALID_DEPTH: Expected bounded little-endian axial depth: 32FC1 metres or 16UC1 millimetres
+2: ok
+2: test_mask_dimensions_must_match (tote_fusion.ActionContract.test_mask_dimensions_must_match) ... ok
+2: test_missing_capture_time_tf_fails (tote_fusion.ActionContract.test_missing_capture_time_tf_fails) ... [tote_fusion_node-1] [ERROR] [1792084877.841247247] [tote_fusion]: MASK_MISMATCH: Mask format, dimensions or row stride differs from depth
+2: ok
+2: [tote_fusion_node-1] [ERROR] [1792084878.090833388] [tote_fusion]: TF_UNAVAILABLE: Missing TF chain metadata: head_front_camera_depth_optical_frame
+2: test_model_configuration_cannot_change (tote_fusion.ActionContract.test_model_configuration_cannot_change) ... ok
+2: test_paused_clock_does_not_disable_wall_timeout (tote_fusion.ActionContract.test_paused_clock_does_not_disable_wall_timeout) ... [tote_fusion_node-1] [ERROR] [1792084879.426801570] [tote_fusion]: TIMEOUT: Steady wall deadline expired
+2: ok
+2: test_stale_frame_is_rejected (tote_fusion.ActionContract.test_stale_frame_is_rejected) ... ok
+2: test_stale_model_and_unsupported_mode_are_rejected (tote_fusion.ActionContract.test_stale_model_and_unsupported_mode_are_rejected) ... [tote_fusion_node-1] [ERROR] [1792084879.670840542] [tote_fusion]: STALE_OBSERVATION: Capture is stale, future, or outside this request
+2: ok
+2: test_unmatched_image_queue_has_a_hard_bound (tote_fusion.ActionContract.test_unmatched_image_queue_has_a_hard_bound) ... [tote_fusion_node-1] [ERROR] [1792084879.830801690] [tote_fusion]: STALE_MODEL_REVISION: Expected model revision differs from immutable snapshot
+2: [tote_fusion_node-1] [ERROR] [1792084879.831304473] [tote_fusion]: UNSUPPORTED_MODE: Requested mode must match the separately configured profile
+2: [tote_fusion_node-1] [ERROR] [1792084880.261230356] [tote_fusion]: BUFFER_LIMIT: Bounded image queue would overflow
+2: ok
+2: 
+2: ----------------------------------------------------------------------
+2: Ran 13 tests in 6.714s
+2: 
+2: OK
+2: [INFO] [tote_fusion_node-1]: sending signal 'SIGINT' to process[tote_fusion_node-1]
+2: [tote_fusion_node-1] [INFO] [1792084880.269590835] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+2: [INFO] [tote_fusion_node-1]: process has finished cleanly [pid 1999041]
+2: test_exit (tote_fusion.ProcessExit.test_exit) ... ok
+2: 
+2: ----------------------------------------------------------------------
+2: Ran 1 test in 0.000s
+2: 
+2: OK
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_action.py.xunit.xml'
+2/4 Test #2: test_test_action.py ..............   Passed    7.65 sec
+test 3
+    Start 3: test_test_multiview.py
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_multiview.py.xunit.xml" "--package-name" "tote_fusion" "--output-file" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/launch_test/test_test_multiview.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_multiview.py" "--junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_multiview.py.xunit.xml" "--package-name=tote_fusion"
+3: Working Directory: /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion
+3: Test timeout computed to be: 90
+3: -- run_test.py: invoking following command in '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion':
+3:  - /usr/bin/python3 -m launch_testing.launch_test /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_multiview.py --junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_multiview.py.xunit.xml --package-name=tote_fusion
+3: [INFO] [launch]: All log files can be found below /home/renatto-tommasi/.ros/log/2026-10-15-11-21-21-174801-TheDestroyer-1999381
+3: [INFO] [launch]: Default logging verbosity is set to INFO
+3: [INFO] [tote_fusion_node-1]: process started with pid [1999409]
+3: [INFO] [robot_state_publisher-2]: process started with pid [1999410]
+3: test_camera_loss_is_explicit_and_goal_controls_reduced_coverage (tote_fusion.MultiviewAction.test_camera_loss_is_explicit_and_goal_controls_reduced_coverage) ... [robot_state_publisher-2] [INFO] [1792084881.259731374] [robot_state_publisher]: Robot initialized
+3: [tote_fusion_node-1] [ERROR] [1792084884.134978929] [tote_fusion]: INSUFFICIENT_DATA: Too few cameras with separate acquisition samples
+3: ok
+3: test_cancel_and_reset_discard_all_camera_buffers (tote_fusion.MultiviewAction.test_cancel_and_reset_discard_all_camera_buffers) ... [tote_fusion_node-1] [ERROR] [1792084885.615028140] [tote_fusion]: CANCELED: Request canceled by client
+3: [tote_fusion_node-1] [ERROR] [1792084886.954981705] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: ok
+3: test_delayed_wrist_tf_rejects_without_latest_substitution (tote_fusion.MultiviewAction.test_delayed_wrist_tf_rejects_without_latest_substitution) ... [tote_fusion_node-1] [ERROR] [1792084887.164164152] [tote_fusion]: TF_UNAVAILABLE: No retained TF support: left_mount
+3: ok
+3: test_moving_wrist_interpolates_bracketing_joint_transforms (tote_fusion.MultiviewAction.test_moving_wrist_interpolates_bracketing_joint_transforms) ... [robot_state_publisher-2] [WARN] [1792084887.472111576] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+3: ok
+3: test_moving_wrist_uses_joint_tf_at_capture_not_latest (tote_fusion.MultiviewAction.test_moving_wrist_uses_joint_tf_at_capture_not_latest) ... ok
+3: test_pending_budget_counts_all_camera_stamp_pairs (tote_fusion.MultiviewAction.test_pending_budget_counts_all_camera_stamp_pairs) ... [tote_fusion_node-1] [ERROR] [1792084891.494494095] [tote_fusion]: BUFFER_LIMIT: Bounded image queue would overflow
+3: ok
+3: test_processed_brief_clock_reset_cannot_publish_candidate (tote_fusion.MultiviewAction.test_processed_brief_clock_reset_cannot_publish_candidate) ... [tote_fusion_node-1] [ERROR] [1792084892.983858294] [tote_fusion]: BUSY: One bounded request at a time
+3: [tote_fusion_node-1] [ERROR] [1792084892.995001797] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: [tote_fusion_node-1] [ERROR] [1792084894.456017217] [tote_fusion]: BUSY: One bounded request at a time
+3: [tote_fusion_node-1] [ERROR] [1792084894.474983886] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: [tote_fusion_node-1] [ERROR] [1792084895.948291126] [tote_fusion]: BUSY: One bounded request at a time
+3: [tote_fusion_node-1] [ERROR] [1792084895.954995651] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: [tote_fusion_node-1] [ERROR] [1792084897.416995601] [tote_fusion]: BUSY: One bounded request at a time
+3: [tote_fusion_node-1] [ERROR] [1792084897.434976123] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: [tote_fusion_node-1] [ERROR] [1792084898.910162666] [tote_fusion]: BUSY: One bounded request at a time
+3: [tote_fusion_node-1] [ERROR] [1792084898.915022772] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+3: ok
+3: test_received_camera_without_model_support_cannot_count_as_a_view (tote_fusion.MultiviewAction.test_received_camera_without_model_support_cannot_count_as_a_view) ... [tote_fusion_node-1] [ERROR] [1792084900.455038117] [tote_fusion]: INSUFFICIENT_DATA: Camera 1 lacks fitting/held-out model support; raw_points=2124
+3: ok
+3: test_remaining_planar_camera_cannot_become_observable (tote_fusion.MultiviewAction.test_remaining_planar_camera_cannot_become_observable) ... [tote_fusion_node-1] [ERROR] [1792084901.975034753] [tote_fusion]: UNOBSERVABLE: Data-only rank=3/6 eigenvalues=-2.19221e-09 -4.92827e-23 -9.65233e-24      4791.48      10084.5  9.93438e+06
+3: ok
+3: test_static_topology_and_timestamp_changes_abort_used_chains (tote_fusion.MultiviewAction.test_static_topology_and_timestamp_changes_abort_used_chains) ... [tote_fusion_node-1] [ERROR] [1792084902.330009050] [tote_fusion]: TF_CHANGED: Used TF topology/static calibration changed: head_front_camera_depth_optical_frame
+3: [tote_fusion_node-1] [ERROR] [1792084902.579648797] [tote_fusion]: TF_CHANGED: Used TF topology/static calibration changed: head_front_camera_depth_optical_frame
+3: [tote_fusion_node-1] [ERROR] [1792084902.839271015] [tote_fusion]: TF_CHANGED: Used TF topology/static calibration changed: head_front_camera_depth_optical_frame
+3: [tote_fusion_node-1] [ERROR] [1792084903.099927154] [tote_fusion]: TF_CHANGED: Conflicting TF replacement at one timestamp: left_mount
+3: [tote_fusion_node-1] [ERROR] [1792084903.099969410] [tote_fusion]: TF_CHANGED: Conflicting TF replacement at one timestamp: left_mount
+3: ok
+3: test_two_wrist_cameras_with_equal_acquisition_stamps_remain_separate (tote_fusion.MultiviewAction.test_two_wrist_cameras_with_equal_acquisition_stamps_remain_separate) ... ok
+3: test_wide_dynamic_ancestor_gap_rejects_even_when_tf2_can_interpolate (tote_fusion.MultiviewAction.test_wide_dynamic_ancestor_gap_rejects_even_when_tf2_can_interpolate) ... [tote_fusion_node-1] [ERROR] [1792084905.189569730] [tote_fusion]: TF_UNAVAILABLE: Dynamic TF interpolation gap/support age exceeds profile: sparse_mount
+3: ok
+3: 
+3: ----------------------------------------------------------------------
+3: Ran 12 tests in 24.098s
+3: 
+3: OK
+3: [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+3: [INFO] [tote_fusion_node-1]: sending signal 'SIGINT' to process[tote_fusion_node-1]
+3: [robot_state_publisher-2] [INFO] [1792084905.300179688] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+3: [tote_fusion_node-1] [INFO] [1792084905.300478932] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+3: [INFO] [tote_fusion_node-1]: process has finished cleanly [pid 1999409]
+3: [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 1999410]
+3: test_exit (tote_fusion.ProcessExit.test_exit) ... ok
+3: 
+3: ----------------------------------------------------------------------
+3: Ran 1 test in 0.000s
+3: 
+3: OK
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_multiview.py.xunit.xml'
+3/4 Test #3: test_test_multiview.py ...........   Passed   25.01 sec
+test 4
+    Start 4: test_test_geometry_action.py
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_geometry_action.py.xunit.xml" "--package-name" "tote_fusion" "--output-file" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/launch_test/test_test_geometry_action.py.txt" "--command" "/usr/bin/python3" "-m" "launch_testing.launch_test" "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_geometry_action.py" "--junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_geometry_action.py.xunit.xml" "--package-name=tote_fusion"
+4: Working Directory: /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion
+4: Test timeout computed to be: 90
+4: -- run_test.py: invoking following command in '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion':
+4:  - /usr/bin/python3 -m launch_testing.launch_test /home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/src/tote_fusion/test/test_geometry_action.py --junit-xml=/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_geometry_action.py.xunit.xml --package-name=tote_fusion
+4: [INFO] [launch]: All log files can be found below /home/renatto-tommasi/.ros/log/2026-10-15-11-21-46-236416-TheDestroyer-2000392
+4: [INFO] [launch]: Default logging verbosity is set to INFO
+4: [INFO] [tote_fusion_node-1]: process started with pid [2000440]
+4: [INFO] [robot_state_publisher-2]: process started with pid [2000441]
+4: test_conflicting_camera_widths_reject_without_publication (tote_fusion.GeometryAction.test_conflicting_camera_widths_reject_without_publication) ... [robot_state_publisher-2] [INFO] [1792084906.317263509] [robot_state_publisher]: Robot initialized
+4: [tote_fusion_node-1] [ERROR] [1792084908.910583958] [tote_fusion]: GEOMETRY_CONFLICT: Independent camera dimensions disagree beyond three propagated sigmas
+4: ok
+4: test_geometry_cancel_and_reset_keep_candidate_topic_empty (tote_fusion.GeometryAction.test_geometry_cancel_and_reset_keep_candidate_topic_empty) ... [tote_fusion_node-1] [ERROR] [1792084911.570241457] [tote_fusion]: CANCELED: Request canceled by client
+4: [tote_fusion_node-1] [ERROR] [1792084914.025629184] [tote_fusion]: BUSY: One bounded request at a time
+4: [tote_fusion_node-1] [ERROR] [1792084914.030198132] [tote_fusion]: SIM_TIME_RESET: Simulation clock moved backwards
+4: ok
+4: test_mask_crop_cannot_become_a_geometry_candidate (tote_fusion.GeometryAction.test_mask_crop_cannot_become_a_geometry_candidate) ... [tote_fusion_node-1] [ERROR] [1792084916.510533990] [tote_fusion]: INSUFFICIENT_GEOMETRY: Need paired boundaries in fitting and held-out frames
+4: ok
+4: test_moving_camera_geometry_uses_capture_time_interpolation (tote_fusion.GeometryAction.test_moving_camera_geometry_uses_capture_time_interpolation) ... ok
+4: test_only_width_supported_leaves_length_unresolved (tote_fusion.GeometryAction.test_only_width_supported_leaves_length_unresolved) ... ok
+4: test_width_then_length_joint_candidate_and_conservative_envelope (tote_fusion.GeometryAction.test_width_then_length_joint_candidate_and_conservative_envelope) ... ok
+4: 
+4: ----------------------------------------------------------------------
+4: Ran 6 tests in 18.812s
+4: 
+4: OK
+4: [INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+4: [INFO] [tote_fusion_node-1]: sending signal 'SIGINT' to process[tote_fusion_node-1]
+4: [robot_state_publisher-2] [INFO] [1792084925.075678322] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+4: [tote_fusion_node-1] [INFO] [1792084925.075977205] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+4: [INFO] [robot_state_publisher-2]: process has finished cleanly [pid 2000441]
+4: [INFO] [tote_fusion_node-1]: process has finished cleanly [pid 2000440]
+4: test_exit (tote_fusion.Shutdown.test_exit) ... ok
+4: 
+4: ----------------------------------------------------------------------
+4: Ran 1 test in 0.000s
+4: 
+4: OK
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/build/tote_fusion/test_results/tote_fusion/test_test_geometry_action.py.xunit.xml'
+4/4 Test #4: test_test_geometry_action.py .....   Passed   19.77 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Label Time Summary:
+gtest          =   0.21 sec*proc (1 test)
+launch_test    =  52.44 sec*proc (3 tests)
+
+Total Test time (real) =  52.66 sec
+---
+Finished <<< tote_fusion [52.7s]
+
+Summary: 2 packages finished [52.9s]
+build/tote_fusion/Testing/20261015-1721/Test.xml: 4 tests, 0 errors, 0 failures, 0 skipped
+build/tote_fusion/test_results/tote_fusion/test_core.gtest.xml: 46 tests, 0 errors, 0 failures, 0 skipped
+build/tote_fusion/test_results/tote_fusion/test_test_action.py.xunit.xml: 14 tests, 0 errors, 0 failures, 0 skipped
+build/tote_fusion/test_results/tote_fusion/test_test_geometry_action.py.xunit.xml: 7 tests, 0 errors, 0 failures, 0 skipped
+build/tote_fusion/test_results/tote_fusion/test_test_multiview.py.xunit.xml: 13 tests, 0 errors, 0 failures, 0 skipped
+
+Summary: 84 tests, 0 errors, 0 failures, 0 skipped

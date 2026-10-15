@@ -1,0 +1,11 @@
+{
+  "system": "Ubuntu24.04/ROS2Jazzy",
+  "compiler": "GCC13.3.0",
+  "cxx": "C++17 -O2 -g assertions enabled",
+  "python": "3.12.3 -s",
+  "numpy": "1.26.4",
+  "scipy": "1.11.4",
+  "pyyaml": "6.0.1",
+  "source_commit": "5e890d2ac7159020f61075caa71f4873656a0e8c",
+  "production_base": "434803c4bc30c4d8f759dc8409f13e7bfdfce063"
+}

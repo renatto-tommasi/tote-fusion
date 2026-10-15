@@ -1,0 +1,3011 @@
+{
+  "schema": 1,
+  "partition": "pilot",
+  "generator_sha256": "9a825f80f85ca4f5bc423feccf7fefa765e2461905d25accaa74b6b0e343f817",
+  "seed_span": [
+    100000,
+    100029
+  ],
+  "scenes": [
+    {
+      "scene_id": "pilot-m0-clean-100000",
+      "cache_digest": "b093e55aa42c31d1e8837cafc1e83dfca471ae0fabeba6fd53fdc0ce21c75426",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100001",
+      "cache_digest": "7918a603f21d34c8379bc78dc2850909e3a887983a34eca06faa3f7731067854",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100002",
+      "cache_digest": "0dd19ea12c136085e0bed365e38a8a600f75b4cdc5787b93146bb7a9d401e09c",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100003",
+      "cache_digest": "4964fba1060b7afe78f42b1c7ea400d430bb0ea3697d5392d15234777bb01aec",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100004",
+      "cache_digest": "96d86a125d962d84c351b0e75270cc3b211dc04c47ca58485e63bd00489e8855",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100005",
+      "cache_digest": "4ef33612d4e63409224bdb3a204cd8b121ac08880a7a31e6e5267eb1f52c0097",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100006",
+      "cache_digest": "c06eb8b8fe96e72d660e1359c0e5481a34e059fbc6e73ef32c475b2048ac0098",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100007",
+      "cache_digest": "8d6834a8c31e180315398b12720722b6f9307add1661ddb843da407e0b0c25d2",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100008",
+      "cache_digest": "e96a7681b676c6d145d212b3dbd1f84c4fb187172099d2567f310a5c069d0f7d",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100009",
+      "cache_digest": "51af9993e264f820aede9a9c7b63144086bfd89449b66a85397fd003bafc68c1",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100010",
+      "cache_digest": "ced33ab035f10705e5a23e580baffb26b9681fef2954a875ca1d510a41fde4d7",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100011",
+      "cache_digest": "251a6da9e14a86e748faa2bc69c1da989f17e99791ccd74793c79f9ace3c8e20",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100012",
+      "cache_digest": "9ad6390a1f3f32dd5e5e0f354b8890c563f06da0e44c4e2f4e4b1a5d9cced3fb",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100013",
+      "cache_digest": "0b974e4f1a22d3132f238d32c2bd56ef27df8f3e4d06bdc24575f8373e6158c8",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100014",
+      "cache_digest": "db8fb863b7c530e9fcf757a5c1ed147110747e13f55308eaed18eb23ea9b0aa4",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100015",
+      "cache_digest": "a42bda115eefefb2f32da4f291690198a76ad6ee125325df0d0a214852a38113",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100016",
+      "cache_digest": "8518d694cb1ec6694edabca27ef4e3db068271d8e2f0dbda99608ccb6ca6ee41",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100017",
+      "cache_digest": "a93caf040508acaf39c677832292afa2bea2123c34b3f83023d991f83a566a9f",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100018",
+      "cache_digest": "43a27fd9bea319165b9c9ef7e0e3a8053ba0966b7b3e3d985bfb61a5459b9cee",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100019",
+      "cache_digest": "bb3ba26b49d0a3ab5bbf1526dc3f459887a5adea1c5b855112ae6450e8edc4f8",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100020",
+      "cache_digest": "4ddd0a2e7dd057701735efabcd4ba91fbc905600b8ca633536e44dba0c50f28f",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100021",
+      "cache_digest": "ef0b12cb36ee74d51a57668bec5adb8f13b828c4523ee4d477231fa4fcf4d634",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100022",
+      "cache_digest": "3e0b6701bbd3cab306e690de05ebb163cffb544c7407aebda9631cb83250f444",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100023",
+      "cache_digest": "2139ed4674c6493962165d5504ecf31373178e76ef24cc048f9b06b2d610a608",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100024",
+      "cache_digest": "695ad68c9a156d54ad3cfec2998b451b6492e8a0b799a7338f8091b6335b0d5a",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100025",
+      "cache_digest": "381fa402d9ba4de6026e4fe28f9543bc81d3fd6396c7cd6597e575c2206b797c",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100026",
+      "cache_digest": "f0f9543fae02b8761cf131c1f9cbeea8c4759a1a6626a0b25869c0f17765dbfb",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100027",
+      "cache_digest": "353c17e621684b8382c705cc8c1e51624f8c1333ac881b3c8d515bb8924b5e75",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100028",
+      "cache_digest": "3716a6fcc45f5ef26859c591ab016e6bf0e5b6dbb18290167ad21baca40d76d2",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-clean-100029",
+      "cache_digest": "cbf500714ca83e07048e40506ab4a3bdf47a3b36964f5407bc6615bad814e255",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100000",
+      "cache_digest": "0dc73aeee7842eec2d1d8753a7ef9158ed301a50bdc1452bf64744de2904a528",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100001",
+      "cache_digest": "49b65c82e751335b6347880aa73430522087362ab8862522a949701e620f9828",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100002",
+      "cache_digest": "b64cdb075a4d17b2bd46f2fe4eb0e93dc7bdf450640174f02d6e7602e7720563",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100003",
+      "cache_digest": "4cfe4f000291397e513c9148c83a15643a93994ccb3024fad2f90e1f10073613",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100004",
+      "cache_digest": "084eb878d6821f0e2be0f2fc41b7f624960a2ed288ab828ef7c037998ec516bf",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100005",
+      "cache_digest": "9d41b0089a8a71ff11c9a9d1657b6425587420fcda98fc7e79a20440ce5c58e2",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100006",
+      "cache_digest": "44caad360c53505dce5d03357b371cbdbf98ad4592fe21793b6c82d85509c5e2",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100007",
+      "cache_digest": "e7c5feaee94821f9c9b5c97c61eaf40faf7c4ddcb23bdb49b43bff66d32ac200",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100008",
+      "cache_digest": "9cd958286f3e6da6a45fbfcd52c0f1a134a6a92b284bb91cf67fae8bc413cc00",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100009",
+      "cache_digest": "d72d6e513caecf17c09ec0ff2d52fa4707e0699213a12efe18efd3498beb5c0b",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100010",
+      "cache_digest": "75f786d00c9fedb24068e20ca9c3568a5342702f5583261b67c33a26646b8fa9",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100011",
+      "cache_digest": "46cec55fed72a7191d8ad7864cb988b0677b850adfe7e8bf4b2facb4be91344a",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100012",
+      "cache_digest": "6261c21653dbd7872e52b21bb3541635f4e2accb0118a1ad3d334c5e64551803",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100013",
+      "cache_digest": "8e80d67b589b65f03f3d061c2dc57da47c6c4c4fe295867d436738a35748f241",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100014",
+      "cache_digest": "3a1e5b63df6ca058c40e4c6bbbe21193a10e2936264fbc86d9b38b4da4a22c31",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100015",
+      "cache_digest": "4c7dc8ee90da8c1e9f8ab130ac2ccb802cb4a0984041eacd9ea84c97e35c9cd9",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100016",
+      "cache_digest": "4355591d4d3f39f809313b0b89ce21247bddc93d9e2c9c76660f048308655f4b",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100017",
+      "cache_digest": "d86b3032ade8817430c857c5d28fa8fc61d9a159bf888b260a682187f009777d",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100018",
+      "cache_digest": "5ae4596560922239b35bd64056ea53b5c35ae88891b64487cf59e9fc49c1c51b",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100019",
+      "cache_digest": "8ccf768d60b5e9fadfb1bef8d5dd56df52832ed98bf8ff8be508c6f982f027a1",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100020",
+      "cache_digest": "d69a462292cad1865bc152f085c677748d7e098bc70978cdaabdfca44b691f31",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100021",
+      "cache_digest": "b3752fc3084712373dcd12caabe90e1ac1cf3e17b360adc4007745ac8bf0d8f7",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100022",
+      "cache_digest": "8cc96888ea7a1bc588e4241e08ecf54c7f8881f65a819a48d927d13d01d17578",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100023",
+      "cache_digest": "5cec95f4bbd7d4a684693d9fa7a12bbb05b716e52b98393af745dc3b8dff044e",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100024",
+      "cache_digest": "61369e074ede5f78b1dd255de861fcd4998e69b2297183b61657382939bdddd7",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100025",
+      "cache_digest": "e68fbc56ffb5b41ca443f1d3a58667c818b699c2addb9842346540cf6bf540ed",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100026",
+      "cache_digest": "260ddb4a12d5636e492b712b848ecf390efcb0b1b2d963bf9348ea10227da077",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100027",
+      "cache_digest": "d561fd1d38c28c91061bdc9148f16e1ad328db0aac5baba5e3798129b43888c9",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100028",
+      "cache_digest": "2a257fd9c9e4730403c457489e168187ae3ff76fdd4dffad0ee528c14597bf1e",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-noise-100029",
+      "cache_digest": "7407a40adb3719a6faad478438a83525754eb98151d017dd7988596dbe6d65a9",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100000",
+      "cache_digest": "e2f4f8f9fb2796d929f5785b9ce9830912c85856778b67633bfcb2096916394e",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100001",
+      "cache_digest": "68835f920cc64362ff6b1830a14018b883ad7c5ebd34462ca1c93c1aa308aaa0",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100002",
+      "cache_digest": "15295a2bed048be5991f2f4ffe76bc4e2a22cd174ce79c954aac358122b52675",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100003",
+      "cache_digest": "dcdb79f0b059383dfa6fab5a42f5f3801fb0ee76de953b514b31436ab9a0ecc4",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100004",
+      "cache_digest": "ea15d8b204e60050cbeeec7d752025a062e1bcbbbf57f0cb0d5893d9ab8748f4",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100005",
+      "cache_digest": "e41c9d9613bff61ec5212d1853f68ab928400c0fb45b01f8d6bdb18adcac35be",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100006",
+      "cache_digest": "e8779ee3c3e6153cced4219eb2091c69bd68f2540c02c8d00dbc774cab75aaa6",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100007",
+      "cache_digest": "63e6185bbd7d8284d89a31ca95ce3cad940b7f844469df93f1839676353f5a6f",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100008",
+      "cache_digest": "320669666a8986fedad6f461ffdf8f94eacdb3af7d4b4f8e283f0a14c010064c",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100009",
+      "cache_digest": "fe3cc3c1ded84fe165ec8009bbdfeb7e38d47d98e06c811e0824aaec90b95ed4",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100010",
+      "cache_digest": "7ac06feda67a6c5c6e7721814a69632d17981f579d9e29f81dda1a95bb2ed112",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100011",
+      "cache_digest": "9bf11a5352275f70884583b847c1a7086995b3deccc6c8d692f7f99691a52a8d",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100012",
+      "cache_digest": "4b3c55ae71d2378c372eb9f952382eedbd831aee07e288d96ec9cd07dbc9063c",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100013",
+      "cache_digest": "9d9fd43fba2024b433003270f17c36f16f576757b94ed0a6af0ce911f10760e6",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100014",
+      "cache_digest": "17c7d585fbe3f4310df29c89996d9e6cc50ac842dc6a2077c46d98a2115569f7",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100015",
+      "cache_digest": "7e957f5906943a1925c1e2f76be13691b0ede31469a24ad117ad2a28bf31f1ef",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100016",
+      "cache_digest": "d1bbdc7b4c66f9e551513571700c1696d352973b9e85d0f27444bf7f43805c4a",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100017",
+      "cache_digest": "e875b8f2f6d86c541493d2adef1f189fa580f9cf1e0e7678c6e74e7842846cc5",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100018",
+      "cache_digest": "f1b9896ca3e8c986ef4c40ac5af75a3cb5ef08ef195fc68c4278a81ebca3bb4c",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100019",
+      "cache_digest": "7d327d2ad2e4be550f634548dd15ae36b4803ceaef388fef4ab18d3bf7b32af3",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100020",
+      "cache_digest": "62c6be097f6a1c9590bdc5b65aa9c8d7da7ee11ae4d9186ccfaf005b4d5c04f7",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100021",
+      "cache_digest": "842de37b443ebe8dc313d683a92618f1d92e74592b0262ee5a0f57f2bb4df740",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100022",
+      "cache_digest": "b0347ddaddaf54dd4711b8bcdc1bce277f3e7dd0b24c434f61d7fbfc4fbc876e",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100023",
+      "cache_digest": "02f6861dba18e3b2bd1339d8a36239beffb1319c74fa6173732982ca5af46258",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100024",
+      "cache_digest": "2c14576a160e7ca132a7f884c56907fae13d44fd53a8375d2b8cf2c82ed4959c",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100025",
+      "cache_digest": "fffcf17a8023a284de73269678ac472cb6fd951488f7ddb2db7d08c5bcdee4eb",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100026",
+      "cache_digest": "ded6a18ee8228619b7c427711976f75ff2d528dee5be0cc733c1b0bf0c39edbf",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100027",
+      "cache_digest": "1896e166a495655244e24710dd044d9e575793a27d63d0a3803b6cb5a96e2e49",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100028",
+      "cache_digest": "4659f49c453148c3da2afb560d6d37feac2cbc945099fb8766e5f520ba9a44b2",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-crop-100029",
+      "cache_digest": "8d0c691c70b41c3ab752a900ffdd0087b6438e02f221d6098ac70c30207483c4",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100000",
+      "cache_digest": "00eaf590c83451fd09fe3ca64d7212621ecdcdfa91e3579eccc1ad45586340f3",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100001",
+      "cache_digest": "b1ccc61a481d207b3f0661d25b425b235b553aacac763376a3363fbcc2856af5",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100002",
+      "cache_digest": "49c7e860c3ec755c3e2431a72f9f00913770b267ed19c31e17108325909cc57a",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100003",
+      "cache_digest": "14a99f25f923680c087363a8cb0ec1e512389c4ac5e2f0250d4b1a722625037f",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100004",
+      "cache_digest": "5e2330d0a99a885d7022f3ac72c3b820d1577c612757949384d9dfbf8fd3481b",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100005",
+      "cache_digest": "58c37cfbd3e3b34a8882c90d2aa8e4641928e56ea3438bddf878e1c6df52e5e9",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100006",
+      "cache_digest": "7871651f481af8c8f9067bcc2e25d5aec00aabfa5a823f91a906e365ba6bca4b",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100007",
+      "cache_digest": "af3f378caea5bd60210b49a9ecfd9105c59a98d57f7dfdf0bffe631e3ec877d0",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100008",
+      "cache_digest": "b296abc432a5e105289be56a455614381c0f793253edcdb578e6b0a6eb2b935b",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100009",
+      "cache_digest": "2e33eeceacf51d86f6eb3e2dba4ca01922e982e3bac4efb3d380afac7c471e0e",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100010",
+      "cache_digest": "79c18ce588d186796404fd866c3a1a9a782cebbda4e4a86392e0480ca7d23ba1",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100011",
+      "cache_digest": "07d22cff62eae9b7c03587e504c35ee1f0e62cf224b392fcb555f0c1886ee6b4",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100012",
+      "cache_digest": "dc3e5b65a0a5b689b4a7da6da9b4d62189b3da66f187c9d414fa442236380a04",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100013",
+      "cache_digest": "19b6af7683c7fa630a87d419ab09dd7191acd120ba25b34f2726f34bb233f684",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100014",
+      "cache_digest": "040a4d87ab8dd07b2dbd3c96bd86df2d93844e684314c3b77a2178535389c6ee",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100015",
+      "cache_digest": "1335d780ea2d8e265fbfee7001073e000ed27c64f19feb67d514f01667f797ca",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100016",
+      "cache_digest": "a829d1862ff9878a476ce4bc76f7621aaa8884d043b95c0dbce4cc1d07070338",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100017",
+      "cache_digest": "33b2c0cb81c494693a1e01dfe5ebdfbc3ddb0517788588a10adcbc2861c7e288",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100018",
+      "cache_digest": "eaa415148164787c3261195f7fde31541eb3e4fe5fd55b7d0128bffcc718e4e5",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100019",
+      "cache_digest": "d9c83b0030147772405623c7977c1b15ac48ae374bf5a772f952b9c891ce28cf",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100020",
+      "cache_digest": "8983d96e36ae9d181037ca0e7061d5a4ae413f4b0feb6c7b0eaff6f915132d44",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100021",
+      "cache_digest": "e67bd401d34fee7b9f09d0dca0416e63912c801f4c9c40c64054224289fde57f",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100022",
+      "cache_digest": "7226338171c5f669ad4c3bcfc29a14f335f43ca9357f64628b3f7ab773baea1b",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100023",
+      "cache_digest": "e04ce49109ccc364e1e7f798d28844168d6eb9c436bf550e5617cc11a92144c7",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100024",
+      "cache_digest": "fb4d2f4fa7aa14f2bd0a56d0867cac7165be8482bcd753d8cea7d39e7b85ab55",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100025",
+      "cache_digest": "15a1a1e0ccbf093dbe581861a5a5382618a6d52354a1b54e73ab55fd3047b32f",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100026",
+      "cache_digest": "1940433575810c8f6bee4cf73b2238848a768ac1b048ec01f7de58aa650cd287",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100027",
+      "cache_digest": "6e1cd59cef2c706cece551752a5429271d405d7daf4919d8f088a04962c470f1",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100028",
+      "cache_digest": "4b249e03bd5be000cb398bfd6a2debf81099fe1be5b02fc5221a12414005dc57",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-occlusion-100029",
+      "cache_digest": "72b11848ff7221bb96937a07fb82b2727ab5a2f344ee773ac2498edd8bf9a19f",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100000",
+      "cache_digest": "56c3874f3e7f50550be164bc7062b2b72ba19c083350dd31d2d2f71b6f092c7b",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100001",
+      "cache_digest": "4ecdaf89ca995af8de8f056986bfc252346f1aac4015d804f56a27a9a85027ca",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100002",
+      "cache_digest": "ce253589bbde066eee33db7df7792f95f808a219073f6d346143fd13a0d9e7b3",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100003",
+      "cache_digest": "7dc1f18152b3e4a90dabf0f40b17352407ccfbf2907abb3f44242651b274cd20",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100004",
+      "cache_digest": "f6466c97271367a34365221173c711a98b692f9005f773f714faadced0b4122d",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100005",
+      "cache_digest": "9c471f4629b838fb3667e95cc0309b6c5ac5581a2fda570f15bac86147f480f4",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100006",
+      "cache_digest": "48654bc80867f4734dae819f2a2b89338e2645af616f3b1722c40dc53bdd4716",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100007",
+      "cache_digest": "ec6a1eeb557bc7266bf66fc49c0e9a18aa4394846af4ff8e14dc7d336960a60c",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100008",
+      "cache_digest": "6100b72de0faf2c1fb897ea956e8fe09417076c53f54b35543dc915b5a7c0a99",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100009",
+      "cache_digest": "1a8acb80467804f7eb7196409a5c86ae56b7e7a76514aaa1f9dc5ec7601d3458",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100010",
+      "cache_digest": "1b851651dcea1d4e26e8243e64cf7761e3f73bffa1ebc3b7a4693292d720966b",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100011",
+      "cache_digest": "b28390301e4560342c2d968059d4efa16e33fc22b88ab0b0cdad5fb00c2d5047",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100012",
+      "cache_digest": "c6dd2a1ff57c1ce2816128200daacdd2ccd8c8d5ebe3c377522a81699c1403d6",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100013",
+      "cache_digest": "0606ca6f3532b52319ba5151332e5c2cc60f405556bcea7ae84e153917b6f03d",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100014",
+      "cache_digest": "53e29115d329a319e282e643ea41505a5d13940f9055e3dbb88afe58252a55a3",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100015",
+      "cache_digest": "63e5994827cf91ded26173d97c86921dbee10f99e03554273c88e158b1932cf6",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100016",
+      "cache_digest": "cefd02d331b1f5f2bf388cc161aadeafaaa5efd7ba44448458028d6c95323970",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100017",
+      "cache_digest": "34cdae646891a480b064573995f66315331bf3f03af1add9be9586871eeb4b34",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100018",
+      "cache_digest": "dc056efaafaa9b2a25efcc24257cb642c36f5fe5c216cc0edbf4c117bbe3562e",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100019",
+      "cache_digest": "abec7428d0c349ae1458ef6dae05c9702d3fecd3ee522c2708ed86f01273d4a3",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100020",
+      "cache_digest": "1b58a4c4578978815a3dc643e02233c9b1c68848370326c0424e7bc5b4d317c8",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100021",
+      "cache_digest": "a8797ca53a94754f3d090ea7fff93b6bc1891dea93e912ba1e1c85e28c911eb3",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100022",
+      "cache_digest": "e46e50698f5954c0b3077178b7df803174035eb15fdffb5328aa73faa4e0e5d5",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100023",
+      "cache_digest": "849158eba1490c858d769cb74ca9f1944cdb16141565bf88504c1d1e7ef46a96",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100024",
+      "cache_digest": "e046a81aff82b49f394c37faed024a327b6cec307978e19c07535b835f44d085",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100025",
+      "cache_digest": "2ec5127f023195fa29dbfbb0c7faa92c1484488f3df43f3594e53ac9247f98e7",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100026",
+      "cache_digest": "e62cd211adff40326b3bac3535fb3cc055f2625244eb4a7eb595a8bd69140d58",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100027",
+      "cache_digest": "2be9149782ead52cd4114ccf57043b90cf1f45fd4fcf0a6052131fc89cb1fa61",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100028",
+      "cache_digest": "d4324a335d339b0b4a0efcf73d7a58e05b4a3ae5ab19e07b0e7346e611036c90",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-camera_bias-100029",
+      "cache_digest": "711c85e4d094e57ce9115dd9f6d17a2d16e559dd95b1d5b6f551272329eb004a",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100000",
+      "cache_digest": "0c2dbd8db9c141fade33c105fe4521d832582bd371b4387e5ff9a60297c4302e",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100001",
+      "cache_digest": "9e42f92ec6bf57ce21fe191cc54fefe0f619dbfe08519f14773889614d2810f6",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100002",
+      "cache_digest": "c3111f56f276d185da36403104083f402b90f4faab019e5b9ac022c95868e71e",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100003",
+      "cache_digest": "a7d93cd5b29bcb5fb7738ef5f97aba882c93870a8593280fc0bfedec3bd0be43",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100004",
+      "cache_digest": "95aa5badd17b9c7da26103646540f214948b61a20adda6370b8b2f8514ed9958",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100005",
+      "cache_digest": "8c6e48a0cd96ce987cb9ec57b537e133e35492590ec80db4b65a51fdac2a865e",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100006",
+      "cache_digest": "839ef1b4acb737d7cd810eb775e00d517fc006b7194ea39e26c7bf58703c296a",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100007",
+      "cache_digest": "7a4217ecb64782e8f3e3260d358be7a937a4f7dfe60058e93356ea4ed2c62e81",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100008",
+      "cache_digest": "13917fee44fd835f130ec09bbabb9aff893c4ea9f16bdd81367ba6c6ae7b8a39",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100009",
+      "cache_digest": "942294fe8938d701605b5a52cafd384da12748f2d08519b9425bfca67274b155",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100010",
+      "cache_digest": "8206fc5238a5e84a1a4ecd9030807148fd0b67c1136bf0a5efb410d775f30c4f",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100011",
+      "cache_digest": "aaf0d52673e1e76917ebc146e1584ce97ffb8ceb9d1a1fc9de2b46b3abb0bc2d",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100012",
+      "cache_digest": "0bd65e6a9ca93b0d79eddccff05718ec87fdf8ff2a3b3eba0b6e0113fe5b6655",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100013",
+      "cache_digest": "83c3399aa63330d35a1c1e22bb27f4c53d60f63231b249e22442b22e53309d33",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100014",
+      "cache_digest": "8b2e5ebe3682f8961ce61cd0a89f3425110c9528a214b7e72a99c910e696415e",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100015",
+      "cache_digest": "56ba36bebacc65f966d9975b52c0da99febe09580ff9ea96f5864ee80f339e8a",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100016",
+      "cache_digest": "863d29b352a613f306cac4870c97b60c06ebd83aae9dc732d13137e80f196440",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100017",
+      "cache_digest": "f8120140269bd97bc6757e4b72092484f7384349db4bd9be5c417ffeef6e9413",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100018",
+      "cache_digest": "c505544ee21663052aa1d038fe6bcb6389735938a175fef6cab155a935c4184d",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100019",
+      "cache_digest": "a06243ede64e06d1fb7e1be3e0a83dae800af0eb6a4941e3d99a19f889cb727c",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100020",
+      "cache_digest": "cfc8b59a83af6141c649d474c78eb84c53c2970efa19694f2cf594eee0805164",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100021",
+      "cache_digest": "380558d4ac25210f5769f90a2f553a6a5de72322013f652dab9194f48fc2b8da",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100022",
+      "cache_digest": "874130b46f885765c207b641aecd3c47b09873d2bf107b93771871f622387432",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100023",
+      "cache_digest": "d1d65f82035f070a26e30977124782ae63f424aa544f9cc0bb689ec245419480",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100024",
+      "cache_digest": "0b777a90ac0c20b0c445fb45de7cb23b7488f21f5de6e4da944ccc936232ad5d",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100025",
+      "cache_digest": "d82c8ca1ae0b708b24d7ef6a8f3207ba8a83b606e8b569b3eb7eb922cdd6e0fa",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100026",
+      "cache_digest": "e92541edf1c6a3cd9799ed5a45d03e300bcdc8f32481e1f634071ec230d8d65d",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100027",
+      "cache_digest": "e5fa85a194bfb6bcce3a3720870f8b8b3f3d3be023c11b03417c6cf8c6aeebf8",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100028",
+      "cache_digest": "3d8c5910efa67b8409572180b18932b9dba2a0ff9222babafbc5655af19ad6ef",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-shared_bias-100029",
+      "cache_digest": "749e04911dcd8f833cdc91ec059d4783e852fcde7230f84160cb59542051db29",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100000",
+      "cache_digest": "3674f79770c96254b3c93264b878a6676ed40e9682ef3c5bf01c4d3af00a8977",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100001",
+      "cache_digest": "6babf00af0e4b3188390755084f367e5f8fdc94becb0fc836b43d456e2b80225",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100002",
+      "cache_digest": "c98673dae9fb2708bb9c04ea6157761d930edc8a820577dbd0cf983d6a325846",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100003",
+      "cache_digest": "cc0153e5a14ca6213f50a2d3cfc4cbf28ccfa767320fe631b89707a64ade4216",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100004",
+      "cache_digest": "e75de528698d69383f7e30e43e9a69653b5940c713a5cf6fda4686eba332728f",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100005",
+      "cache_digest": "3b0e59daf480add278094c34293f6ed70508b214dc23754075e3f0ab9506701b",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100006",
+      "cache_digest": "64281fc6c08a5fba0bec01afd13cc937acf1bec2a8fe1cdf913588318745c94e",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100007",
+      "cache_digest": "1b2ee42c64f55c1d435e8c9ff114d2bfce1848a71fd437528990b4766cd68818",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100008",
+      "cache_digest": "f6b5da6ef86d234442c7bab92fb1c400f968a2bb9c2702fb3b7fbe38165abbb4",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100009",
+      "cache_digest": "f2da86fedbede2f71e163f40b1b9ddcdc55bb30f61499833da5b7c0627c83d1b",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100010",
+      "cache_digest": "96c2a4a684f4b9bdaed4ca8c4c6cbd63751674514fee379e8cb7ac4d5b37b16f",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100011",
+      "cache_digest": "c6191a925556e0593f9c19c055d68fce552b9175e8d64ed949964c5cd2329c13",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100012",
+      "cache_digest": "7af11b30a0ef6eaa5b55282f14e968b9a3e1b9d42c8359b43e60bf652166bc31",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100013",
+      "cache_digest": "7d7d5579b24c0349fb7563d0fcd9c71238907eed7505bf2e4e9b2dda26d25575",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100014",
+      "cache_digest": "29e99c58d23e91545b752f8a7a263d7d356bd8a7e77f14b6e497e7d35968b007",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100015",
+      "cache_digest": "792aa82a00c5bec5069d7dba8bfd06c1e6a63b4a820d9ca91fbe3ab0a40db00c",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100016",
+      "cache_digest": "783b4efdcaea91d0dc0a07117ab7fa3a904effcd212b4b40d73d3aeb61803304",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100017",
+      "cache_digest": "d833af6e1d0f102d3544ee5030ef0c2edc1556d1ce1c071cce4aa472e4d4dacc",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100018",
+      "cache_digest": "0d51e1af8cd69bb1ac631d38d5a51439581572f5cdb7c9baa3a9923aa89977aa",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100019",
+      "cache_digest": "ccfc9ef2fef9487d8b34431178ce63afbd9a27aba19e4da6b0da2f1aa4bc00b3",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100020",
+      "cache_digest": "71d7e940709ac28d3e7391902d0ce48598edaa6a0dbdba563bf1ca7ff8ed0e8c",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100021",
+      "cache_digest": "240a5ad3f091c034cd4f0a83e3e886609822f30e225823a02bcf3e7e39f43a47",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100022",
+      "cache_digest": "dc4a4c9d31ee14a3979c5d604188180c47a0ae927487cb6b83fb0a766c94f795",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100023",
+      "cache_digest": "9f87c70975306925f7f96aa99e987470af5911ed1d94290446ab3298d1f3bb68",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100024",
+      "cache_digest": "b175e9a1037b27f0ec1365afc244b2d2b7b24ae250cb17ee811332b7c559c5b2",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100025",
+      "cache_digest": "279ea1d526a2899e6f73a352f018b328a10730cf435b335fa379a4972bd655eb",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100026",
+      "cache_digest": "7f0a4cb29e9fd43c3b274d223410d6a98e8c99a1f79b8b0bc1c8771bbd37596e",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100027",
+      "cache_digest": "999a7a6a99f5f2f06fa2b9e0aec5044a1dfb7f88425308d74af8ac87de7ad9e8",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100028",
+      "cache_digest": "450f5cf563588780c48d56f39a7f9901653f087bbab2ecb7a58a993384434e3a",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-weak_complementary-100029",
+      "cache_digest": "759432a10ded1bd22679caca25051bccf90a8371bc27bb8f3f4bdf9de329bf71",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100000",
+      "cache_digest": "23085a857e8cc5f080edfd140f8da2b15e1d5fb465fa154017acb3ceac60826c",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100001",
+      "cache_digest": "66d193ba48f77bf69b9fd7f613d6234d6941ebdb0aa791fa1f83ae1f129f948f",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100002",
+      "cache_digest": "33199d194a456230cccca537cd7c7bef5166198e89dd92238b3854eb10757af6",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100003",
+      "cache_digest": "3114e6c3d9c78087d6908e6bed352095f02c5d1c109878c5f02c9365251997cc",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100004",
+      "cache_digest": "356a5d1577a8cba6ccb067601fdf1209d314ab8a4754790b6464e0c880ff1b70",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100005",
+      "cache_digest": "1b900d3ed173059d84ee976b882957dc4fba4312491d1af17408103a121f74d7",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100006",
+      "cache_digest": "81c5ba8207e73b6cf5e4f410fd151e6da70c9cf78fb0a5881c0cc20ea32acb57",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100007",
+      "cache_digest": "3c54dc2973774b8a1f351196e07020fdb6524b5c370a10f3dc13d4ab97249fca",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100008",
+      "cache_digest": "570ea283230d26dc5567c26beeb870f63aa0c56b982eb15b4ab5531888f3c9e7",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100009",
+      "cache_digest": "7d666fe9c3dea1557da138d46a8e17d38ad742d771dd5102f74daf3e38201d5a",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100010",
+      "cache_digest": "a9d06bd1d85fa33beac0c4175227f8625f33ab4f69dc4ed762ea6d51fc45fb83",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100011",
+      "cache_digest": "34684ab18bf8c85a50c043551a145c37a043af4e721929f8028e8794799191fb",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100012",
+      "cache_digest": "5a97c8a44e1d5ceaa14f091f81cf911e89d30be270bc32fa9c839421ee763c57",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100013",
+      "cache_digest": "16d3507021ff5fd5dd4dd4fe6e2920cc2790a1f3fa6ec7bab50c4a8beb802ef2",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100014",
+      "cache_digest": "c8bce34c8fa11b9deb6c629620efecc9d2a155d39d157cf739deb61ac7990131",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100015",
+      "cache_digest": "f186111521b09106e1b25195eb3ffcec07fdf93ae7b1a9a17ab9ea9510ca2bf0",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100016",
+      "cache_digest": "d88b2f1db2f2a0cbcdb2677e62256f0986f77bdebb09d75b48f4e09803088374",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100017",
+      "cache_digest": "bb26a42d042e07b1c458d059b52c6f031355b31a193684e4e6a22e62ff5aec89",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100018",
+      "cache_digest": "5f5f4763e4ebbdc9088f139666fe4783910bc279ad8e51c02408059782e215eb",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100019",
+      "cache_digest": "fe570ea05990d71bb8a73b45b018330d720ba61d624fa6bb855b8a239b47b6f2",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100020",
+      "cache_digest": "ae06d8eb9c91678158b1a42868d4bd84d2814f98438186613493f778fc5a8864",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100021",
+      "cache_digest": "d1f59e5becc1d9a30d9139544f55ff8e0c99e24d79a4c8b23d42b7efed47c30b",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100022",
+      "cache_digest": "7590b8035e0e79a0e31b758b09a3b6db6f9f742f2d51fbbb743f7b16f0bf04e1",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100023",
+      "cache_digest": "d7a7c3237e06e11bd0104061dff67d711d2d4265dc1996cfe58d9bb33158354f",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100024",
+      "cache_digest": "ddb2da02a1d457bba33e86694439739eaaabcf5c9d3d26762505b57ee63340d9",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100025",
+      "cache_digest": "8c3dca10dde2ecf1b0e39917198453d7633536dd241dd84702e6adefe55a9b59",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100026",
+      "cache_digest": "a1c1804fab851b2b21830e6ef67e37b3a87330db1f3d5716330a3e7e9d40282c",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100027",
+      "cache_digest": "34ffd55b77a3c23062a383441f4d330ccf866fd4cce12297b0c843c3935fdbf3",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100028",
+      "cache_digest": "0f770ea895573372c5ec92829a203e5010b852766bbe93d757833a6d1286c850",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-dropout-100029",
+      "cache_digest": "0179440e25c5d296f7315cdf88a041dfae252ff6a459b162421ac77a15d922cb",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100000",
+      "cache_digest": "e3b2ffa56c240ed4bb0c559ca8d314cd3860065940ca136a99b04bd0c5d43772",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100001",
+      "cache_digest": "3770ff46bd508a63c3f23cf694b1a198ee7e2b9aa62229158809636720641746",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100002",
+      "cache_digest": "6a72af747e9262b9d78891ef3ddf8803fdecb59c2a0b63b1a596c9bbc6b95152",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100003",
+      "cache_digest": "e3d9e0fca19df7fc357552992c6c58ae137ccd7cee43dde13a8793d300bf4fae",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100004",
+      "cache_digest": "5994ca671d68cc7179b5a377719166cf4a73d2d65696a476ccb6aa1c18fcf395",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100005",
+      "cache_digest": "31fec763f868d3a37de42c8ad77fa8995f23a693c5f3991efb458bb512cce98a",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100006",
+      "cache_digest": "31682da3a50e382a880dcf9be938c7dfa864e0725e64d2298818e9b325987ccf",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100007",
+      "cache_digest": "4d461fb6dc45c5b782a93facc42f9b04aabec0f8b5c7ca127d43eb369a6f0901",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100008",
+      "cache_digest": "73938f7e343f5aaf027d85b252f007310827269b4edd86a5e18635539264b00a",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100009",
+      "cache_digest": "603bbbf5bc5055a228892edbd5bd80a36b8a06abab3a2986e29d12a8dac7b750",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100010",
+      "cache_digest": "5480c8fe99ad7be946de2ea10039a6305dc14a35705eb2306491e0506379f5ff",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100011",
+      "cache_digest": "516f54d398472bb0c0bffb6f98671dcd0d67e048a04a05b58ee2287f7dba8f56",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100012",
+      "cache_digest": "c38682304917e8644ae1be6fa7607a8624f035d5e2b7f386f4dc5b606f78dca4",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100013",
+      "cache_digest": "e058242999ba642c1ea199229a17fabacd1aa6e6a3408504ef151146d426c6a4",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100014",
+      "cache_digest": "f3645af9d3c94301636dbac756f82c3e2a85f6b1d7cabb8f8f56f7f0e3600dca",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100015",
+      "cache_digest": "0fad6751dce32e1931d00c18de2cb7cbfe95f5f7156e7d0958a7e5b46211160a",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100016",
+      "cache_digest": "75ef66ac331b6434187eac52bd073815be4ce8d7293c1a57efcd6d8e5decf4b1",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100017",
+      "cache_digest": "34443d1685919bbcc5f00c75003d7eba54852dca16239cac8ecdcb05a4a3bdba",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100018",
+      "cache_digest": "f221e2b747d554c91e9b18bcc6c71a859fe9afa5324a1f3534c2e7311137545e",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100019",
+      "cache_digest": "5e93f26fd60d78ad06bec7b7a1a9980ede2d74cfb2f996551ac20c182cdfdb56",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100020",
+      "cache_digest": "50ec6a87d356291508a315845f676ad27f563718324b982c00dc53e2601681bc",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100021",
+      "cache_digest": "73266b406b61934b8a39a98aa0705af521a8001338d74218fbb1bfed38d32980",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100022",
+      "cache_digest": "d39aede743c7f973475579619a29245c6985ed1e77ad41306fbbe543c85e73c1",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100023",
+      "cache_digest": "e55004b9914eb601573f2a567bf55b76ce579de83a05dc5d8190645ea59b9fdb",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100024",
+      "cache_digest": "c6f775e4a58ed1275eeb07b26693d86779e3636652bb36fe0e58518aa237fc0e",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100025",
+      "cache_digest": "5082a82858f05eecad00c7da758446560a693630e5a24462f9c5baf2dd14788e",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100026",
+      "cache_digest": "3e352216e167bd2ae9eb41cc0b0049cbe9170baaed07677e40d8b3c2ac82dfca",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100027",
+      "cache_digest": "aac525fddbb9824f5c46364ee9d1002fa25bf00690125274dc9f8cd03a1879ed",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100028",
+      "cache_digest": "4ddf564878ebb64c2797bbf82394fc0933a92a958f7494931d4c5c04396e0762",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-tf_gap-100029",
+      "cache_digest": "945dbd57b551e3d3cdf6c8622228956b3d3c0b6735f8e1885c930fc0b3448d82",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100000",
+      "cache_digest": "b317ddcb42ca7e0214ed6e424b02ca97bc0f8fcf55003553a84d43f51e6f75b5",
+      "truth_sha256": "e603225d5fbaccc1c9a2c295fd9a43063ec6d53667971ca7875b071863b51780"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100001",
+      "cache_digest": "bae1ac6a315c7d2bdbea46aff779f0a96ce4f18a584db02f346fef59bcab6ff8",
+      "truth_sha256": "549f841cb141942a71478d51b3d0435aca6e52c9d0a43e89e8c49f09cc548ea3"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100002",
+      "cache_digest": "c0cdbba961d898dc436136ea0b7004e2e96a11089c39d93600a7e9c883d554db",
+      "truth_sha256": "53a55120ccb115c19e116db9f64666d271e4f1d7c92e3d2cb87abf2ef22c9997"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100003",
+      "cache_digest": "0c932343ebb60763c77fad02d00a671955eb87c7dfbeea2b99705b5a17fe864b",
+      "truth_sha256": "424399d535f6ba1276872bc69bef65a0a0acb15d487f0906376de58a33c4de08"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100004",
+      "cache_digest": "c2165072a1d395c6acc6a0846bae15e3ab0dd11f3efd0bb3e1f2d77c9c37694b",
+      "truth_sha256": "fe27b0b1be3b7996f7d7572573b9435f3e9da23c0ea5f8331cf96e0f755c4054"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100005",
+      "cache_digest": "5fbc61e224a6f0ecb0b389ff2e9fab59872f8991e0b6a701c45dfb98e43d2d5f",
+      "truth_sha256": "aece189b2ef96765dc3563f417ba5deb3a7e8399e3d35f8144cfcf0337ff7293"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100006",
+      "cache_digest": "68856fb59615b65e38d39ac49fc4d2bb429f76855bfcd2d57665e05a60aeaa2e",
+      "truth_sha256": "f577aeb8332116f4635f1ed30fc5a91c4a7e7d2b3e3d3dc87a3c55a2a01e42e8"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100007",
+      "cache_digest": "5823f85870747ae81e50b561768554488e171026c428e7078d54da5a50558f24",
+      "truth_sha256": "f738d47927d86d6a5b4f3147108cc5ad68b862fad82b407eeb7a9baab06d0b72"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100008",
+      "cache_digest": "6c015197cbe686d29aadf7dcc9fc5969948e85de8d99cc3aa1c23388c341ee52",
+      "truth_sha256": "945554665044de43efb2aabb493e2bd90372211c65506fbf8c7d704e2d292490"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100009",
+      "cache_digest": "0b7056a5d6e684a63681cd209465397188e221628a1088b0bd05f70d038ced28",
+      "truth_sha256": "3c97c92578177b9d08d575ba0e406f634d0b3332621047dd2fbf19de2063606a"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100010",
+      "cache_digest": "3bdb230c605f1ec4742b48967b058cd501a564cbde37f12c7dc2b27d27d5ecbc",
+      "truth_sha256": "c737c87155c16f53cc975ede8d6637f8c388c906c26196d296496387468aa440"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100011",
+      "cache_digest": "17432af7759a2771e5e7cf056fc2fc50ead71077750c9d4a2665811f6d05821c",
+      "truth_sha256": "28b8c14005ed968b679feca6f203527fd627c43f3ab3c8356d75a09c5a2eefda"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100012",
+      "cache_digest": "28065244a1bd50411b0639da33a9077f1b2c69cea78ae60c557d16d9e816a960",
+      "truth_sha256": "3bc276bc9c088aa318239c1687952df0cedb617166b15c76d12aa28029e5b218"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100013",
+      "cache_digest": "fa6e4ed5ba4f5f565d7e7162c8b8708d3a5f1e2ba9b0b6ace86088f3f03f7e59",
+      "truth_sha256": "d47da651acefa260351f2872785d9b3108d823bdcf755b6b31f5e4a3e35f0a3f"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100014",
+      "cache_digest": "b82fdb2d97c088dd74fa2f58596f3a76973b119f0941c3914fd3681c427c40da",
+      "truth_sha256": "b3976eb98a5d77c028e4307320dd001b6602ca72d01adcff8da289db9aca0f11"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100015",
+      "cache_digest": "24bae56b4c5b474e5b2ec2700462607e8415905b132de07c4498b0399f09d6eb",
+      "truth_sha256": "3626b537ec10300f09fbfc250b713961bea7129e8d486ebf2f3c372ec3e090db"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100016",
+      "cache_digest": "a268158a031c7e3554bca0b16f66af8006f6403c0e0eb9802ad9a3aa24b8f9da",
+      "truth_sha256": "476e3937d8d256e92ef82cc8a1c3fc31a33d85772767f0baabfb8030484dabf6"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100017",
+      "cache_digest": "d354e5c92261e420465bf929b6f6d972de7e8cc89d03851228c5beaf4ab79fc3",
+      "truth_sha256": "bfc9e1846fc80215a48b42e21360c335213eea0ee0aa1a032de86da2eaca7d9c"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100018",
+      "cache_digest": "e6b81e6be8417a2610e763bae0adf6c40abdc765df86ba5f6d05b75e165d69fe",
+      "truth_sha256": "f0b58f6bd0f67dd207bd349b46a07c886cd21969ff45e27e9fe08ca8c989aac7"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100019",
+      "cache_digest": "b94554cfe1d245152e5d5ca4d57bd69d3490208ac1266b347d802ac834c70b0f",
+      "truth_sha256": "7a9ba3ff4725175de35c4a7b93a7f292fb554d3337fc8e583de44c6daf005dde"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100020",
+      "cache_digest": "aac7858e16834901871f01e984c68fc8c7a49412f01e3372d794a1a824830fbc",
+      "truth_sha256": "e46de4b9872e1d3e098d8d329ac65cfbeab4502212046589b82305827a7226a1"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100021",
+      "cache_digest": "d905d0f21deb552d0835c09432b160ae2ccc4cd655d9fad82fc77e269e17f643",
+      "truth_sha256": "e9f3385c904f3b16458972b9b75346501864bcc6b423205ec3c00f09e8d5b610"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100022",
+      "cache_digest": "688f116f7400eb4097c0d638e15b8aee5daa48b030f115fa77cbb4ba8a98e6e9",
+      "truth_sha256": "ccef5d00108608501ac9f61c29cac6f096a5c3aee1fd4520b94d5eabeca02e9e"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100023",
+      "cache_digest": "b470a13710b9a44ce3ac512367f68d1f63a8acb57cea4685f794fefb8ecbfd96",
+      "truth_sha256": "bda95f640cf39bd26921e9437466c5f24b80e03eb0f1f12fd18865e57d31392b"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100024",
+      "cache_digest": "dba755acaf35255c2bf465faad4bbb8e5df9aaa32d3c6e0cfd94da254d5b0386",
+      "truth_sha256": "fc774dff55d081320322718692101080c3d918477cb971b96a7d432448e87759"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100025",
+      "cache_digest": "5d4e90b8567a2a7d807f1d1fd094ec06551ef07d818ca750860243160ada37e2",
+      "truth_sha256": "f328affb0acd7eda71dc4f56017136724e5bd706587610ff49dd6a90b13c7ccd"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100026",
+      "cache_digest": "eae4e28be8b0caa3a04b32902b98d8183920bf867cd58b9e5b3d52bd185aca4f",
+      "truth_sha256": "be645f88b444151f10cdff1565fb21eb2a49fbde5c2e022b4c5a3692d7053d81"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100027",
+      "cache_digest": "3779d976b1220a58c617c7f9ee746c49083961422bbdc4b98a16d2fda51f5ec7",
+      "truth_sha256": "11d8b6d1ae9eb92dc1afdf4408c3f060e5a8a0a4b566819ce0e703fd9f6fed37"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100028",
+      "cache_digest": "4b4d9e32b9ce653bffe5800a8b654f4a12be186d29a870b9db956a483eb75f3e",
+      "truth_sha256": "14b632b3c09f535cbe0db958ec57ded3d0537e7e2a87c51fad24b0ccc3ec2b92"
+    },
+    {
+      "scene_id": "pilot-m0-correct_prior-100029",
+      "cache_digest": "c4f1f7acef3d2e59fa3c3fdf46f8949b91dffc0b24866ce04b33f5467e469774",
+      "truth_sha256": "a3cc0e91110803c3cad03e1a5fe273f5ab67d87aec8a2167b561b5da2a537470"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100000",
+      "cache_digest": "fb9afe9af0f84275cd5621c7bbb031879ecf27dfde344a1823c0f8d47a628809",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100001",
+      "cache_digest": "518c736cea0fe67aede64fed0b3b924c59c09c9c31040f68386739bf87ea5d14",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100002",
+      "cache_digest": "e42027e7834487021dcfc927763f1c83ea6c4b2b83ee142ead95dd4f8f96ba67",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100003",
+      "cache_digest": "3b8d193935c4a1cd7ad292442c075853d4553dba0974172ab1a3935f4def964f",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100004",
+      "cache_digest": "339907cbdc64d4890de2041cfb83691d08e65d967ad218dcc810d89fe747fad4",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100005",
+      "cache_digest": "d7555aa1b4466df1218ae35ae98a9d021c097fc662828fdd49f7aeb3c2b7cb7e",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100006",
+      "cache_digest": "c8232adadfd5289af63e1bd4ae14a38b1aa6b9d7a40726a571f2ec8db1fa026a",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100007",
+      "cache_digest": "8200b3d15e4e775f23ab94308c0b8dbf83999abf5338c936278c5a6b2f125f66",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100008",
+      "cache_digest": "494cc7b75cd37e44d65b310fde636f147079e104f464d91598d84a47601200ec",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100009",
+      "cache_digest": "7aa5d9d2e8b507dc0999e48c58a2347f90a96abd681e070002d42b13d191a266",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100010",
+      "cache_digest": "394f8305642b8939f3688d6b3a111cf02821186ee5916fa8d27a59dddaff086a",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100011",
+      "cache_digest": "a0d45c9bc78cb9f58acf7e6b4a4dccf11b4752dd69e3e1d98163c6c63e4bd16c",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100012",
+      "cache_digest": "50efc3aa5a844b218811904b5733ec6699fd8904e49c0ab5b4a53f726129e9f5",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100013",
+      "cache_digest": "d7e4f0a7baa50c11a73b5fc2db34cbe1af97bffcad0e975ddb1dc03d1b74f9f8",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100014",
+      "cache_digest": "c30b02d35ba4424c3b7652015a8667a83a80751ba64627f929bbf0347d1308f1",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100015",
+      "cache_digest": "08252fc2173c44d69f361f2b6e27793379579c10345726c408df9f25079a31e3",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100016",
+      "cache_digest": "82e3b74c8ffd17e5608ac1cd757e67895f14b6ebbb6165018e8746ad2d545f94",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100017",
+      "cache_digest": "33add2044e1a9a887add3aa65a875d75a5413a6544170ebaba015728574c443b",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100018",
+      "cache_digest": "a1512671e0187d5f5cbffa59e205643ba305db538324c677beec07e83669ba2d",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100019",
+      "cache_digest": "6206f8680f24ee79d27bd96e225718e7a9f3b328ea065135dce91aafd7646f20",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100020",
+      "cache_digest": "8a6ec16fdd023c7938815ce56b83a8a201fabd1636df6a9b62aa0f754ce4e311",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100021",
+      "cache_digest": "774150216fdb497c095508c2b102b6c68c05d0ca8a374cc508d3a14b31adce2c",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100022",
+      "cache_digest": "8455a3aa6a7f78dddb48b346c40cf97c3572bae41d34d50bdc839144a38f6ae9",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100023",
+      "cache_digest": "c824bdb330c789e765f9f507e7318320da788080899e557d1535247640a03ac3",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100024",
+      "cache_digest": "57a9b12dff2c013383f0b8d41073757a244a73358eb079791229e34e0a05186c",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100025",
+      "cache_digest": "c404c26bf8de6aed80ebfeff00b0339aba44982c69d033262877214921a481d1",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100026",
+      "cache_digest": "bc688860eed9c8c39ea82edf5d4cd6179ba7ab0d03868bcb8549919108f29013",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100027",
+      "cache_digest": "9490a46fb63b63e493586b3409e11a8a2b194dee1f71c31198a15c76911af5e9",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100028",
+      "cache_digest": "d68d24050471f5f84284edfbce27742464c837eff700f630cd24d43b7e124c38",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-clean-100029",
+      "cache_digest": "8b334592fd960c8db956530826672c841bd5ee7b8d11470cb431997c8f17c667",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100000",
+      "cache_digest": "862dbd70629a4fb33bb1153b5dc45b610112a08bdce26e7128b854c51ca811a4",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100001",
+      "cache_digest": "88d5b57fcf9c6a877b68a1b1b26e2b7970d4e95f4bcfe7cb12908d94312425a2",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100002",
+      "cache_digest": "edf9149e5adccae761a45d936fcca38629131a49da300430fb3e3441090bf1c2",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100003",
+      "cache_digest": "232a11901138a0b3c5ab5768f64c9663097086cdada12bbda4b9ed6b9b17cfda",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100004",
+      "cache_digest": "cd745c5bad2ccec32a545f7b006288e6e11cd3bdd683653de29b6468685b7e18",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100005",
+      "cache_digest": "889216d189190a98a90f2b5d85515fb98807e9629e238c240c7f66c8b666c087",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100006",
+      "cache_digest": "de0139b47509527a50e65c93a11d1895f5abf4c7dc0ffd2b987063a5ce415c87",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100007",
+      "cache_digest": "39018f18f5700dcb8c83ff6a9c0e0bd89b57da3fd00dd2dceb076d33604ede62",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100008",
+      "cache_digest": "23634dafc2f4945c74d316c67450f07b9a853b62923039464438de6b97c3050f",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100009",
+      "cache_digest": "df684b5d4c17fbc294c74af162954c7a525e4724bf88faae0cdc537ea13fb7df",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100010",
+      "cache_digest": "24b1f0b109d3bdf947ef995c02c48462410e0fd62a868a20734b7dd85b8fe3ed",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100011",
+      "cache_digest": "cb2f8066f112ad39d948ed763ff367a93492f92c8ba55e6ed0498b0a8e495ca5",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100012",
+      "cache_digest": "cb81865800052c56fb463db54744b5b7b4b59a9203253d9d5335f9611e105549",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100013",
+      "cache_digest": "2ce06201055267a8ab03066d783a4be28aee2da1c63a6f5e44c95ee909eb5b7a",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100014",
+      "cache_digest": "dd4df88ece0dc12aa1b2556552f07ad394be61e27efba6876bd0904ca1f97168",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100015",
+      "cache_digest": "761d5067eacfdb5ec5472aa421a807390af95cf7204cc80300313badf07a9c07",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100016",
+      "cache_digest": "963488487a9bd1a34b6891803f98f57191a55b7d2262aa09d2dba42b52274f76",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100017",
+      "cache_digest": "4876a128d65e4496acbbada6d1ad37af4bcb86ba952c0a066cd98a9ebc01555c",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100018",
+      "cache_digest": "8a497acc0da7711a981076a6a8472e10a03092a17b23fee91d985f3e1f0b1520",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100019",
+      "cache_digest": "bd8094bdf1bfd4bf7f7809d2aa43ae8513d420901bd659c827ff961205501371",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100020",
+      "cache_digest": "2218daf7f3b56321bf58dca15c0b2c68e622b8a40e5734995b93a69d178099c8",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100021",
+      "cache_digest": "4ac2ab1c7d6b37aca339ca8aa1a8231c4609ec75bf266a1689424fe7ade2c19c",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100022",
+      "cache_digest": "3fe91a5532ccbd4ee33df1b89eb534b347571a9e9dd90eb5de1fbfd4809e4a7d",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100023",
+      "cache_digest": "5b2e846c744193fc3b65133bdd5a1c89e3e6bf3378d5f1e0676e15cd0a720f8b",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100024",
+      "cache_digest": "91dcc44cb89068b58d64c068c86da69fe6aa0f5ca2a8e02248ea690a6d97cf57",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100025",
+      "cache_digest": "8e289a4bfac847043ddce7bcb9048a4b2c89d39b9474cc5b357a147eaa9ed076",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100026",
+      "cache_digest": "17d003eff3bcdd5c7d5464930c15cd47aaa70b5e07238fce3fde5a55f263a8ac",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100027",
+      "cache_digest": "1603f0bbb71db05b5ed9d9519bd09b7dcde459f03f7c30b96890f15a547b0174",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100028",
+      "cache_digest": "c65ae6f408a9d42bad6b002ae753691f694a1b88f5820285284a60c51eb35409",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-noise-100029",
+      "cache_digest": "5cc6962b0612bbc4930df13d96fcfe35419c2b2ec3e1c34f5f53ce20254c85f9",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100000",
+      "cache_digest": "08e52687e8b21530cc3e63bcbefa3b344361c66fcd3fc2b5ba5994c930581554",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100001",
+      "cache_digest": "4062b7031b1f86fd9a744a2fce13817983bab103dbd1a6b27190f8ecc68dfe7c",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100002",
+      "cache_digest": "73b7002e4e2ff069d41c2088cb2c5993707530530c053ee97c4650388715e91b",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100003",
+      "cache_digest": "b0b3346729a01bd2f5b0973697efb9626f6f606fa5ee88e8808872a2aebef0f5",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100004",
+      "cache_digest": "97bae82631ea5ffd721dd11d13dd9615958cb854c4cc3233ae720bf32bd90b15",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100005",
+      "cache_digest": "a3bc99d5c8c53c3484fafc7071d380a01e170de6089ad2b38d6c34af96a4aafe",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100006",
+      "cache_digest": "4fcd0c2a5ef3be38b28d7b2b4afd99919c3b53e0a6dfdfd37939f3109ef86745",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100007",
+      "cache_digest": "780a7c4309a390e48f8c1b83dea121891c09456f7d3ad571fe387efcf172c31d",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100008",
+      "cache_digest": "bd6dc0de676dae82678b0eeda572e7ace68eee22bf8d608870c85c0bc013cbec",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100009",
+      "cache_digest": "188cb47ba859b7bd4cda77cde35697527ef88a012cd7e03932de4796804dd6ca",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100010",
+      "cache_digest": "c8e3d3b4cc25c11ce209a3cf98c487554c2c9491b2627be4a2591388fdd4bdfe",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100011",
+      "cache_digest": "c32a72b66611962f1beb21b2fa22bf4fe4b9ee7108d428565a06811b13f67aed",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100012",
+      "cache_digest": "b5c7d98d3697bde3e7e4f33c3cd677b2155a99017b82ddbad3205021213b94fd",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100013",
+      "cache_digest": "7a6c75f120f38347979e98ebb996a6cd60b2b9a882c28f8ca58964387643c31a",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100014",
+      "cache_digest": "d81130e745aeacbdd164a1fe37e6fb5ed70f6554ea43176610b55962a1dc10b0",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100015",
+      "cache_digest": "e834b36f107debd743f12227d4f0aac34b35080a7fbde9b601cf9ac77fbb59d5",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100016",
+      "cache_digest": "6787e1330d4fa87cb369343cebe5a2be24a2152a91e35442fecb7b7208aae002",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100017",
+      "cache_digest": "f7cd98050c4f061d2b9e777cd0b2f265a1359df92abb6b3a3867fae7f77bbfe1",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100018",
+      "cache_digest": "6b4cfac5bfcee5dd8ee4bfa77ad825f37c53cc6d7820a51fbab04711b4dce6d7",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100019",
+      "cache_digest": "54ba40dcaf04f78e1f53462fe83b912ce2e989c1ea3f2d0608e4ae6e85b5882a",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100020",
+      "cache_digest": "a9b25114e950845e542546cee2161c57a368eb8f9ddb320a07f76465e5571d05",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100021",
+      "cache_digest": "b20faefa726edb579c82a72cb3142d6e38e0abad7b16e0656fa8647ab031c33a",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100022",
+      "cache_digest": "8b4678c385d2b7d4cf9135b74bdcf82e2d62fae2a85ef587df4d7ada1fec3963",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100023",
+      "cache_digest": "820c830aa434dccca4edcc44ad438d7532b9a2001313b2a4cd35e849d1c47af2",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100024",
+      "cache_digest": "d8227d1b7a2ffcc06a280bdc2f79f62ebfa9109d1fce78c7bafc8f9c77180dc6",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100025",
+      "cache_digest": "011561aee90b78fee85a3cf1119cee1ac933122248a48572ce72414837cc5bcf",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100026",
+      "cache_digest": "cb8625b4fadc1aea0dd02bb6deafe81fa8771fb2a54389fd336e48e3f3d8eb02",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100027",
+      "cache_digest": "51a6a7105617876f7ed8ea5ed69417fe86c0a7d62c5276eb7c68d8dd04b50e41",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100028",
+      "cache_digest": "08a6f2113929c8928f5377e06c5f2f4866f65f065d19236da46c9e23a8ad1fc5",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-crop-100029",
+      "cache_digest": "a63297adf37cc541e9186aaa2f9de811b55597024e4cdf187a9f2e33ab368bd2",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100000",
+      "cache_digest": "9a3fd61bacfbf3e14f4e6768dbe55c898fd693a1ca666835e3379e23e707ace5",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100001",
+      "cache_digest": "cce3fed4dea3557a2f20fd95d382717039b91ed0e673469ff0a6022030cead2e",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100002",
+      "cache_digest": "c45e0308e22354289c4ff19e65547ef31f3642a3ca5dc1d51acdd74e1af55550",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100003",
+      "cache_digest": "1a5a01e35512e492cd44892cc3b6ed9b13fb17170aa55486174db96d3919eae0",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100004",
+      "cache_digest": "3228444e9e24ad84185a88932f6b25852ef498baf79d7a62215ede85afb217a2",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100005",
+      "cache_digest": "1505fb1f7b3412fd0451d7fe9441b258efbd1f47df1641311df50a083747fd3b",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100006",
+      "cache_digest": "40e744e012bac377a0efb8fad85066f271686ca592ae3443dd334e95de1381bf",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100007",
+      "cache_digest": "0638c73b3ddb815f9c1c73dd42a1bc631b72244b860632095bb7936999d04180",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100008",
+      "cache_digest": "4bb432e99f9683942cd2454e94e8481402b97e227808982fff5a142b8507f3b4",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100009",
+      "cache_digest": "bf19aaa846e7fe768ce22a4ba1200015bb1ba11739f8b004d9f31fbce3aab150",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100010",
+      "cache_digest": "56c3f68d563484f751bd7a0687b7c871fd4cd24a2d2af654650b23be5ffdf521",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100011",
+      "cache_digest": "aa2ebd4fc236f0eee9f6271189f94024b7d835f1f02676377134518b19fd0495",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100012",
+      "cache_digest": "15d93ed10b66d7b975dc04bfe38955498172fc056ebc3d373c0bb4f37554eed5",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100013",
+      "cache_digest": "f2e622b553f01e1bc28660b49b279af9daab2b6800d43b756449441795d6b7e7",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100014",
+      "cache_digest": "ca47964875f852d42a4da0d96662ed97d6f17114ec88a6183183b46fb221a70d",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100015",
+      "cache_digest": "fbfaf4cee3866efd47a4e037887bd86ee01e6a8d25834c456cb9a16fabf105d6",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100016",
+      "cache_digest": "2e07c785f4899a8f27869634dc663e5cffbcef3230bb9a29222c7a4e78cc502b",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100017",
+      "cache_digest": "cf0ca96ec16b92cd0cd0e3e87e64f6919416a075ec8e15bd258f32c6c4d78a3f",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100018",
+      "cache_digest": "3d48c77a92e65b7f6525f9d85c1ef264e27550bd3634e44dd0d7cc88b631a841",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100019",
+      "cache_digest": "9fd8752193ed046566ff8d9b6ebc3b80af0e6c76818958d1e546d934a8aa8c8a",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100020",
+      "cache_digest": "76a849ceb6492ac3bfa57068fe15bb99b1d3401e467e99062bc4c8a06ae08216",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100021",
+      "cache_digest": "0880b7288c10302cccfe5b29d6dfd1376add4ef37da16451c739408c7db80c78",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100022",
+      "cache_digest": "89bef9267b3ec60adf9f12c22b1ec3deda62177ecc5f44a263bbd5a41f25732c",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100023",
+      "cache_digest": "7bc57e25b85e110a12ddac14fd1b0cb0cde21bdc30db99fcee555a69bfb12871",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100024",
+      "cache_digest": "2a6fd0bdb33b7fac123d788308f7297f7a41d48f0c7f5fe8d6142623514ac47c",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100025",
+      "cache_digest": "ad67d81562bf9795a8b9597d2220f9951af7b672dbf606aba50ab173c30d6922",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100026",
+      "cache_digest": "27077d7e31b6d1a4709691f8b8cf5534eea5b2d8e866b94bc5b2713041e3d470",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100027",
+      "cache_digest": "713e15a7855b179017c65beb87a1e96d79f2c60ff5e0293e47e91f10d20d533c",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100028",
+      "cache_digest": "e3a5007bd6c58f8aa13fe87239a718e19e08e776d588164f62ed679eff37ada2",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-occlusion-100029",
+      "cache_digest": "cf902025a60834d768e5b4ed73c447537aa0b358b8b21994ff4076c59f2bea64",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100000",
+      "cache_digest": "4f39be364166553747d03e2933852212799cdfbf168b18042b3d3a1dd63d9514",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100001",
+      "cache_digest": "0bbba44fa1a18a2f65ed0d016f0c43f0532c0606946589ec0fbcf416886a4bed",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100002",
+      "cache_digest": "00e579944541e921cf58b10f763a6e27c4c4467962d052594dd3a02411ebecc9",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100003",
+      "cache_digest": "3b5794e72bfb41ffec4868567e1ce8608ad13d4105583d312540d4628715b2f8",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100004",
+      "cache_digest": "f18cfaafd8dbf5e66090ac0a1963983d5574b0e231f6836341d782a473a0645c",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100005",
+      "cache_digest": "6e0914df773937b735512cc6374d6b9f3e291e91d55080f97905188dd5bb5e49",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100006",
+      "cache_digest": "44dc04dea42a8bfc418200c2d1c462764bee4ebafce9b285180bbfeaca2c45d0",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100007",
+      "cache_digest": "134b7e2b25aa441085a9f674b8c871344e9399f48a4c198948e043bffb3b151e",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100008",
+      "cache_digest": "370335d1dc87364377662d3e3b1183fd0f9d0ecaa278448c9797e2034ec9b70d",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100009",
+      "cache_digest": "8e25260570bc479113a9c940dd8407e0c5746d8271faf1ce7c4449ea8374d634",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100010",
+      "cache_digest": "c977d09d2db4f8e49d9b9b5414eb2991d06366694c9392eb866109da85489355",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100011",
+      "cache_digest": "d313695df6dfe453ee404fb9db19756d46b215b80e878eb5f782c2198011b5f3",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100012",
+      "cache_digest": "c9e50f4f87a5669eaf8b1bafdb6f542fbc443f3d728e6ff7d9bbdb485da67c77",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100013",
+      "cache_digest": "0be1f054b4681c1b7547af3282494294881ddff46e9f21556d831cb111d51c13",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100014",
+      "cache_digest": "f6472d7a7d8d2bdb3420b2d5147d47ea3b5fc71e89a3ed3e360ca97f37bd0210",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100015",
+      "cache_digest": "29ec093ec093fc1aba24e632ab5536a46f2d7a301ba477bf23871fcc9dce0d5f",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100016",
+      "cache_digest": "d04204dfcd1a711be11a572f73c1c20b3d31a0c8b0634bc0af863c608536b991",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100017",
+      "cache_digest": "2d25e22727368e0f3e77927d317d2eede8c33e036694cd0ee4eb1dfccee620e2",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100018",
+      "cache_digest": "a3d54421c176d5a9b46418abc2b17131d003882ca53b85f5bde665b1763afc41",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100019",
+      "cache_digest": "7b15a8cb144331986d1ff3a7965a43a488e8f4b53c654f1c9ec0daa44bd4cd9d",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100020",
+      "cache_digest": "aab0354263f40a9df38d13be4816163c3747bfe64b5242459b6d5b4e324f512c",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100021",
+      "cache_digest": "c73b1337f6e0d80d88ea81c3b33b4b9e8903ff6327b05de5605b3ab14bbe7aa6",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100022",
+      "cache_digest": "a97a2cae15037665c87e63100a62db7deb97b170f32e38b29d569f5874d591a1",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100023",
+      "cache_digest": "7c5736b9b68002c95be2a729996dde3b48133818678c5be746faa237f503f495",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100024",
+      "cache_digest": "0b1ef15042d57b68874722f0e9ff75755512095838910bf349a46bb4316a0674",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100025",
+      "cache_digest": "a75c7ea1d87fba732d09d8d8bd5ef38d018da1d39ebeea57c27a40fd217601c2",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100026",
+      "cache_digest": "44b98196089368f2d5bbdf5416c6b08b7b00b4e347837ed5dee46ed707a255cf",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100027",
+      "cache_digest": "216d70a8fc0612ec4262228866f96e0a0b8be95b8164ea893ea542d67ebe5b32",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100028",
+      "cache_digest": "9f1b20465d6372ca2b4ff8d4cfe5f5ccec59a3748a78e7f0ff39ddb626e6c510",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-camera_bias-100029",
+      "cache_digest": "8040ad28a2ef812665bfb65aca87fc1c821a0650bbfcded7e2e4e2addedf8f0f",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100000",
+      "cache_digest": "d2eeddd3b3408a6df53b07ff4adcfb77b616995482e0ec7090c886b0379dd805",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100001",
+      "cache_digest": "055ebd9fecd0264ef3191f837a711ee7287eb38467825e88f2072a04c7ace9f0",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100002",
+      "cache_digest": "152ccf87185affb3faef0775865d209bb47868f98e9e5a49af8bcdae02bbf9e4",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100003",
+      "cache_digest": "0690ca223d369e18f8eadea3429d9cb506e359d1df543824349e4583fd55e7b2",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100004",
+      "cache_digest": "dc208351d3dc80d01406ceada22d6530f2f61acbcf584b0f8a4ce642d0d5dcb2",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100005",
+      "cache_digest": "8c951c81e115285a202a6f4bceda66c0b8682514fec741f8e2cdcc8c0dd347da",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100006",
+      "cache_digest": "1deb41070ec3fa0f9f405027ef4b109e6b772f2085bf838e0c68b4a43898cc62",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100007",
+      "cache_digest": "6fce93f87e5097ae22a808fa65524b954d118fa78f5f26a21739585172f1cd34",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100008",
+      "cache_digest": "6b18c578778d6f9c9f5a3f2472e3684ee5c15ce854692d02cfae997a07828657",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100009",
+      "cache_digest": "5437b43233ae583945dcf1961cb6b091c39a8904bff950872e776b070357598d",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100010",
+      "cache_digest": "f5d5dc0618c3b3a4ba9eac23b77e28c2751a980f239091e963df68cd2bb31b29",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100011",
+      "cache_digest": "9f5ab95cde3505cfa473b24c525f939c2f3366d3941b28534bc746071b2fc2c8",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100012",
+      "cache_digest": "0fb5f9843a38461347d09ec4040473a9405c97f53c63caf25d84570816ec130f",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100013",
+      "cache_digest": "e0a0623ff6fd847569df09d42e44dd021cd158403be41586c81039796097d27d",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100014",
+      "cache_digest": "7bb16b7c6f24efc993917cd8bc922fa59aafcd1e0a88e2994fbe66eb9bfe70d0",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100015",
+      "cache_digest": "cb432ab3dab74fbed8541119fc1ed33345acdb54ecaf8d5b60a14ee66e06e22c",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100016",
+      "cache_digest": "ab3717940ca32876ce08911b50e5dda2853ea03b28b0540577fe9bc717fb23bb",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100017",
+      "cache_digest": "3ec9c7e5f6bce9665bcf21f9d018c0e9be901d5740e6843b8847c1a5de8cc8a8",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100018",
+      "cache_digest": "83f877747fa6bdf8bfbf83a12f98a56f3e15127fe120d5624dbe1a0d4727628e",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100019",
+      "cache_digest": "7a26ebd753cc0a401ecd7df6f9734a2d2fe21ee4277977440acb06cfda9dfe98",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100020",
+      "cache_digest": "00079f6763f6fbf1a148c83804b18617c3e37fa4551ce82d3e77180d0022be11",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100021",
+      "cache_digest": "fc8a274500b6fe67136f069668bae997fb81a11b82c2c9cf3402759a10db2a02",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100022",
+      "cache_digest": "221313f9a73c8aaa66b377012a970d70f16a5bcc3a2abedd175807b99942b3da",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100023",
+      "cache_digest": "ce9cdbd661870a190494c93f828fd148ebb07a4cf0704ec0eb7c6b1d4e09e4d4",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100024",
+      "cache_digest": "c9387e9077d0c7d5308732832ae4259d789571816469a8e97c126a4518ff2d61",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100025",
+      "cache_digest": "91f8a90b1eb01e5995c109824cfbb278225ee0eb96ed4f897c2868f84e676af1",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100026",
+      "cache_digest": "3660b1cfcd07d8a9c14aefa137acafd32a22bb1dbefea728e143936168016459",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100027",
+      "cache_digest": "f5a76a9757ef5ec0d8009bb2ca38647c505e2016007c223ac950b89493a4c937",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100028",
+      "cache_digest": "70679a8b24e22af1d16f7a4150555534a167157f220d3d0577e9ddc8df7127f7",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-shared_bias-100029",
+      "cache_digest": "bc15a82d6673448acecc9e11350c59ff6c179ed09b72b514dcbf09b4b199ca7f",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100000",
+      "cache_digest": "6a17c4273948255a3d9994ac59731e9a2f63c252228ebc960cb1f4bec4221344",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100001",
+      "cache_digest": "7c83b4aa04a7ae3eb363510f44d5a5e3176463a519bed51a4e774947785e6fdd",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100002",
+      "cache_digest": "68eb07b3d93e121a3c2aebaf9ce47f0e4161c809865baaf6c5f56b437d71e809",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100003",
+      "cache_digest": "25fd69a85202cfb001e44cfbd2c4c3f2aff2fc6d942ed5f6605615dd48474c60",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100004",
+      "cache_digest": "9dbae420eb5a168e07492f03e921a7f88d0de0f81766074baa6586049498725b",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100005",
+      "cache_digest": "b2c7450bd57daa169b431d08fe298a3c295f15f5acef15ffe1a1af959a3c08c6",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100006",
+      "cache_digest": "14dd37c92ac5df46bbb81d7a320e67f8144c8534bda8af9b22d640b2a7dd7227",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100007",
+      "cache_digest": "d17ceea3dc33652c5d3203cbaaba89c3be9aa06e4dd75256002a4d02496f93fe",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100008",
+      "cache_digest": "256b791f2c8ef534c29e85bd13a2bd47eae89fe2ca915555436e8e64ee88624e",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100009",
+      "cache_digest": "e1b74b422162f1c1992d0ec820d54ad9d412d8e5f39f88ccf36e216f4747aa0d",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100010",
+      "cache_digest": "2c2ae61afbcc72d01fa087b1a270601688dee47b804a58ba076f00c31d54e0f4",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100011",
+      "cache_digest": "1b79d4cbdcac4cf9ff780914dbd498d59c770eb48dc38207630a80bd6dbd5a77",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100012",
+      "cache_digest": "7fcb5dcb83a1bdf9d3f7a6567276c8043e48197e437c72d1f27d01d28427997b",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100013",
+      "cache_digest": "8561999fbba7a471b027d0232aa402b4f6ab2ce3b3c47017faf6d5e5158466b7",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100014",
+      "cache_digest": "1fce1af607a8e4e8d6fe1e60f0d84f849f8b287a97e91e284df720ff0b0898c9",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100015",
+      "cache_digest": "8d99f24de5b45758e2b7c7eec1ebe655860f72d7fa85e5197973c73013072d2f",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100016",
+      "cache_digest": "fb50b051ea2c9bac11a8db4af3283adbc808decd7d7dda9c961afbd8de60110c",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100017",
+      "cache_digest": "ed4db2ae60658720678d961ea0cb97e9d35cc3ec318d867fb0c4c472eefefb7d",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100018",
+      "cache_digest": "069bdb18dde5dfdf4601735b050a01ce043e4f0494b2ea8a10b2e97c51828423",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100019",
+      "cache_digest": "3fa46e105e0b2cfae8ce7cc724e2f218ca642637935a4bea0b6c04a516e5b11f",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100020",
+      "cache_digest": "08400b84209e6ad9f2075a16fc2a75feffc6f7c10def374d04ed83ca9651feb2",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100021",
+      "cache_digest": "817038f98bac8d5e236c5191b59ae76dff26d5e96a8ab0042001df1ad3410910",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100022",
+      "cache_digest": "628cc65d257d61ff8102fa1d14a48f42a26778ee67d08fbfd24a9808a1cb6ff2",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100023",
+      "cache_digest": "ef36a36496b35917fe229fe5b4ea76bdbc321c6159ebd47ed6750e2d56e7b2f3",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100024",
+      "cache_digest": "75d684017f96b5354b7f3c726c0fec5f3ce55f41837fe558f8b471f5a88fb1fa",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100025",
+      "cache_digest": "0533487aab9c1b292a501e97bc5be20e34397e10f372b1b507be5bb44a46fdf2",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100026",
+      "cache_digest": "f81a2c02992b5962ff4c2f930530929749b2b280190eac3b969a8df1dc4c58f2",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100027",
+      "cache_digest": "4afa7debd83f5066e4ca989a8c9777645f082ad0f85b786d768d1335ab254238",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100028",
+      "cache_digest": "62d08df5b9b6ca2434806448bdb786fe1be5192e86ecbc19cb6c4d88a0d8a254",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-weak_complementary-100029",
+      "cache_digest": "5e6a719d7ccf612584fdc5514786a92df18cd554d78b83b0e9da4b1bd42aef1d",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100000",
+      "cache_digest": "5a9b61ee96994c8f4539338b5594aa0976349b8bb1d33c1277078924a00e105c",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100001",
+      "cache_digest": "8260cbe86196e80f69cd0d7e3df4ad0761442819608a73b0d1d0c80aa6a46a6e",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100002",
+      "cache_digest": "cc7216cd8ac16bdd2ba0e414f9a919bef5827245735e4e369191d1670a214acf",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100003",
+      "cache_digest": "e4f3ebe8be324201395278f0abdb17c7a88389f0c016b897f56d0003444a7093",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100004",
+      "cache_digest": "cb80a62fd593120ed059429bfc37753c3d4b1fefd12bf72c876eb126a93aa69e",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100005",
+      "cache_digest": "084ba5fa0fa38740e1ba3375801d61f621e9efb314338c44b96addf92e913b58",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100006",
+      "cache_digest": "cc492ff1da8e6f3ece6a5447801223546bd33698ef07a400581e0d0f0087fe8f",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100007",
+      "cache_digest": "1a81f8f9773282462da36faf3077fe79551f490560d6970f12281c867b4e193a",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100008",
+      "cache_digest": "31956e37977de1d9bc395d2163f8e3320870df537652acec61c9936ad584b9f3",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100009",
+      "cache_digest": "417be914af35a06d44d8627b9094614c64f2e21a64cd98117189fe8b00e5612f",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100010",
+      "cache_digest": "8eb4b8294c26c2a5b6a241d57f362f0dba06af144ee77acf52625f3fff713c9e",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100011",
+      "cache_digest": "139bd72279d6bd8d93a186204a8eb3f855fc1c3b0a8f9e120f1a50022ca35aa0",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100012",
+      "cache_digest": "f5ac441e8d4d6eacbe739069efb19c676d86edb90617c0b58a50ff4fda97d3ca",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100013",
+      "cache_digest": "939780a53a8db281c07dee9250f4fda70e547d4e6b04d7db2b9c9d16dc5e3fbb",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100014",
+      "cache_digest": "66c6798a085c956e2d5384b11f61f58e055cfc3d1b79eb312b231aefe5d7d0ba",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100015",
+      "cache_digest": "a6ed59f963bc2222cb6c68f26a6407f0b9ccff0839723b4e07c8597307d2cb1a",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100016",
+      "cache_digest": "ebc26f507fb6591bce56865ff5c7a91faa1a82812c8484df3593d9a43f9400ba",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100017",
+      "cache_digest": "cc3acfc2ac86a7f4146898c2a689ca66bd16f91e926760146fd48d2ba4e14310",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100018",
+      "cache_digest": "815464c4fa24bd8a4621f2d3d71158e688eed986466e2e2caddd11a9c28d642f",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100019",
+      "cache_digest": "30a10e5f03479a489a41f49ea8ac0ba1d9e5ac7580491bae63168767ea8227dc",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100020",
+      "cache_digest": "b82f6dcc0a37a2a2336e05d7b6bffa54456fd6b09f2f9974668f147f434b2e90",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100021",
+      "cache_digest": "84a295f78c94c0a4ed75dd7c48690d4867447fe2af0a072c897cd337f84178ea",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100022",
+      "cache_digest": "fc8bc30718e470003d44dc0b22cd18a63967b47386de80fdc84c1d0a70a960a4",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100023",
+      "cache_digest": "9a1cd732ce233c1516a9eee4692fafd099f16f8c0c8ee4ce2878b87c9adf96a7",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100024",
+      "cache_digest": "e8d9dfba788d85ba8f1a32c53f6c0c37dfd8edc8d917c5c23353c4c54a03fccd",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100025",
+      "cache_digest": "e55886efdecabd23e4a063644ec0bfddaeec04c126e9daf394910f557973a496",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100026",
+      "cache_digest": "98075669064240b360ac51ddad85e8854b9b6085efcff39e684a24f7d28ad7f8",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100027",
+      "cache_digest": "cb286b5aad5d80e0d00c63e25eab784a171bfd197cbd4aaea0904298671c16f8",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100028",
+      "cache_digest": "8327b5fb5a18426b7d8b02264d5cfb3d3efdd7d3754ea24dd5d15358b548f11e",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-dropout-100029",
+      "cache_digest": "97d86ef15ce8e08ef622f3160f9361484ed32a085d95efdec2332ef9e331fc3f",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100000",
+      "cache_digest": "73247c1fdfbba526435db8252f953d8b44361846d005c69bac78a8b37c770e26",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100001",
+      "cache_digest": "1f4d217f158aac70108cdef4557fcd30170d890efbd6fccbd88fc0347752ea5d",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100002",
+      "cache_digest": "8b2e9e30c1c9f7c3dde3ffdb241a8414b901b9e05fc6fce0cce98c9428a98643",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100003",
+      "cache_digest": "8edac8d59c33056fb74695aba182be562d3f951bfee6853b30d23e9e799683fa",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100004",
+      "cache_digest": "39e3a6445a10abb367272c571fa2ca8c62926d4e010ebbe476872c96ce3b4ef8",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100005",
+      "cache_digest": "430e8e01c4d0b60cd51acc57ffdddb3a70ef52fe8b673cf82723e382f1e9ce78",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100006",
+      "cache_digest": "4bd4ed048998b4c474b450cc0b94417fa2f517020ab10cec5efbbcb32c1cc28a",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100007",
+      "cache_digest": "5e920436fa4879959d9ce107fb79e3acbdb3d8da71bce79d1e344a3dfdf9c6ea",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100008",
+      "cache_digest": "94eeafea462ab81799c9c6705aa0cfc61cc104f2390771213419bd1368b5cb78",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100009",
+      "cache_digest": "dd59e9e9eea1240eff35286eccf60b7d916ffc94eaf4aaf61a2e59b970c2d956",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100010",
+      "cache_digest": "11dce87e90308584ad9f3e618c280c9c4e0a7139522861a71c93311e6fbf69d5",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100011",
+      "cache_digest": "2da455f8a9c3f23e8818f898cfb98569d3ca82d717a6c39e1817febf8a98f78b",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100012",
+      "cache_digest": "704b5334cad6c5fe7eb805f61045195d7867d3fdf23a7b65034ce1cd6016254f",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100013",
+      "cache_digest": "09277215e70cef7a76391b9ce8dfc8aa65cb0e3662f8d0f283f1944f0ce122f2",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100014",
+      "cache_digest": "5cb8e0c43e9a678eb8783b1610da460780c6c0f600370d1adf3ff4bfce9d12f4",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100015",
+      "cache_digest": "8e1977d3303043666887cc8a91b80ee2827d6d70e341f5376adbc90cb698ed4f",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100016",
+      "cache_digest": "a8bc4a2a1cb9adcf35f647257b91ea31c6670693a87f8495a754e3aa924f964f",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100017",
+      "cache_digest": "55dc780e006209c1e14b9afb2ec3718a351e11e6128221bb5d032a772f8fd621",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100018",
+      "cache_digest": "cdf9f9e9dbc4bf8ceb3153aaf80f1974e4eba4af0097cffa0fcc75ad7acf70f4",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100019",
+      "cache_digest": "a9b8f8d665ec1906020c0dbf82629e2ce95318b5cde600532f9282c8b5f0d23b",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100020",
+      "cache_digest": "76a61d53cf3bfa6621095647cc32ea1a4957a8b17e75622cd3e5dd63454209e3",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100021",
+      "cache_digest": "0464be131ae4432ec4b86453298270ed94b1882699b1581f056441182a03c556",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100022",
+      "cache_digest": "a010e135f8eb51fe26c0cd2a590bf3744aef9cdd775cf5bd589d721db69c0dbe",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100023",
+      "cache_digest": "b285157f5da102c1413b0a00e7a69ea3c8610e66dad86e6a39dcbe8a1ee3a93c",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100024",
+      "cache_digest": "964636a5b8a30a08deed40ed5380c17fa5b8f0b2d7a3484526ecc65d018e3025",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100025",
+      "cache_digest": "8c37ab4f9e094fda661289c02d00fdc5dc6fe784b031e8442ecc927483f5ca4e",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100026",
+      "cache_digest": "9b254e1f549c1fcae2bc3d7d9b52a4607b39dd6c67bb41d1bc8cacfad3e0f09b",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100027",
+      "cache_digest": "8580533c857429670431a8e62dcfd63b309f14a5b114681ca2f6aa6174c83572",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100028",
+      "cache_digest": "ff9c67775a001abdad8860d751c577c008b05a03077483f9746533857c012eeb",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-tf_gap-100029",
+      "cache_digest": "cfa12a6eef492ee38175be5d10b031422872d7c0d161ad1f4b9f6d28995742e1",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100000",
+      "cache_digest": "82076441d923f4f530038e6223b043ff5eb707669c218fa1fa9305c5e7b3046c",
+      "truth_sha256": "7a6ac538e9d9848829d3ca4fb4314946762b9c397397efddf864b464754735c2"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100001",
+      "cache_digest": "64bd12166297ad850f77b36ba241571607bac214b259fa26a1fab2e69a0c7483",
+      "truth_sha256": "8e1efcc45723d6d6302ad299da9d7e0bfc8fdc6412b61fe6790ddbb0ff23ff68"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100002",
+      "cache_digest": "675cb66207a8a45d6dcbfb8f3e6f61eaf283eadf8035e4a48f8b02478923b41f",
+      "truth_sha256": "0ce0bf1b50dcccca8ae334ebc42cdec68b5ded068c4f227c269be5f22a08f5fc"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100003",
+      "cache_digest": "cb5019d00846e8bbea46c9b322520597738c3ee35d1a3a2e9200f034a79887de",
+      "truth_sha256": "228e9e8741d1ebf70a3c2235aba1a9a2caeb661151bcd42fed30ca825d938eb8"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100004",
+      "cache_digest": "49ccd0d8d560375ef8e8f2e2b54e7ea9ec2d1c59212aa6498d567108df487d1d",
+      "truth_sha256": "3480387941a59af12a536bc4769bbb60f377a85a5aa4484601f4dc9df8e5589a"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100005",
+      "cache_digest": "aee0213f22e6d701589d3f90b8a6ef425b0f74c7a566fc48f1ba4c01bb2c1689",
+      "truth_sha256": "d8a645bd3b2b28689bb23025f556e3fd59d1a4814ce0df225e7aed154177fe9e"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100006",
+      "cache_digest": "4b876df33843e429a0bc6d61fa8f493a9141df9735e33abe6dd07593f30fcc0f",
+      "truth_sha256": "49f30ddc114dca8a4d9f9a4b8806629da5312b505ebca87b172da67490e69f4a"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100007",
+      "cache_digest": "59dd67af786d40410bed6c74485e3394211c4c9c44f372273fef2065bea253b3",
+      "truth_sha256": "58be87f39f967ff7094d7703dd9256d1dbd09c83286ae906f68be9f3a82b93b2"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100008",
+      "cache_digest": "c56b46620b25ceefcc1496ff40dd318d7b300441018c5b1ff32992f92b570f94",
+      "truth_sha256": "9d2c09032294ed9fb567c42522862654651d3693ad14d0e756efcf3ad28cba5e"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100009",
+      "cache_digest": "be876bac1dada0fa33fe16e1827ae82b1b6fc21c3f4afb8a52f1a5b9b8228f59",
+      "truth_sha256": "8b34e4cb2fc821e640be1171f663c57090abf851692c4b8ce15997a0f9444b62"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100010",
+      "cache_digest": "18a3fe31eb45b9cc9fb6eec4e4803509e7bff33a96fcaffc3f4d44f3cdaad6a8",
+      "truth_sha256": "44ccea6a624bc4279ffb9701faccb7f2ced559e8984cbaec5ccb37afea7223d1"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100011",
+      "cache_digest": "96f709ceb5a5c1e16c1db5a84597474314cef4ce47e7f92d8ca13023076868ec",
+      "truth_sha256": "1be2487ffd3ba6c9467ed46263171fd2e63abea8aad9cc534ad0c77dfd9e02b5"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100012",
+      "cache_digest": "83a08651e263ff59e3c8847ab207121cab1669fbd86dadca3d06376b1c84f0f3",
+      "truth_sha256": "7564d298d79b245cc9c85c8a6fa827b1307c680dd749297caa5630e4a411932b"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100013",
+      "cache_digest": "02a1e09c8b9209d6b0422fb366d63f8fe3fa1288a2f7db89cec0ea56592b3145",
+      "truth_sha256": "9c06503ede4082227f355023e9c8d061b05477baf3c019edb8d18d52f1dae672"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100014",
+      "cache_digest": "89eaa88f9e07dd3d99e80fde54f1062fbf1811105fafac7eb9efb8637216452d",
+      "truth_sha256": "f1daaad84e3d66fcb10a63b17ba5a8b243d5a7795e2044f0a4dc9e3322a84c0b"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100015",
+      "cache_digest": "5b2e377cf6e0eee560f04c8561d2586515fab6d10f7ee55209aad812f69557ef",
+      "truth_sha256": "59132d639420d179c7a1420a6168ab4cfa5d9709afc248c9dc089e2bae91cc37"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100016",
+      "cache_digest": "ace821d6874dce03e0f7ffbff04d05ee2bdcd3ed21d0fe4d3006953424483bd1",
+      "truth_sha256": "8ee4941bedda1a02a379ce99042c3efbce28797aa523239310664be5780761f5"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100017",
+      "cache_digest": "e0e2c48f558a406ff930992846d9698c850d56ce815cd298f8d6106202040c03",
+      "truth_sha256": "2d815b106135bdb061fe0837880d202a4badc607f44a78510868b7a6f02cd297"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100018",
+      "cache_digest": "977c18db7dca3b914f875284d731f3360f9b111acdaa58cbb53d7fbb84d04b6a",
+      "truth_sha256": "78b291bcd7b58413423335e0297b46095c7c7ccd091e154e3802c77bc747c88f"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100019",
+      "cache_digest": "a6c36a44a6a311e897ca0d00426ae6d5ad96eb98877cbd21b274f9199f74bcad",
+      "truth_sha256": "84174c3aafb3132e67b04146c46ce0d339758a0e3323a740d312804c5821c39c"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100020",
+      "cache_digest": "16f9968707bd132a5e5f412caf917fb5f05e685d8f562f58d66b413caa51b5ce",
+      "truth_sha256": "7791202bf823c70ab7993e3ea4bc1c8d8d297bd5361675e0c68e76408c44fdde"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100021",
+      "cache_digest": "d181e22096ba3aaad8439e18bb53f396fbcb0131efe809ea57aa3ae5576b85fa",
+      "truth_sha256": "9534278d520e99a05a355baae245f30e5e0bae5abb3f90d1210ef6d3ea13e63b"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100022",
+      "cache_digest": "9387b8ec67e7d91e2b6daa2ebd24eeaa3c987b1d995f327d5f4eb024ab80da82",
+      "truth_sha256": "5f00184b7e0c567225adba9aa2e4b4254e50848a88d6cccfc583dd7c91b6672a"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100023",
+      "cache_digest": "d34c34fd22bc09c7176d89f153881fa6231c350a2077cff14654904ab402eae6",
+      "truth_sha256": "244859a71ba135ce1e2f7c806d5a8b3e483e70431959c629c0d171efb6038938"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100024",
+      "cache_digest": "2c933e6e7ee9adffd6bb55e8ace790b244fdaa5fc7ba0bdb46a43a0ebe5fb4b7",
+      "truth_sha256": "d371d94d5d2cfa541e05314999f39f0cc57d9f7c39fe64b8d24b44997c7c8508"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100025",
+      "cache_digest": "bddabf23cfd4736698de4f1a50aa983051fd7b3121e15fa073feae77efb1b873",
+      "truth_sha256": "15ae4edac6aa4c9fca45a8c6dd4cce1369ff1c69ebf8367373a0f90bb830faac"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100026",
+      "cache_digest": "c38249ca8fdef986faac63cc73e146d1a0899c6b06265b3e7a898022dc57d93e",
+      "truth_sha256": "5726916a28081f27bcb43163d5a1ac41711e2b9937bd9cb9167307e2558e0e41"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100027",
+      "cache_digest": "7696389b0eb447da1ff154db517204e3c91fffa08e9beac068546f183d054dc6",
+      "truth_sha256": "32bce4078d321e1f12e29a1e2094f2f3c285459da0da6488b927c12109752b36"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100028",
+      "cache_digest": "f876e016e9c6b5f1bd46cfd5c79084553fb7b06ca4154a11a9125b90c5a4a81d",
+      "truth_sha256": "f71c57cda2e288bdf672fc71cc66f962710858e2e8b98215ffe2d45bfd8df420"
+    },
+    {
+      "scene_id": "pilot-m1-correct_prior-100029",
+      "cache_digest": "a9433409f005fa720f9bddd96d29e91dcef557a205485cceccbe5c38fac83b9e",
+      "truth_sha256": "fc559086bd7a0a6c125b4c48c0d71d3876cac5d572bfcb8fe6e1d721eccc6ac6"
+    }
+  ]
+}
