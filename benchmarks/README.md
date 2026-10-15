@@ -2,6 +2,10 @@
 
 [Pilot results and retained evidence](results-20261015.md): 600 cached scenes,
 14,400 sensor requests, no general fusion-superiority claim.
+[Fresh confirmation and native ROS results](results-confirmation-20261015.md):
+1,200 new numerical scenes, 30,000 rows and 540 isolated ROS requests.
+Complementary geometry improves; noisy pose and shared bias prevent a general
+fusion-superiority or calibrated-confidence claim.
 
 [Contract and provisional criteria](contract.md) fix the comparisons before
 results. The production core is unchanged from434803c. The primary is the shipped
@@ -132,3 +136,21 @@ randomized method order and controlled host load.
 
 Use the [operating procedure](procedure.md) for exact commands and failure handling.
 The [session record](session-20261015.md) records evidence, review and remaining work.
+
+## Native ROS replay
+
+The [ROS contract](ros-contract.md), [operating procedure](ros-procedure.md) and
+[B2 session record](session-ros-20261015.md) describe the same-byte native replay.
+It retains two configured camera slots and uses the shipped declared-precision,
+Huber solver. Equal-sample and precision/loss ablations remain numerical-only.
+Each request has a fresh evaluator context and native process. A positive clock
+pause establishes admission before one-times-speed acquisition and estimation;
+the full pause is included in action latency. The explicit replay profile uses
+two-second candidate validity, compared with the shipped 0.5-second default.
+
+The first persistent-context preflight stopped on a goal-response transport
+timeout. Fixed-count reused/unique endpoint diagnostics did not resolve it.
+Fresh contexts passed screening and independent controls. They do not repair
+the separate production reservation recovery gap or establish reliability of
+a continuously running client. Failed attempts remain separate from population
+results; the session preserves their exact scope and provenance.

@@ -1,0 +1,2277 @@
+{
+  "driver-logs/paired-ros-controls-v1.log": {
+    "original": "/tmp/paired-ros-controls-v1.log",
+    "sha256": "b799c92053e81d9a8e26aba18667d1e42dd88e3e84448cbce50a4d7ab4c8da94",
+    "bytes": 1249
+  },
+  "driver-logs/paired-ros-controls-v2.log": {
+    "original": "/tmp/paired-ros-controls-v2.log",
+    "sha256": "388beb21246090a75ab8880201f95fbff575e9d48cc7cc8ee4f1118023ee02ed",
+    "bytes": 1901
+  },
+  "driver-logs/paired-ros-controls-v3.log": {
+    "original": "/tmp/paired-ros-controls-v3.log",
+    "sha256": "db39b8b0bcf45e73e585b11948334ce8b2810eaf08c6062eb6109bace15e9106",
+    "bytes": 1488
+  },
+  "driver-logs/paired-ros-normal-pilot-v1.log": {
+    "original": "/tmp/paired-ros-normal-pilot-v1.log",
+    "sha256": "3e674e18d50d18b98200d7212380c7c08740d3a39fad71b730d9cd7d7c7da4ac",
+    "bytes": 2734
+  },
+  "driver-logs/paired-ros-smoke-v1.log": {
+    "original": "/tmp/paired-ros-smoke-v1.log",
+    "sha256": "265d14e7f88c9ee959d1c4c0903fa057e2fc31734f4fb02f90bf8d3164fa894f",
+    "bytes": 805
+  },
+  "driver-logs/paired-ros-smoke-v2.log": {
+    "original": "/tmp/paired-ros-smoke-v2.log",
+    "sha256": "26d5d79d80fb6ff17d01135396d5aa9945452f7c69e3d0d14fe738a34f334e80",
+    "bytes": 243
+  },
+  "driver-logs/paired-ros-smoke-v3-probe.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe.log",
+    "sha256": "26d5d79d80fb6ff17d01135396d5aa9945452f7c69e3d0d14fe738a34f334e80",
+    "bytes": 243
+  },
+  "driver-logs/paired-transport-fresh-v1.log": {
+    "original": "/tmp/paired-transport-fresh-v1.log",
+    "sha256": "34bf8e74709a6aea64ff0e5058b2f57b18f165fc891a8a0e41e562d106c7154d",
+    "bytes": 4840
+  },
+  "driver-logs/paired-transport-fresh-v2.log": {
+    "original": "/tmp/paired-transport-fresh-v2.log",
+    "sha256": "12f783f2edb8f9e3521399b71f5e0ee7fcf9714a0e1d8fc26718508941de03b8",
+    "bytes": 1600
+  },
+  "driver-logs/paired-transport-reused-v1.log": {
+    "original": "/tmp/paired-transport-reused-v1.log",
+    "sha256": "7fbbef4f44e0b617822e4c249746d20584ee22792140b9b3518fc3b6bf6be94e",
+    "bytes": 1810
+  },
+  "driver-logs/paired-transport-reused.log": {
+    "original": "/tmp/paired-transport-reused.log",
+    "sha256": "4b46ad66cc49c9282b2ce3e5e5d462c7c276aad74c3af12b072c0334ff10c71c",
+    "bytes": 240
+  },
+  "driver-logs/paired-transport-unique-v1.log": {
+    "original": "/tmp/paired-transport-unique-v1.log",
+    "sha256": "df093e44558d4fdd4fba32aa52c01434b5f73fa393a83d1bcaa4ea45965dece7",
+    "bytes": 1950
+  },
+  "helpers/build_transport_fresh.py": {
+    "original": "/tmp/build_transport_fresh.py",
+    "sha256": "2f8e45b21236c06f461cf87ab9fd47342a4fee605534f081d5cf087a77df0947",
+    "bytes": 4575
+  },
+  "helpers/build_transport_fresh_v2.py": {
+    "original": "/tmp/build_transport_fresh_v2.py",
+    "sha256": "cde60366a9246c2dc6082bddaaf6abcd01d5196f6171524d87e090df520ae069",
+    "bytes": 4578
+  },
+  "helpers/build_transport_probe.py": {
+    "original": "/tmp/build_transport_probe.py",
+    "sha256": "0329a247abf33aa0bcd00d09133754dbbe8b9e6478dc0e25b7773ae627cb2a7d",
+    "bytes": 4604
+  },
+  "helpers/fresh-v2/ros-contract.md": {
+    "original": "/tmp/paired-transport-probe-fresh-v2/benchmarks/ros-contract.md",
+    "sha256": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "bytes": 7560
+  },
+  "helpers/fresh-v2/transport_probe.py": {
+    "original": "/tmp/paired-transport-probe-fresh-v2/benchmarks/transport_probe.py",
+    "sha256": "22fd42ddc67a1248f66fa91d185b0a7ae242ce0961a7886989e8eefc9d29de10",
+    "bytes": 30707
+  },
+  "helpers/fresh/ros-contract.md": {
+    "original": "/tmp/paired-transport-probe-fresh/benchmarks/ros-contract.md",
+    "sha256": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "bytes": 7560
+  },
+  "helpers/fresh/transport_probe.py": {
+    "original": "/tmp/paired-transport-probe-fresh/benchmarks/transport_probe.py",
+    "sha256": "dcda75b669a0bde4b7751062a5b8cc682059899d29a0f0a03bf14f4bd9733405",
+    "bytes": 30735
+  },
+  "helpers/reused/ros-contract.md": {
+    "original": "/tmp/paired-transport-probe-reused/benchmarks/ros-contract.md",
+    "sha256": "1d38ab8c646228d787d3cf8dba11807a6ef1c13a15471ec886f8bd2ae05297b5",
+    "bytes": 6472
+  },
+  "helpers/reused/transport_probe.py": {
+    "original": "/tmp/paired-transport-probe-reused/benchmarks/transport_probe.py",
+    "sha256": "17eb51bfe9fd2c4e6cff51c855c764bd69fd1663b7e862ca2a352bc3554914f1",
+    "bytes": 29591
+  },
+  "helpers/reused/transport_probe.syntax-failed.py": {
+    "original": "/tmp/paired-transport-probe-reused/benchmarks/transport_probe.syntax-failed.py",
+    "sha256": "d690ab619b20508e38ec7dcf2a8316f1d0c4798980cc5d23e215231ca39b316e",
+    "bytes": 29677
+  },
+  "helpers/ros_probe.py": {
+    "original": "/tmp/paired-ros-development/benchmarks/ros_probe.py",
+    "sha256": "0dc843980c7641b6e2c32c3d3bf019e27b2d139462a8fd2dae9aadd77a6e1e6a",
+    "bytes": 22743
+  },
+  "helpers/unique/ros-contract.md": {
+    "original": "/tmp/paired-transport-probe-unique/benchmarks/ros-contract.md",
+    "sha256": "1d38ab8c646228d787d3cf8dba11807a6ef1c13a15471ec886f8bd2ae05297b5",
+    "bytes": 6472
+  },
+  "helpers/unique/transport_probe.py": {
+    "original": "/tmp/paired-transport-probe-unique/benchmarks/transport_probe.py",
+    "sha256": "c5b5187dfdd4d77df7c689066a456f4f1b3a71c2d20babedbebf4b49a1310d66",
+    "bytes": 29604
+  },
+  "helpers/unique/transport_probe.syntax-failed.py": {
+    "original": "/tmp/paired-transport-probe-unique/benchmarks/transport_probe.syntax-failed.py",
+    "sha256": "ec0b203df8e71c70e7f1598f121f4bd69a0d0e04c2028eafda65e54fe15a599c",
+    "bytes": 29690
+  },
+  "paired-ros-controls-v1/manifest.json": {
+    "original": "/tmp/paired-ros-controls-v1/manifest.json",
+    "sha256": "20eca54bb1bd7b504790879a7561c07ed024fc9781136938845b61c2357a1190",
+    "bytes": 2108
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-mask_skew.log",
+    "sha256": "d31375495c9b0f68e8756fade7df3ab0ab827a78697da12de15cac61a3f20ffa",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-normal.log",
+    "sha256": "d44ae51b9ac4095c6a89e5639966d3a3a8bec809d969c35e2efaa83055da9ca5",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-stale_triplet.log",
+    "sha256": "d5bce8eaf0adee2b2b47b419c48e14bb630c8ca4d3aec69cc19af70ccc4183c6",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-valid_bracket.log",
+    "sha256": "1be96bb35873dd94a37325d5a5cbdf05f46c96a87a68f03ad1b360f77e2987da",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-A-wide_gap.log",
+    "sha256": "c7e2907447921c9431c5847e45bc3938db5e5274100df3a9baebe66580eeec1f",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-normal.log",
+    "sha256": "2bac9a72576941fd7c70c5bb0d7f23f37a4c7c422ac3f60b125f595583e581dc",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-stale_triplet.log",
+    "sha256": "291234ebafcb29ccb0338d5d28adaff690e2195b8cfb79bd5846cec4d231a089",
+    "bytes": 186
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-valid_bracket.log",
+    "sha256": "e6191402d21d2cb07d96e0bcf937a6a01e87e79c360962a655f0b14c4bbfd31d",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-AB-wide_gap.log",
+    "sha256": "17973f3add6d753854b5a770e2e5c67a19e124d4b8ed3cdd3c65ac730e67a2c6",
+    "bytes": 215
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-normal.log",
+    "sha256": "cde58c5a962875edfd9ae66c04e1cefff2ecad13f07bcd7fd07f6d102bb664e3",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-stale_triplet.log",
+    "sha256": "7a5214eddfba76b642b727b23eebf81b42f7a5da03a79cd62371937760466677",
+    "bytes": 186
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-valid_bracket.log",
+    "sha256": "985060ae43ac0840f62b60a43f278d255f1b3632abdba33c5b811a8d0e4d9393",
+    "bytes": 71
+  },
+  "paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v1/pilot-m0-tf_gap-100000-B-wide_gap.log",
+    "sha256": "42657cdd952834ba803628b58d877d44c2cee5571f34960abb2c8317528e1883",
+    "bytes": 215
+  },
+  "paired-ros-controls-v1/protocol-failure.json": {
+    "original": "/tmp/paired-ros-controls-v1/protocol-failure.json",
+    "sha256": "5e396a0d3cae770b60eea7cd95bc08a453507606ea1b95d4235b9cea5036e92c",
+    "bytes": 223
+  },
+  "paired-ros-controls-v1/requests.jsonl": {
+    "original": "/tmp/paired-ros-controls-v1/requests.jsonl",
+    "sha256": "b292a115475cda948803693697c22a19cc345bb62ae7372e4dac444dd7d67b8c",
+    "bytes": 59600
+  },
+  "paired-ros-controls-v1/ros_replay.source.py": {
+    "original": "/tmp/paired-ros-controls-v1/ros_replay.source.py",
+    "sha256": "8a1d00cc52784a9b5da52361c5533e436c3c8db02467bb6e7ff595992a4f8a25",
+    "bytes": 22531
+  },
+  "paired-ros-controls-v2/manifest.json": {
+    "original": "/tmp/paired-ros-controls-v2/manifest.json",
+    "sha256": "30d6d0888f0199f39280ced72597e1d7e7d90c2c1a808c21f731d66f19292012",
+    "bytes": 2108
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-mask_skew.log",
+    "sha256": "81d3ac21201359d3a1d1aeb45a7716f59935f26a89257acbeb7b9096a37eab76",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-normal.log",
+    "sha256": "0c4168e36c4a1f4fbad4798633b4fbd875453e5d07a0d34fc54652bb23b79404",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-stale_triplet.log",
+    "sha256": "3f20e551b4e05261b645ebd3e1235fcab3ec22dbdaf374881998822c4b3d92cc",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-valid_bracket.log",
+    "sha256": "af8a9143bf92b193d00be5b78603ba1fe378739719599f40b70a92752161867c",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-A-wide_gap.log",
+    "sha256": "4999f2aa5548541a20c1f007755350fa773d58bb4c6240b3740b8d92bc0ba6f8",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-mask_skew.log",
+    "sha256": "8bab19695dbe94df7c18c0f1f6dd7be65fe9eafe8f499ae7c937b223242f5e86",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-normal.log",
+    "sha256": "7c6c3dde6613c6cd98e50ec837e3b7090fa0a6da7b538db93591461d39857d4e",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-stale_triplet.log",
+    "sha256": "a4e20f04e1641b76331817c2e6549043af861cab32683685d564249df17fbc63",
+    "bytes": 186
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-valid_bracket.log",
+    "sha256": "e84d3b024743c6a52301e64ed839d0f93be330ed373067f2d54871533949294c",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-AB-wide_gap.log",
+    "sha256": "2f99f8e9741c57caa41fc372f1037532f6e5e899bd550c56712912b76f4109f1",
+    "bytes": 215
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-mask_skew.log",
+    "sha256": "adf6bdc5f6eefd9b661611b7733e2e1cca5331c8a50d71a73dead368afc7afe7",
+    "bytes": 186
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-normal.log",
+    "sha256": "ea192d148a939b65d5d0292365898fa734562d78d5af10967fca9f4ffaf87746",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-stale_triplet.log",
+    "sha256": "b31f23aab4dfe1bffc2bd0fefcb82c6696b7981ca35035a437273c504b170627",
+    "bytes": 186
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-valid_bracket.log",
+    "sha256": "636b29a2f11e655f7abe9ee397b2c075932cd65ff8a1043efe56415e873892ba",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m0-tf_gap-100000-B-wide_gap.log",
+    "sha256": "d3b568f7cda23ae914cae40c5e8bf025c64d829196643958d07d334578001596",
+    "bytes": 215
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-normal.log",
+    "sha256": "18fe72d9f5e23acad04bb9b680fe96fb243f5f7a13c37ec7073cf8d8e781dde1",
+    "bytes": 184
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-stale_triplet.log",
+    "sha256": "422f983931a57d8adb377f0716cab0a9a05704b8660c832ae6a7baae51dd1661",
+    "bytes": 155
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-valid_bracket.log",
+    "sha256": "18aa641a06a5132ebc0afa63b9c25efe194d543ff792462111420ba0da92a325",
+    "bytes": 184
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-A-wide_gap.log",
+    "sha256": "b430680994e32ec4c7db6bb7fcc61b07eb6fb68256b42d2597e36723df0968e4",
+    "bytes": 184
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-normal.log",
+    "sha256": "8e3f42896bb2f05981098bf098a7539d791344b7addd819a7b0c15b579d08e75",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-valid_bracket.log",
+    "sha256": "523b16605e18c2b053f6a1349824d2492a2c67e3ff5808c2eff1f30ab75a7727",
+    "bytes": 71
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-AB-wide_gap.log",
+    "sha256": "d7f75198cb6f23c68da818fe4d1c030e164c04dc16914746a53d3aebfae71e63",
+    "bytes": 215
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-normal.log",
+    "sha256": "551f35e5a399dccb5cb74edb049331cf4834b4229cbcf80599b8653432978bf3",
+    "bytes": 183
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-valid_bracket.log",
+    "sha256": "83c8136489569ad68c15bb9ab4a4fd000e911c5e22ec75515c41dc0e03a0cbf8",
+    "bytes": 183
+  },
+  "paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v2/pilot-m1-tf_gap-100000-B-wide_gap.log",
+    "sha256": "09f6c851f48013638e97baedc74fa6c56d58b2690dd7890c9d0cc237e63442a7",
+    "bytes": 215
+  },
+  "paired-ros-controls-v2/protocol-failure.json": {
+    "original": "/tmp/paired-ros-controls-v2/protocol-failure.json",
+    "sha256": "764982b752cbe55925716ea2beda2dba79afc6bf0d603916e658f5938654d71f",
+    "bytes": 214
+  },
+  "paired-ros-controls-v2/requests.jsonl": {
+    "original": "/tmp/paired-ros-controls-v2/requests.jsonl",
+    "sha256": "877f820fa2112edfabbec0d11265011297211b89331c15553c5318aaeed4008a",
+    "bytes": 121060
+  },
+  "paired-ros-controls-v2/ros-contract.md": {
+    "original": "/tmp/paired-ros-controls-v2/ros-contract.md",
+    "sha256": "b528c8471c291e4a9b288bf2625835bf9daa6e1d4801d030daa618d4eb000120",
+    "bytes": 5147
+  },
+  "paired-ros-controls-v2/ros_replay.source.py": {
+    "original": "/tmp/paired-ros-controls-v2/ros_replay.source.py",
+    "sha256": "4bd31b0283a7fdfc6d8f3af977c7fbfe4d3d5934e6a05b74848799cf44212afb",
+    "bytes": 23490
+  },
+  "paired-ros-controls-v3/manifest.json": {
+    "original": "/tmp/paired-ros-controls-v3/manifest.json",
+    "sha256": "2c36e99b91ef4ed576f518719837d22a7f459275ed4a27466dfcda28f5ca7573",
+    "bytes": 5948
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-mask_skew.log",
+    "sha256": "42184b6734839f14de97f3ef8221c842fe4d036ad96caad4084b3b3df5a37076",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-normal.log",
+    "sha256": "8389754cdcdcf440b1744ea25d5998b9b9150e8c8494cf861ab1a0f8b9a2df0a",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-stale_triplet.log",
+    "sha256": "61c7e57e92bc1262e934bfdcede5273342ee8fd1faf03a57e66d43b5f8d5660f",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-valid_bracket.log",
+    "sha256": "cb1c0a2e1c2e44d4396afe7adba8da89563d74cf4710d9d015e93520d968643f",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-A-wide_gap.log",
+    "sha256": "1e584954dfe3c0abc21e9fb28b727a613dfd0ecf5e6ea9e651bd32cf7332ef75",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-mask_skew.log",
+    "sha256": "d5257ff638d7a92e9d64f2e4b301f49d39e3d0df13e60dbbe6024c751e5c149f",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-normal.log",
+    "sha256": "a46869e5af25547d04f2db1acc1178713ae390d070722fcca3d5b97ec8c55f00",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-stale_triplet.log",
+    "sha256": "6a98b13f63af22e58b70a0839dc029592505d9fb3ad20dd0e02c571d4f0637a3",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-valid_bracket.log",
+    "sha256": "8a73e208d6d1e73f631765cf4e04a9b4ef9f762fedb16d625f6ba22cfb549ac5",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-AB-wide_gap.log",
+    "sha256": "67ce77438db560e284a64eb5c4dbf77629befdac10ab14a6f76a083ffb2e2ef2",
+    "bytes": 215
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-mask_skew.log",
+    "sha256": "2b4dadf026a80048e46cfc17573dc708f1151d37791035ce054e2fad8f7abee2",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-normal.log",
+    "sha256": "34b63122630d1a4bc81e33dffe588b89883879dd76a2806ef7b65dfb3cd3a9b6",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-stale_triplet.log",
+    "sha256": "d5d6a4223f5e21c32eb4cb149156932a4247e356f77d055c14aa905c4781b022",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-valid_bracket.log",
+    "sha256": "1ff834ee3ba658e1c56cf1b31bc925445a9ebf82c855fa73d3bb88038c4fa8be",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m0-tf_gap-100000-B-wide_gap.log",
+    "sha256": "1a73ad85d6c99a9ff507c3bd5f0f09424700f21ab1b1777f67a7dc9f1cc21bd9",
+    "bytes": 215
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-mask_skew.log",
+    "sha256": "e4ed17c6785c7579f62e729fce78dc6a7c603b46dbac19e6c930ac1e17031848",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-normal.log",
+    "sha256": "b482b26005ecc74f2a8ee6b40faf5d83019571a70b636fb27f2dff6519994969",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-stale_triplet.log",
+    "sha256": "7fc9baf701efb46ef1d26fd9b3e8d76517bb60b7c24940e8e7ef13156c4c8738",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-valid_bracket.log",
+    "sha256": "cbef16121d08aa8b5af25c6f0860b641efa9f0acd82d9f38839f0082a6d9cdc8",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-A-wide_gap.log",
+    "sha256": "dccb572fcc2edba8fdacc99c20268dd1a80009714bb26a519fc0d8397cc3ddd4",
+    "bytes": 184
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-mask_skew.log",
+    "sha256": "a46eb6fdb90de6fd1f27a8b6ab7183ab4dc8ff66cf2bd51f72c3d7393645bc74",
+    "bytes": 166
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-normal.log",
+    "sha256": "4ba29a59d325a4961eefa4adaea630cf71a12dbfbc7e41ed88334e00f0dc5dc5",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-stale_triplet.log",
+    "sha256": "b6a20fcc6b203d72d08e5b077ce97467fbee0eed95eb382de2da139c660e1f07",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-valid_bracket.log",
+    "sha256": "ec10aa21e3bc0e0ac170ec65adb21c45a1e45378987dbd0095d37ceb06cdf57f",
+    "bytes": 71
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-AB-wide_gap.log",
+    "sha256": "65f7fb328b41be844920a13e481fca90181307acba22da37447e3fd8458b1c02",
+    "bytes": 215
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-mask_skew.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-mask_skew.log",
+    "sha256": "4d67b7953ac819511879d107bd4ed300ee88708496eecb9d7b5a50eeafd0ab35",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-normal.log",
+    "sha256": "3f0c6938e977dd0a2c3cbfe4c7019e24c0598c5e91eb373da7ab50b46f8d6dae",
+    "bytes": 183
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-stale_triplet.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-stale_triplet.log",
+    "sha256": "3c972ef84637639678cb6289ea846003dc62da1b931c2715e8b3d8df54e259f0",
+    "bytes": 186
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-valid_bracket.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-valid_bracket.log",
+    "sha256": "f4734f9f8e077fd57f1b21f1e3478ff81ba964bbde1b5d37c2b1681e2de4ec36",
+    "bytes": 183
+  },
+  "paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-wide_gap.log": {
+    "original": "/tmp/paired-ros-controls-v3/pilot-m1-tf_gap-100000-B-wide_gap.log",
+    "sha256": "e818cb962a8183406c2883da5f94844eb7e67cd353e7464d5d97486c2e494dd9",
+    "bytes": 215
+  },
+  "paired-ros-controls-v3/requests.jsonl": {
+    "original": "/tmp/paired-ros-controls-v3/requests.jsonl",
+    "sha256": "2edea025cebd1934013cc85cd4869f75a5063defc02ee5fa112970ccaf93c120",
+    "bytes": 141086
+  },
+  "paired-ros-controls-v3/ros-contract.md": {
+    "original": "/tmp/paired-ros-controls-v3/ros-contract.md",
+    "sha256": "462cfe67aac9a9163f104f601ca576b1c4e3f5665dbe2654a34f92b3e07e3b11",
+    "bytes": 5844
+  },
+  "paired-ros-controls-v3/ros_replay.source.py": {
+    "original": "/tmp/paired-ros-controls-v3/ros_replay.source.py",
+    "sha256": "407be9d73e5cde84fe0c14cc32991f6054234d8925fb9d13084b02318d05be5c",
+    "bytes": 26763
+  },
+  "paired-ros-controls-v3/summary.json": {
+    "original": "/tmp/paired-ros-controls-v3/summary.json",
+    "sha256": "b38405a4b65d26552c43f50ee8103afbd2bae83b7c508d33a03fcd157e0de29b",
+    "bytes": 80309
+  },
+  "paired-ros-smoke-v1/manifest.json": {
+    "original": "/tmp/paired-ros-smoke-v1/manifest.json",
+    "sha256": "951cf238714620abd1c6ecb325d1ac96c6f86f1a66fd06907722abe5222f09b8",
+    "bytes": 1574
+  },
+  "paired-ros-smoke-v1/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v1/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "2170006f8e0088eeffe37d5b974e803c0b4bfe016f2498e8a286b5b4ebce9872",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v1/requests.jsonl": {
+    "original": "/tmp/paired-ros-smoke-v1/requests.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "paired-ros-smoke-v2/manifest.json": {
+    "original": "/tmp/paired-ros-smoke-v2/manifest.json",
+    "sha256": "6eb1d83692e8b71113eba3d954698c6da543e3b7f7b42073f4d92bbaf1f22786",
+    "bytes": 2893
+  },
+  "paired-ros-smoke-v2/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "1eace8db38f0a0a4e37dfdcad901b3cd8bee8576ebdc33fedaac7b9423bc1663",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v2/pilot-m0-clean-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m0-clean-100000-AB-normal.log",
+    "sha256": "b7f20bcd595b7e748d120e38fd0ae26972a8af82802f467c188127b24c6bdedb",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v2/pilot-m0-clean-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m0-clean-100000-B-normal.log",
+    "sha256": "9eb9d81260caee27aa3d7eb3530d7607e9beb3bdc2c03f73d9ce4f8f70f6f174",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v2/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "04b2e70cde486b13c2a57aedf7492e040ce1ad2d550c7bad70aac539ff890028",
+    "bytes": 184
+  },
+  "paired-ros-smoke-v2/pilot-m1-clean-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m1-clean-100000-AB-normal.log",
+    "sha256": "ba01265bdb7aedd6ed2cfff55e7a24784a35f3eeaac252234467cdd905eba571",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v2/pilot-m1-clean-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v2/pilot-m1-clean-100000-B-normal.log",
+    "sha256": "1070a86fbb29552150e5010415b5be0c6a37aa1958329def3bea0dd9ebf67bd8",
+    "bytes": 200
+  },
+  "paired-ros-smoke-v2/requests.jsonl": {
+    "original": "/tmp/paired-ros-smoke-v2/requests.jsonl",
+    "sha256": "65dff2bcff911cd277b0f9c0fd62c9d82d07e712a1b7b696477bfc92f914408a",
+    "bytes": 30511
+  },
+  "paired-ros-smoke-v2/summary.json": {
+    "original": "/tmp/paired-ros-smoke-v2/summary.json",
+    "sha256": "fc7656651502c6d251ee0a68da48f587c49814114832725ed13677e54bd4f3fd",
+    "bytes": 10827
+  },
+  "paired-ros-smoke-v3-probe/manifest.json": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/manifest.json",
+    "sha256": "ba1b99d66b67b88e76f28d83963e757845d08a273fae9dc16e78bb063252cf81",
+    "bytes": 3828
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal-action.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal-action.cdr",
+    "sha256": "064d1af713882dd19b9b9aa1676607db8276c40293020fe16093eab9ce132745",
+    "bytes": 1484
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal-topic.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal-topic.cdr",
+    "sha256": "87f43e1d57916bf8c96bb183a4427b46f13557c98c33705db05c5b567fcc32d9",
+    "bytes": 1484
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "aca16c53d561fcc3485de1e33d55df885c67981e372a18389258bd15041a4603",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal-action.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal-action.cdr",
+    "sha256": "2a98bf1725725d9c07933b0fff39a12b371215e82e3e2a6b651cd59b4432ed74",
+    "bytes": 1724
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal-topic.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal-topic.cdr",
+    "sha256": "4a2127693aad3d8c0bf9fb72d9a705437c04939dae688c62e04417342d7ac3a5",
+    "bytes": 1724
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-AB-normal.log",
+    "sha256": "588613de6478e750e4f32ce99f7cc2affc019807acdc1b733bd146e0b555131a",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal-action.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal-action.cdr",
+    "sha256": "19cc6b81e3896d8455109e4d368872757087600148ee199d799928aaa8392864",
+    "bytes": 1484
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal-topic.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal-topic.cdr",
+    "sha256": "8ad84af4cbd5759cf3b745cc69982cb42b84d988212214f7616ac297bcdc7421",
+    "bytes": 1484
+  },
+  "paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m0-clean-100000-B-normal.log",
+    "sha256": "7b5b7690cd07c415f772b80f26277b18d2b9da0540e76bb4cc4151ceb090ee57",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v3-probe/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "a6b1726f4fe7b0bd95d0a28071b2f50398dcbacf14f17382c724cb388662d800",
+    "bytes": 184
+  },
+  "paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal-action.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal-action.cdr",
+    "sha256": "3f994d733b569b516fe074fad0456bc86931d8ea7a5fe7a3e5cfd65150098a69",
+    "bytes": 3044
+  },
+  "paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal-topic.cdr": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal-topic.cdr",
+    "sha256": "e7b0db1ade9e6da3fde454abcbdd7d3fe67c71eca148240fd84826839e2a8812",
+    "bytes": 3044
+  },
+  "paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m1-clean-100000-AB-normal.log",
+    "sha256": "7aebd2756b3fb2106918a5fbcfdffd698ae0bab59921741db44ee86d0a4cce2a",
+    "bytes": 71
+  },
+  "paired-ros-smoke-v3-probe/pilot-m1-clean-100000-B-normal.log": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/pilot-m1-clean-100000-B-normal.log",
+    "sha256": "678983b6659d05f052e3b80978caba50443cfd5e38a526d1f9caa1bff95e8735",
+    "bytes": 200
+  },
+  "paired-ros-smoke-v3-probe/requests.jsonl": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/requests.jsonl",
+    "sha256": "9d4c18d095ee85a637e712df156036858a91de518cd5bffd706a47872d5b3ec2",
+    "bytes": 33858
+  },
+  "paired-ros-smoke-v3-probe/summary.json": {
+    "original": "/tmp/paired-ros-smoke-v3-probe/summary.json",
+    "sha256": "07e2119b354d47c9f23f1ff5f3ea12b15499d59a915e0c8c665f602b7cc59e5d",
+    "bytes": 10824
+  },
+  "paired-transport-fresh-v1/contexts.jsonl": {
+    "original": "/tmp/paired-transport-fresh-v1/contexts.jsonl",
+    "sha256": "f29e8e1043409ad83467543fd65522d5ccafb8a5b8c268cda8053cca1487fc9f",
+    "bytes": 6760
+  },
+  "paired-transport-fresh-v1/manifest.json": {
+    "original": "/tmp/paired-transport-fresh-v1/manifest.json",
+    "sha256": "b484a1c7dadce9a30d5085810d18fd0d0f323b07fc812ceab7157ccc8c70e1ff",
+    "bytes": 2855
+  },
+  "paired-transport-fresh-v1/probe-failures.jsonl": {
+    "original": "/tmp/paired-transport-fresh-v1/probe-failures.jsonl",
+    "sha256": "db7edc9b2215173275c45521ba8716b4176f276ad3e0cb6bf5d4288cab4badde",
+    "bytes": 7600
+  },
+  "paired-transport-fresh-v1/requests.jsonl": {
+    "original": "/tmp/paired-transport-fresh-v1/requests.jsonl",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "paired-transport-fresh-v1/ros-contract.md": {
+    "original": "/tmp/paired-transport-fresh-v1/ros-contract.md",
+    "sha256": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "bytes": 7560
+  },
+  "paired-transport-fresh-v1/ros_replay.source.py": {
+    "original": "/tmp/paired-transport-fresh-v1/ros_replay.source.py",
+    "sha256": "dcda75b669a0bde4b7751062a5b8cc682059899d29a0f0a03bf14f4bd9733405",
+    "bytes": 30735
+  },
+  "paired-transport-fresh-v1/summary.json": {
+    "original": "/tmp/paired-transport-fresh-v1/summary.json",
+    "sha256": "462a60568b6e2a2d9575300e6bc81de15a9f8291d8e34425fb8560377b13aee1",
+    "bytes": 35
+  },
+  "paired-transport-fresh-v2/contexts.jsonl": {
+    "original": "/tmp/paired-transport-fresh-v2/contexts.jsonl",
+    "sha256": "f24f663b633a596f3c5d7cc69a9ccee701f7de77ed27f250adf8c3726d4b2ced",
+    "bytes": 9840
+  },
+  "paired-transport-fresh-v2/manifest.json": {
+    "original": "/tmp/paired-transport-fresh-v2/manifest.json",
+    "sha256": "90421aca2ba52236eab7f5d7800cf8382964bed9823b631a83f201e79856b81d",
+    "bytes": 12002
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100000-A-normal-endpoints.json",
+    "sha256": "5ad07b8ba30c9c219d455193db4eed0dae4fb6f924ce36700d8b9f65c6bbdee6",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "c5b11c8e320d7725d9463a8384c07226c18b5a84bc1369a2f248f559b91cf77c",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100001-A-normal-endpoints.json",
+    "sha256": "e38f576d864b732327c0d294ca7074371fe9019deed50e4fcbf45f93161bff23",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100001-A-normal.log",
+    "sha256": "a7bf9eb58a60c3de1bce720f7ae7710eb39045e57d210ce89576f35e27f6e452",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100002-A-normal-endpoints.json",
+    "sha256": "ecb978a3b1bd4bf64cf2d90e507a9084ba47e1c4a42df610901eacdad43a3075",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100002-A-normal.log",
+    "sha256": "f2eab293b20cfb1a89c7a69008e0e07b26b7e604fc69d49b0b09187d91cfc24d",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100003-A-normal-endpoints.json",
+    "sha256": "216f9ac33c0ccaf8d444cea9033d4693f5a2fb7d65c6b98604008048bc4c949c",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100003-A-normal.log",
+    "sha256": "045d129bf0cf05ab12aa82ebf69af767847b824b46346322c404dade5ca42af1",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100004-A-normal-endpoints.json",
+    "sha256": "d30048ec66af536102005592b367de81412296aa89f2c226399075af6a8aff3a",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100004-A-normal.log",
+    "sha256": "d8687c189d8fb0d68e5acefd4a61eb56e7805c77bd60a26067ac36791c488d37",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100005-A-normal-endpoints.json",
+    "sha256": "df810b1136c3f255904e7d69af7bac0aeb1d6e15e4aae22ac8d5e083bb05454c",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100005-A-normal.log",
+    "sha256": "daa259feed4efa886c78c0d77ae181d4c0acdb7e106b84461b4e37b077bfb270",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100006-A-normal-endpoints.json",
+    "sha256": "9807c829b095d546161c67186a49542b1037d4afe8b95bdd69b511dd8453ce14",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100006-A-normal.log",
+    "sha256": "8205c0a932a8540088fa967372461502b850428dbeaf32a95c9a54ea36b6efab",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100007-A-normal-endpoints.json",
+    "sha256": "1f99222db3ec20093524a688af2819c854db5c6429f09d960a889dd49c95e31e",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100007-A-normal.log",
+    "sha256": "b5bbf16731f76b1583309288cbd5c6ba64f3da36c330fcd197bc276845675106",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100008-A-normal-endpoints.json",
+    "sha256": "0ba7fa2b9758b9f5395d6ec05a408bac890edce7e5e884d31a9624d10b10cedf",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100008-A-normal.log",
+    "sha256": "edd547d70d7b5f9ea33ba6b7ef614439678df8535b9c3de006a80bc8a94e1335",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100009-A-normal-endpoints.json",
+    "sha256": "a43ab3e9f8e0bd0436b85746ba2669d38ab63f0ca87f7194b80c3896d940ec57",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100009-A-normal.log",
+    "sha256": "d1120c5889cce2bbed0665621a7840233127d53bc7132992fe78f8df22974c2e",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100010-A-normal-endpoints.json",
+    "sha256": "dee8e7e48cacddc6df6975420386a287d1a20cd5d673290e1779f953819b3695",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100010-A-normal.log",
+    "sha256": "534fd6f0076e8a363558229acef26989a5ffe1caf89a8360327d739a0b0a9b14",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100011-A-normal-endpoints.json",
+    "sha256": "075b8647a67a36223e02596f952e791277ff91fdf3dfc8e36e33970b490264e2",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100011-A-normal.log",
+    "sha256": "b05bb36114dc45259f5ba3ec434371a633ebf7e1b60d5c0e21bc89285f2005b9",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100012-A-normal-endpoints.json",
+    "sha256": "7c4010bfb32a619d71bf26f82ae4f2a373ea29aadab221682f2b46ac3d07da5b",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100012-A-normal.log",
+    "sha256": "9a440c6b6e54c4236b6e25d7f35ac4126cdf3de6f3d447738736485816f627fc",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100013-A-normal-endpoints.json",
+    "sha256": "6438c96f3b30567774718fae0351ebf5eba935492d944cd4c6e12f10422bd8c9",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100013-A-normal.log",
+    "sha256": "4a7e598dd1159c8878b76e23264c694a5f12476cbc16f0e1c36f4788e73c2487",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100014-A-normal-endpoints.json",
+    "sha256": "e27baa3a9449fec4a7a776ab31637b20f9a3f33eea03be80d3c8ac9ad79ef966",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100014-A-normal.log",
+    "sha256": "ca324a817dc0ee239dc4e91cc6dd656d25879e2ba4a9467fbbcf33324b5b47e0",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100015-A-normal-endpoints.json",
+    "sha256": "9aa94a337a21d2de7803b35005ae41e2c2bb6794e9042f73abc64e83bc37525b",
+    "bytes": 385
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100015-A-normal.log",
+    "sha256": "c81aaf20dbf720afed2a3f5cb78aa3b51019f093ce3606f4d1478e7042f2983a",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100016-A-normal-endpoints.json",
+    "sha256": "a29635692b723266643c268164f61f0244eca6040493648b197a3edc05faf474",
+    "bytes": 384
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100016-A-normal.log",
+    "sha256": "dbc1248a9300a5f14079507ad20a2ead5da9d756dfa2b0cd1d63d174236f8a41",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100017-A-normal-endpoints.json",
+    "sha256": "19cd77efcbb58541b53aa91009689b3ba2f21d48d1cf0e9dff47df357b9da118",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100017-A-normal.log",
+    "sha256": "792cc5675c99e0c9de3443c04e674cee35ef4a8bdafdfe33409985c8080c729d",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100018-A-normal-endpoints.json",
+    "sha256": "91ed9966e7e4d624dd361639871a04e878508a45041164ac24b25a1cb4be842a",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100018-A-normal.log",
+    "sha256": "90c5788c34a9f41c4869cec9779adcf01351307eb426c9c6690437d04926278e",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100019-A-normal-endpoints.json",
+    "sha256": "1f1dbe1daf8f3ed251581e5a5cccf7031be2274320e37268671791b872eea4b7",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m0-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m0-clean-100019-A-normal.log",
+    "sha256": "87e8160bf6716cc200bcc29ab277279123aca0b8470e74bd9f8f2859dbea1949",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100000-A-normal-endpoints.json",
+    "sha256": "21d296f2c23168f9d4908eda02b5e4c38d20bac54bbb0f57ba265f5c55fd2097",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "cc5415185f998e16455d4a6b5e74ed494fda56d142ce23ea1e4ce43ebe0fb35b",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100001-A-normal-endpoints.json",
+    "sha256": "f58a8dd8e6c915fb3a753361b4f21f21f1f3142475a8acaf60acfb4d46955189",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100001-A-normal.log",
+    "sha256": "a8ca8f15cdd58e2fc618c95c24938616a4744418507dac43e6066869b9b464b8",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100002-A-normal-endpoints.json",
+    "sha256": "1797d68d7537e3eded0e9dde8a92b3485a9764493dcd3bc74de83cec51a26e50",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100002-A-normal.log",
+    "sha256": "6941755e048a260a23fc06a199e72d98107aeecf80e805b03e70e2e8e62b2def",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100003-A-normal-endpoints.json",
+    "sha256": "e456c03c696489de72db9a8992456647ec39f0ca99c90e267d003fb36d046ae5",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100003-A-normal.log",
+    "sha256": "d0a235cc3ddd25c7d563ce58b6a1c4cb6b6611c9bf04cf5f1cafb4d894e867fb",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100004-A-normal-endpoints.json",
+    "sha256": "bdf3b544569c38209924f31882516a6fc134eae3afe985b314faac24944992d0",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100004-A-normal.log",
+    "sha256": "44b87e342448262c4a090da8303ec830143e89c19d4de61d38ccc25043acf10b",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100005-A-normal-endpoints.json",
+    "sha256": "2de37711064355a5dbe8336fce4f3ec5f0f47a661f26c8e5f5c22f715916f84a",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100005-A-normal.log",
+    "sha256": "bfba1a7c5eb89a123b66eea5727b4e28caafa4cd1e693f7086fa445fd7987b20",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100006-A-normal-endpoints.json",
+    "sha256": "cb4046a7fc623f71ae25583c3748b3aac2aeedbc94f1756f95ba0e72aae8713e",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100006-A-normal.log",
+    "sha256": "430ce9fd379d7f453df842c59063253b019da1cdc2e1131a9d4a6f93b4557aa1",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100007-A-normal-endpoints.json",
+    "sha256": "43cfa1ace0e7cac9c09933b0ab6c7b1851373d0a107811a0dc5471d218434b26",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100007-A-normal.log",
+    "sha256": "53d6602f9bccab293264a72e8ba9c385a187914d9a6ac278cf1d3b77a30b6a26",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100008-A-normal-endpoints.json",
+    "sha256": "5807a83762c42429a484d552ec54a5c0f85c5551c3793a6774f4a9998c9397a9",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100008-A-normal.log",
+    "sha256": "0c6d6272aff54d5890006df8a3adbaf35120b438a861b671075d5db7f505c841",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100009-A-normal-endpoints.json",
+    "sha256": "123709984325ed8a1d7960115bfdf8733b6de6b875779ee8674fbec86e1f8568",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100009-A-normal.log",
+    "sha256": "17de65b973df24095b7173a11e4c58cb34f9470740af8d0b0b59ec30daa180a8",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100010-A-normal-endpoints.json",
+    "sha256": "b6166fc9cc1c1b50585a82975c73b0a1c7878cf28bee28ce7637dfb958a4d28d",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100010-A-normal.log",
+    "sha256": "aa64d11e7dcb47eb682169e85159b7c9f3ea9c59549cd509ea096979dd260b11",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100011-A-normal-endpoints.json",
+    "sha256": "e0fded0c3fa21ae0a2f2b471da20bfa209a0e331ef62f6a471bc826bc5cf4c4c",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100011-A-normal.log",
+    "sha256": "fb307c2ff0a8dae2eaf64b37ee8a699df77a3131ff2f133bdc8ffb95ec487c8c",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100012-A-normal-endpoints.json",
+    "sha256": "30556bb8131eaa0b7dc8efad835a66bc9b1cc6d744aaa03577a91d95705abd52",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100012-A-normal.log",
+    "sha256": "7d4fd44f1271e2f8c1ad7e4040c9a264bd51769a2fd4604bef6e42ffd6ffd5e1",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100013-A-normal-endpoints.json",
+    "sha256": "8980729dfca26eefc8ad23c01a0bf9e4d1e1cb08a5bb5d34ec28d19f85088402",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100013-A-normal.log",
+    "sha256": "2e45eed0017bc42965bd723dbfb35f2c8b51b7ee5a30156c9b39151ce44fcef1",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100014-A-normal-endpoints.json",
+    "sha256": "28e99012b771ecc2c0155d36ba801106dfdf80219134bc1083b2dd1355037361",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100014-A-normal.log",
+    "sha256": "9045df125181cd60bb6c469a050bc9d8dad6c318ee410a3b4b9e1b64faa7b83b",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100015-A-normal-endpoints.json",
+    "sha256": "607b48d0ba3eae87e0dc3ab83b31b7f6b9d4cefb43e8ab3bd7682d53d447bd39",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100015-A-normal.log",
+    "sha256": "b2fe2ba4232f8121452ec3e22b0aebb529028a0f4fa3537b581bd3c2cd664942",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100016-A-normal-endpoints.json",
+    "sha256": "ecb70aa523ecf88397ce537a583054087d300fbc4a24a7f0ad3615dd14fde3e6",
+    "bytes": 386
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100016-A-normal.log",
+    "sha256": "33a1078f13fc7b3f0a0f6252853217feea79965697f4c14b8f299c9545b85c7f",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100017-A-normal-endpoints.json",
+    "sha256": "b55a088da047702e2d37dc3b129dfab48fc4f5b143f27eed602bddb985615981",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100017-A-normal.log",
+    "sha256": "27e41aa937ca0628d52054789ad5010935a71e94179b8a167d74d16e8aae0806",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100018-A-normal-endpoints.json",
+    "sha256": "ba9104f83cdf6ebab6d56b7a78a508cddb71bb1f3597d3bc48f62c63239498aa",
+    "bytes": 387
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100018-A-normal.log",
+    "sha256": "4405e2c6857566f71edb16132b58e30f288a31ce5e4a2e376a448747a52ae1fe",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100019-A-normal-endpoints.json",
+    "sha256": "a6c4371e98a8fbd122064fa30a4f5ccefff419c2ba1c69f2d846896ffc069791",
+    "bytes": 388
+  },
+  "paired-transport-fresh-v2/pilot-m1-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-fresh-v2/pilot-m1-clean-100019-A-normal.log",
+    "sha256": "c5b5f20cea2ae70391c79456b1c663e326ac5f1426778414786b82cb08f86dae",
+    "bytes": 154
+  },
+  "paired-transport-fresh-v2/requests.jsonl": {
+    "original": "/tmp/paired-transport-fresh-v2/requests.jsonl",
+    "sha256": "6ad61608cb2a957f167b3f9be7124dd40fc1c29e1a3b68f313ec9327e4b05aaf",
+    "bytes": 74853
+  },
+  "paired-transport-fresh-v2/ros-contract.md": {
+    "original": "/tmp/paired-transport-fresh-v2/ros-contract.md",
+    "sha256": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "bytes": 7560
+  },
+  "paired-transport-fresh-v2/ros_replay.source.py": {
+    "original": "/tmp/paired-transport-fresh-v2/ros_replay.source.py",
+    "sha256": "22fd42ddc67a1248f66fa91d185b0a7ae242ce0961a7886989e8eefc9d29de10",
+    "bytes": 30707
+  },
+  "paired-transport-fresh-v2/summary.json": {
+    "original": "/tmp/paired-transport-fresh-v2/summary.json",
+    "sha256": "4162a0c4413793e51f5565c189e8c5536d9be70a198899072e4a0002ffaaadbb",
+    "bytes": 58
+  },
+  "paired-transport-reused-v1/manifest.json": {
+    "original": "/tmp/paired-transport-reused-v1/manifest.json",
+    "sha256": "ad58dff36310456e696e9b3b8340bfae32c35d2deaf44f42e4a67146923d6843",
+    "bytes": 12369
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100000-A-normal-endpoints.json",
+    "sha256": "3593fd5a9ed232b9fb8dec62340a7d76bd02149c5b990205e3282bdfd49d608a",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "c65595850602a7e1f2ffcd3b602165f9a30aee004ef9aad6d8e9a9abfe791d4b",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100001-A-normal-endpoints.json",
+    "sha256": "3644af1ac2cfac62bd2ed606f2654367cf4c48efdca8d84fe0761b518e4fe924",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100001-A-normal.log",
+    "sha256": "3c884de4b6a05fb673d6f6c9cde5639a9415370df6e3340d845a277d931305b3",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100002-A-normal-endpoints.json",
+    "sha256": "3cca1a08604a8b1152fe366d398ed7a8aca42031d0b6cec007ac98d7c7661fd6",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100002-A-normal.log",
+    "sha256": "ad27053c7f4aef197f631108b80bc21c85c7c2ebb1436c75df7d7102d5cff330",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100003-A-normal-endpoints.json",
+    "sha256": "35c578d18b3f3e85e35d0cac1b40ab3a3203d0b442759a1057fc5bb65b0bc1bd",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100003-A-normal.log",
+    "sha256": "69908767529c8948af1cf38161ba07044c193560d6cfa600d792dc975a227b49",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100004-A-normal-endpoints.json",
+    "sha256": "ee0bc2877e600216364fb2e51f485016a7040a9d7cd2ce143fe149618a295e3f",
+    "bytes": 394
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100004-A-normal.log",
+    "sha256": "ee5cd5ac368ba944fd2bfa06279a1475397303056ffd1412ab10aa55359dac74",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100005-A-normal-endpoints.json",
+    "sha256": "c07d73b3bbd5e7e6ae5d494e7580652db447ed96f2fe28b6f1e5d521ce9bc549",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100005-A-normal.log",
+    "sha256": "a692f0c715f54b075ac6c5e2bdae43dff9c7d4c25e6b63a437690aa963338493",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100006-A-normal-endpoints.json",
+    "sha256": "4976d58b629e355eca9bba9b3337516d6e416730596ec92eb1064882e6074283",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100006-A-normal.log",
+    "sha256": "7e014949249d7347a9a15eb4073a0127b5d7662eedc9b9f26a76ad98853245ce",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100007-A-normal-endpoints.json",
+    "sha256": "7bd60c6ca6b3c93806249ef003ba5f06f9b954307ea77cbf338b4db4e0744bf3",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100007-A-normal.log",
+    "sha256": "c55179223c23ec60aebb34e4021828a5a3eaef7a980baff4dd5305b0658e03a8",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100008-A-normal-endpoints.json",
+    "sha256": "452738b3e59e1d5a594e4a1c327a39979b9988c0e158ef49f6abc4491d440965",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100008-A-normal.log",
+    "sha256": "0547ce5502ea6fc8f8c2146ffade3e8cc11b4ac7178f4f4bb8201789bfbc5799",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100009-A-normal-endpoints.json",
+    "sha256": "e72f05370f9c1e2e55412fae34978d3b8f765f1ab19b6fec18ee5d8ff8e581a2",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100009-A-normal.log",
+    "sha256": "2d586db933fc7cae8b1c1e637dc2cd6e1af3698d83e0c14b5cfab83e125eaa48",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100010-A-normal-endpoints.json",
+    "sha256": "1eb8062769b91162b41d084d8b6f5217ec85c79ec315cce8f1f407af6db9469f",
+    "bytes": 391
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100010-A-normal.log",
+    "sha256": "944ec474ee848786db9c3a27c2e934f415e3880753b337d9d430809673d1c6c2",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100011-A-normal-endpoints.json",
+    "sha256": "2a80adbc1972ef30726de9cbf93d4b4fc44a48452a4b4e03001f48c4f17876d8",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100011-A-normal.log",
+    "sha256": "9daac20e5df79aec85b5eb6a2e51c5d1e5effa3818c97612e381a7b5522dd620",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100012-A-normal-endpoints.json",
+    "sha256": "a0aa7994c00c13475cdcac2b07e76e1d19905c43c003c03992660e2e0a542fd6",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100012-A-normal.log",
+    "sha256": "ed2e43713e5a14501e60cc0a4f9e9ffb7d7560d121ff5934114d58d89e167ecc",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100013-A-normal-endpoints.json",
+    "sha256": "6a908853b73cf8b30e409823a88f52c570b90f8579883286b140e32640cb25cb",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100013-A-normal.log",
+    "sha256": "1d0c1e1a1ca3a233d5ebd35a913c4502234f6a00d219bdc7f59fe84e354527c5",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100014-A-normal-endpoints.json",
+    "sha256": "10bd5e6fe05cdd010ea291ecb28dc1c97752d8fa1fa02650d586f4d5bfd13676",
+    "bytes": 395
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100014-A-normal.log",
+    "sha256": "06f74cbf6acb89fc261c46368c9ce9cce9f033b7f38b61ce14099d20a6ad1ed6",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100015-A-normal-endpoints.json",
+    "sha256": "49ac1330ca8acf75cbf41e8440c7080d62a9c682d81f9eb9e4ce030317ec5425",
+    "bytes": 385
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100015-A-normal.log",
+    "sha256": "918ac3149f79edc0d99190280bc1748d591d8779c49844a24091bd6954c1766d",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100016-A-normal-endpoints.json",
+    "sha256": "fd4a0aa8e56415996e669547ba7589b26a525ff4bfb6cf214bc350847ae1af0e",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100016-A-normal.log",
+    "sha256": "c2dfe3e787c8581235cfbbe37c5b5c252e557204f39c1a295044cddb4a9ad55b",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100017-A-normal-endpoints.json",
+    "sha256": "ecb8bec989934db7bfee9f98c96db0ef2bfbcd628a74cc549fca763d62fb6a8b",
+    "bytes": 385
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100017-A-normal.log",
+    "sha256": "51cad70289c40241a1e58c1045287cc65cb4cfd9ee4c93e9cd9bb4d2bb5393a6",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100018-A-normal-endpoints.json",
+    "sha256": "3d2f4939e46945f30f88234942c7de82d4b9b5d9cfbaac1df6c987a75c9b4b5d",
+    "bytes": 395
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100018-A-normal.log",
+    "sha256": "8cf334ada3599734950953f827364b8753e5dfdabcdbc15cca09174eaba4ebbe",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100019-A-normal-endpoints.json",
+    "sha256": "11a093b54e5ca483143aa6af637cc84092c84d8a354d4fb47eeda19d47bcee1b",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m0-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m0-clean-100019-A-normal.log",
+    "sha256": "d93c943a9987011223c8281c280a93861fe188565ac88eb93b0b92a49714fad9",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100000-A-normal-endpoints.json",
+    "sha256": "3db6834f5ea308f8b1f5c43c826ba2463fda2c057b0782538da73cd9e0a8cb09",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "375d2d863eb9dd9f0931a2291a65684657590156eb5f08b012f09d38df52aa5c",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100001-A-normal-endpoints.json",
+    "sha256": "cf826de30b657cbc05abd75837fbb10ec746b8e20cd7e73c62849caaab22a46d",
+    "bytes": 396
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100001-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100001-A-normal-heartbeat.json",
+    "sha256": "b4087badef6b6aa46bdd445c8aee5cafeb0051e8dea3beab7305b3f1a080ea93",
+    "bytes": 169
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100001-A-normal.log",
+    "sha256": "39252d49ce356af49420baa0fa6ae86ae7924bb0d4c41189592ef248e9b46d67",
+    "bytes": 299
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100002-A-normal-endpoints.json",
+    "sha256": "65becc0e0e20330250e47d4ba5cf2d6f978981c955c509b738cb7534d5c77f77",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100002-A-normal.log",
+    "sha256": "4a685a6c86edaa4f0462d1794bad9b507247d9029071149d996e0ceec714e0c4",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100003-A-normal-endpoints.json",
+    "sha256": "6f1902d3ecdf7077a0552de98130e708f7f7518c98f1da7870878d7fd092851c",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100003-A-normal.log",
+    "sha256": "bf2c7f7cd51b61ab7aa358d0663d514910344fc2ebf2366478efc0a534c17c43",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100004-A-normal-endpoints.json",
+    "sha256": "541182916ff5f3f3d0ac420403a5a6b097cafd9e81668fe8448db8213c0fc618",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100004-A-normal.log",
+    "sha256": "e8671bf36ba811f5e623ee74ad3caaaf8c64085442287c8269c4efaad982b8b5",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100005-A-normal-endpoints.json",
+    "sha256": "2c5fda629721ba080567757cc5c70812c089dfe159a1d3b433de3a471da8a816",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100005-A-normal.log",
+    "sha256": "2398c82ed4446b39cc397bef608e0564ee01b4e52dd3f22bb3faa98afbf98c30",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100006-A-normal-endpoints.json",
+    "sha256": "3c1f0e1e8ec8f08f4ab45367f29f9e44a1e97761ac83ee866f46e8c4d07aa028",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100006-A-normal.log",
+    "sha256": "8c9266c7bd03e6ddd868256688cbd952d45f8d71fe1143a2cf1b12a0c340aed5",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100007-A-normal-endpoints.json",
+    "sha256": "59abd561255ff248937094394ca716b5dbc0c5fdd22e56c8dd5aaf2b31a57d06",
+    "bytes": 394
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100007-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100007-A-normal-heartbeat.json",
+    "sha256": "409b0a3ce30cd48d183ecffa428b448170f19a03b311d2107e3825cae3f41daf",
+    "bytes": 170
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100007-A-normal.log",
+    "sha256": "28f655f97984ce05e87e3b14c0defc169248912d3de7b9a2a30ab624cc7aae60",
+    "bytes": 299
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100008-A-normal-endpoints.json",
+    "sha256": "c9b7c6024bb0f9cbd050e52e8016f95b65138c572f85a0a31a6fafe0d8c2126d",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100008-A-normal.log",
+    "sha256": "519973a50261baa2b43476a39619f6571322ba08142e998cdc522d9dc4cf4c63",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100009-A-normal-endpoints.json",
+    "sha256": "8138865abb6f50d0ee916d5d083316f70dec60a0ba7fcf1a3d8fdc9211d1b2c9",
+    "bytes": 393
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100009-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100009-A-normal-heartbeat.json",
+    "sha256": "d6a761f19f39404185eb2b6281ebeea8db2b63fba8ba04f0c1b3e7c2d0f37418",
+    "bytes": 170
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100009-A-normal.log",
+    "sha256": "e9155b5d6b861a63e08f5b5a66312f9c15aed3427255c40443a20f91693e0c08",
+    "bytes": 299
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100010-A-normal-endpoints.json",
+    "sha256": "4702cb8e74266ee506a14893cf828e3f578ade96247f85247a7564f942f3ecd4",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100010-A-normal.log",
+    "sha256": "06085791452d7956fdb0b08773c6dd117bac8fd75a3cd373e9401363e7ff13cb",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100011-A-normal-endpoints.json",
+    "sha256": "1ce9447d14d72fb12353f91426d7b0df4583f5ebae1110cbe3f2d2d61584c9ab",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100011-A-normal.log",
+    "sha256": "dfae5e324a0f679136588f842fa7b5ab35f5945a543e88d23fc5a8b4b6466248",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100012-A-normal-endpoints.json",
+    "sha256": "cdc27e25949da342901cc40c3761e3d07e83ea59b7c14a4c32ed8ff5f1b3010b",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100012-A-normal.log",
+    "sha256": "de63a7423157d53bb32548023545d28915a81a2e4399a0cc6023637845827b5a",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100013-A-normal-endpoints.json",
+    "sha256": "9918fb18b0f7b5fe2f7b6cd848f3b006be570ebb43a6b7baed658778f089e10a",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100013-A-normal.log",
+    "sha256": "fe558469a634440deda9ee9784c882eb00257e916b43fef777953eba5b130713",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100014-A-normal-endpoints.json",
+    "sha256": "c1482110876154e2dbde478f97a97cfc69ee4bf1050ed6300b7aa2df630c2e5c",
+    "bytes": 385
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100014-A-normal.log",
+    "sha256": "61867b85efe45ce40710974cbe55867cf009b8939071f7e9903f22b2e6375ca1",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100015-A-normal-endpoints.json",
+    "sha256": "828962ec750fcc7bb0cf1ba5a78ad1d15279cf5f7ef4c85b1e20478b816ba81f",
+    "bytes": 388
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100015-A-normal.log",
+    "sha256": "148c8ec64aeba2587a42912e785a5f93c9377eb3ca3dc764d49210f1f63bd223",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100016-A-normal-endpoints.json",
+    "sha256": "07494df6a7f078c2f33ae05febcd3082dfd154f7181ea501a90c47313337d9bb",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100016-A-normal.log",
+    "sha256": "62aa182f6a99ce19537a3cef84acaeeab2e9199b8b1291a541ff8fc71cc1243d",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100017-A-normal-endpoints.json",
+    "sha256": "a35d527379f926a4bdb704e87e45ac3884009b20d9412714fb374cde94a01ae8",
+    "bytes": 386
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100017-A-normal.log",
+    "sha256": "7617d94cb883d7b4738beca8ee5ead395654debda5cb00c5b0f3b86046403cef",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100018-A-normal-endpoints.json",
+    "sha256": "8d19b81f0395337f7f155bf9286c440da7d9a7a68e188d4343d0321cc7aa19b2",
+    "bytes": 394
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100018-A-normal.log",
+    "sha256": "56445d17f6deb1ac1630283b829cc8f611774b453e2703e79ba7210895345593",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100019-A-normal-endpoints.json",
+    "sha256": "e74cc56509e42a7fa49090af452f416c3b0e3142ca000ff5ced92c7775f7eaa4",
+    "bytes": 387
+  },
+  "paired-transport-reused-v1/pilot-m1-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-reused-v1/pilot-m1-clean-100019-A-normal.log",
+    "sha256": "ade7e6afb8f303c4cc58f66bfd8cc6575ef85fb0f8794b2876796654c5feaa01",
+    "bytes": 154
+  },
+  "paired-transport-reused-v1/probe-failures.jsonl": {
+    "original": "/tmp/paired-transport-reused-v1/probe-failures.jsonl",
+    "sha256": "30542d6a4939db5f1454426fc1881857879846e9dcfc679212eee7d393e46c4e",
+    "bytes": 594
+  },
+  "paired-transport-reused-v1/requests.jsonl": {
+    "original": "/tmp/paired-transport-reused-v1/requests.jsonl",
+    "sha256": "96affb5960ace2f59ffff4957d3e8e757d56fd3a2323ef4a7087cdcef0ef95b7",
+    "bytes": 59330
+  },
+  "paired-transport-reused-v1/ros-contract.md": {
+    "original": "/tmp/paired-transport-reused-v1/ros-contract.md",
+    "sha256": "1d38ab8c646228d787d3cf8dba11807a6ef1c13a15471ec886f8bd2ae05297b5",
+    "bytes": 6472
+  },
+  "paired-transport-reused-v1/ros_replay.source.py": {
+    "original": "/tmp/paired-transport-reused-v1/ros_replay.source.py",
+    "sha256": "17eb51bfe9fd2c4e6cff51c855c764bd69fd1663b7e862ca2a352bc3554914f1",
+    "bytes": 29591
+  },
+  "paired-transport-reused-v1/summary.json": {
+    "original": "/tmp/paired-transport-reused-v1/summary.json",
+    "sha256": "13c004a48589dbdae3b0c8c4a031f5b32f2092c7cf8c18f5ecd0bfd8a2e50723",
+    "bytes": 58
+  },
+  "paired-transport-unique-v1/manifest.json": {
+    "original": "/tmp/paired-transport-unique-v1/manifest.json",
+    "sha256": "13da98f041d10230bebeb9e4a23d0cee928a7dc4af9cfb9f9f2d3c5eefdcf840",
+    "bytes": 12611
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100000-A-normal-endpoints.json",
+    "sha256": "dac2acd8ac6c87edf75b343c139daf70f573fadf349c173c34ad327be30ede44",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "a6d0353b4de5bfb7ce9e4fb2968a5a338718d35437ca99fdc05c69c5cc1718f1",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100001-A-normal-endpoints.json",
+    "sha256": "11e5fbb45e82f9df312ce062d9e4680e6686c227ead5c18005f326eaa67a6430",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100001-A-normal.log",
+    "sha256": "2577fdf079ee272780e8a84141761db941bc902f6691da8b860aa8efb4b0b069",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100002-A-normal-endpoints.json",
+    "sha256": "fc00edf979bfea9c09cf41bbd9323d0ac8a0e955d2489ccfc62072588ca556d9",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100002-A-normal.log",
+    "sha256": "fdf68c4369ac9219df52a7f16da71456d9c954eb0157cfcccb2af028c1c08ed3",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100003-A-normal-endpoints.json",
+    "sha256": "4095245ba1a45572ad511cebc11778f246e575945215487e31b6354d17c850d9",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100003-A-normal.log",
+    "sha256": "6168ae824247112fc820d3c78924890ca1b4f09a75638aee730127ab4b197efd",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100004-A-normal-endpoints.json",
+    "sha256": "fbb0ee6e057723ea67872bc32eac4f8d4068de952bde21c14aab0fbe8701df97",
+    "bytes": 422
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100004-A-normal.log",
+    "sha256": "d7e6fe115321fd6ae881dcf6f1b0a5fb3ff2d9d372800d9f3885a6a047fa35af",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100005-A-normal-endpoints.json",
+    "sha256": "0e424e8b99e299a990e03c24c5487331b5940f72c3400fae1a273b400e02a66a",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100005-A-normal.log",
+    "sha256": "a6ff00c9e4639e3b86555233ce7fbaab4d0a2a5d91addea7a584fbe097eba6a0",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100006-A-normal-endpoints.json",
+    "sha256": "2daa9a20b1e36d505733538689317986bba72a3be96bd7e194378ab686997e9d",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100006-A-normal.log",
+    "sha256": "53edde5e5b29630fd7d69d3d208b78b9fe0f7d0a2f51d86611f501bcae660f24",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100007-A-normal-endpoints.json",
+    "sha256": "dfb572076dba7562ed5acebd938c7e653c0e5c779d9a47161592e306ce2279a2",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100007-A-normal.log",
+    "sha256": "daa797e032dd4470000514b07c6fd7b9c61f411868fda65cf98dfc4505bc0776",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100008-A-normal-endpoints.json",
+    "sha256": "e13680c8d43f0e65dcb99552a95dcf6ace236161ad6710f7c053af4e370ddafb",
+    "bytes": 424
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100008-A-normal.log",
+    "sha256": "dfa99a1c0de2aabcbbb38bf406a2641e3b4d3c16447f211b97b896bd677bb6ee",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100009-A-normal-endpoints.json",
+    "sha256": "48d3e117ca3638f6678a64867a4c3fcbc6f4d6589dc56c9b80bd3774861439e2",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100009-A-normal.log",
+    "sha256": "bd0894d0c73e1a6e8e2f0beef3d307de37ff2ef36fcd39976721b57ff4a7580f",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100010-A-normal-endpoints.json",
+    "sha256": "4bd2e00ee64087988352e3a11555d4cb8ab2dcadb263a0dc93849b9ab98b5256",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100010-A-normal.log",
+    "sha256": "65c22e1f6d340986a559c9af265cb5f61d2e26426e29a44f73524fbb2f3be51c",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100011-A-normal-endpoints.json",
+    "sha256": "d301fff11dcd309dc887a216aea9b766f4c3d0fc526304b6e8c654bd6038d4c5",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100011-A-normal.log",
+    "sha256": "9dcd9ed1a785220bb104546f3811ad3285544bfb203b59bd11cf47b1b9f92449",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100012-A-normal-endpoints.json",
+    "sha256": "71ffdc27ed56f89aef72182065094b866d73142891244220580fa598ca0a3e07",
+    "bytes": 423
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100012-A-normal.log",
+    "sha256": "a6d29b5adb4244364a5c67b1049806a5feb2877d60812b50de81906fa69bcdff",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100013-A-normal-endpoints.json",
+    "sha256": "30f32a6423cad6ce9be3437788dccbc1ede5987faa4a21615af31aeef8af948f",
+    "bytes": 413
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100013-A-normal.log",
+    "sha256": "1f916c5c530ec150737a45f7e2b9a9078b54db4297f2e0b20fe606d6274da053",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100014-A-normal-endpoints.json",
+    "sha256": "19dc613fedd04feea2142bf036334dd806bc20abf5078cc723f9e814427f4fee",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100014-A-normal.log",
+    "sha256": "8a0455127b3d95fb5965bd01fcece9ad8dff13061e0a6277489310ca1da17919",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100015-A-normal-endpoints.json",
+    "sha256": "45473d5d3d21c643d6c0b5299312fb35fa80b091e0b5868f88bf60c0852db24c",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100015-A-normal.log",
+    "sha256": "36093738efb40e3927f089d957acc3dca9e488b656ed7c3e3245c9252371745b",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100016-A-normal-endpoints.json",
+    "sha256": "d065061e1f66763123f04eb79eaa5f625660b1cff0c601580027c8621d370398",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100016-A-normal.log",
+    "sha256": "7a2f20e46fb4bb9751ad1b63fd882b260d4ac05e92b521b69709f991ddef6515",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100017-A-normal-endpoints.json",
+    "sha256": "dde6cf461c924eec60eb5ef682d83868a3520259fa1c2a46a992f03a34c98e63",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100017-A-normal.log",
+    "sha256": "9c6c6a57b62c63a7fadb824b1af65902f0914d55bffdd9b7d553cc7e1f59ab6b",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100018-A-normal-endpoints.json",
+    "sha256": "739fdaca6c74b1504b59aaa9895a4db65230e1008360f23885b6565a2a91bc4d",
+    "bytes": 423
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100018-A-normal.log",
+    "sha256": "aae328940c8e34eb88efd7d88d2bfc9b6c6b05c4a89cd87a2252c47222605cfc",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100019-A-normal-endpoints.json",
+    "sha256": "c28274e72e11f6e3053a9f05d04fb2d5ef1af3b87f2b9f2e6dc3bf34907974e5",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m0-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m0-clean-100019-A-normal.log",
+    "sha256": "8e088e6648952195c404ff96744bd8b379348605407463c3e4145362054a7b67",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100000-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100000-A-normal-endpoints.json",
+    "sha256": "7d008fc37c97d1bc4c3e93efce6b911164f3fc0e2f455f7430de4e9b7857767b",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "5c928b525cc8acd0f81a629e157439336636f80f2dde487c0aa93e5b688c8e83",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100001-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100001-A-normal-endpoints.json",
+    "sha256": "8ca6e449d0ee7276c846396bcb7ebbef11c43b0c3cac13db1963e04163818c65",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100001-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100001-A-normal.log",
+    "sha256": "e06f87bf92f8825c27a6f3d58c5979fa6cea3f480269bdbd90e22c0e14ea27bb",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100002-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100002-A-normal-endpoints.json",
+    "sha256": "ddb99b2cf0adc6867bcfe7b7135aac71a7c8910683f87764123964eb51d376f9",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100002-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100002-A-normal.log",
+    "sha256": "2c315d68474e108023b5dddba38ef33d1f286ed750c17ad3b8f541575d30f998",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100003-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100003-A-normal-endpoints.json",
+    "sha256": "41674977785e55f037d9cd0de9c3d5dd4b660f6b338b65190840e91e15320082",
+    "bytes": 423
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100003-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100003-A-normal-heartbeat.json",
+    "sha256": "f2496be4b47a3cf4e60f279110672affb2ccb9221afad43c2745ba98470b0ab3",
+    "bytes": 170
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100003-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100003-A-normal.log",
+    "sha256": "1dc5338f4e554de7e54d253565d60c32b70bcb1c6e9f4c3af92c49d29c5d34a7",
+    "bytes": 299
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100004-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100004-A-normal-endpoints.json",
+    "sha256": "7f700842bd8861d809ed01de30524d0c020fbf64527adb5c10ee20316730ce6e",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100004-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100004-A-normal.log",
+    "sha256": "c5dd8579b73afe997cd791b68d809b2739aabf1ef66dadfa362adad94ee0088d",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100005-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100005-A-normal-endpoints.json",
+    "sha256": "dcca89a83d4bbf5efc62476b419d408256c583d298994100ac20e69ddcf65331",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100005-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100005-A-normal.log",
+    "sha256": "4082ea274c67fde0c00f2ffe52c0f72401177c08aa84f86b6772c2b85701febd",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100006-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100006-A-normal-endpoints.json",
+    "sha256": "273fc53a9e612deae5ecf620e2583854daaf38d213d0286828f8c6b80f292eb0",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100006-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100006-A-normal.log",
+    "sha256": "9ab055af7da1a92b702c4afdd5c8f1612ae02170b5dd1d74ab775bc3db9a69f9",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100007-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100007-A-normal-endpoints.json",
+    "sha256": "321c34a8b5a405350062443683754aa5bb3f7807df1e4171b75fdac498e2fc59",
+    "bytes": 424
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100007-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100007-A-normal-heartbeat.json",
+    "sha256": "56d4a9aa7c5f469ded70b0f0cf6307edeefdaf905461f1b8448e7a82049f439a",
+    "bytes": 170
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100007-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100007-A-normal.log",
+    "sha256": "76fe6e0663f43b51fe9ba8afc3307c3ce1b0d8d59eb8e96d07bf9c5a28698aba",
+    "bytes": 299
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100008-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100008-A-normal-endpoints.json",
+    "sha256": "cce8013ea294f1772850651963432213a00ae690badc004315fe2258b9715172",
+    "bytes": 413
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100008-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100008-A-normal.log",
+    "sha256": "e0199f0b6050e35294c5e7c906278733cdfca49ad2df705a0cc4ff828f095b0d",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100009-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100009-A-normal-endpoints.json",
+    "sha256": "ba8676284240b5e403af5038960e93e84fcb6170645899ed105a6c2c7d940244",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100009-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100009-A-normal.log",
+    "sha256": "6997f170b4d17b5605eec5b262b4a699aa01f8e0fbfd035188f6bd0a1678baf2",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100010-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100010-A-normal-endpoints.json",
+    "sha256": "388d6721815ca94cca4a3f5070608a83a7991a0983ab23506279d772a928de53",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100010-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100010-A-normal.log",
+    "sha256": "9c9a10bcd9d553e59c082b85f9353e3c1a68ea9fcb1ba09368975a9a22fa7202",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100011-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100011-A-normal-endpoints.json",
+    "sha256": "87fda3f4a5c9fcad7475f5784d067573489641539dc193c1b1eece23df171951",
+    "bytes": 424
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100011-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100011-A-normal-heartbeat.json",
+    "sha256": "9897549b5358fb1a017521e080788c28cc37d2ecacbcb27f46b667256f8cbea0",
+    "bytes": 170
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100011-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100011-A-normal.log",
+    "sha256": "dccdc32215879442d653ebfc2188d3d1f7a6f57cf033bcc8ca6384637594cfae",
+    "bytes": 299
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100012-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100012-A-normal-endpoints.json",
+    "sha256": "e5ffdee954746b3c43a38bca030ee67ec9f94d33138669b58170882dd5a3fa59",
+    "bytes": 415
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100012-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100012-A-normal.log",
+    "sha256": "81b830cdd18e6b80199cb8336e7d765fb50dd941a0a6da97dc834826ce9d2078",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100013-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100013-A-normal-endpoints.json",
+    "sha256": "52d8fdd97fc290ed2d7004cb10a72523686722180b24e19740caab718abab514",
+    "bytes": 423
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100013-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100013-A-normal-heartbeat.json",
+    "sha256": "cf231bb81930cf6c497823faa8446ede501f79ee242ca1370847b32c6bc33236",
+    "bytes": 169
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100013-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100013-A-normal.log",
+    "sha256": "f85a19be7582ba50ccbf6a0f044ae75ee20b61ef2e053d7aec49f4933a59f8fc",
+    "bytes": 299
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100014-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100014-A-normal-endpoints.json",
+    "sha256": "9d67e9f584c3d69cddd66202bb3f5b5574289dc1cc53461d06126c6ed1ebdd65",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100014-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100014-A-normal.log",
+    "sha256": "84423ec4ef094b220005a1e00c5fec89c072341eb04d4813bb2638df8b456742",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100015-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100015-A-normal-endpoints.json",
+    "sha256": "4b878bbb2f3e7e14bf40323984bec12ec13d60c6eb284b5fc64bd4518a16f397",
+    "bytes": 422
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100015-A-normal-heartbeat.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100015-A-normal-heartbeat.json",
+    "sha256": "59a3a904c4568d7b37a749531024f477793ca171260d6a33d18b9134976ab4b8",
+    "bytes": 170
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100015-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100015-A-normal.log",
+    "sha256": "289a2c62e4642a3f767b243a7472c23bab5edc3fde107e9c4573d840817aaea9",
+    "bytes": 299
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100016-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100016-A-normal-endpoints.json",
+    "sha256": "22bf5567d2324174499d24012340fbaae4e6f413a37a564d79f15fba65f57258",
+    "bytes": 416
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100016-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100016-A-normal.log",
+    "sha256": "9c07cb576a121badcbd9b0a6357418542bf8369c7bd802db8965c49fdd5864bf",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100017-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100017-A-normal-endpoints.json",
+    "sha256": "f310066be73b58e66b6c9a5f67af817f37affcfe756b8cfc17eee30e629b14c2",
+    "bytes": 424
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100017-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100017-A-normal.log",
+    "sha256": "51f9bd27320b396601a2783eb231c55a29873770854f3233cc391ba1be414872",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100018-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100018-A-normal-endpoints.json",
+    "sha256": "5d62b5752e55a34642b0333c0745149fc96516338f62424bed1ca349b269c57b",
+    "bytes": 413
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100018-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100018-A-normal.log",
+    "sha256": "ddbd43ddada542fd495fdf26d9efdbd19f073db737084fddc98b01e4be55c4d5",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100019-A-normal-endpoints.json": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100019-A-normal-endpoints.json",
+    "sha256": "2671e2c794a91ee3ef245273e7d7f6daf9743830ba30aa04941287b2a80749b8",
+    "bytes": 414
+  },
+  "paired-transport-unique-v1/pilot-m1-clean-100019-A-normal.log": {
+    "original": "/tmp/paired-transport-unique-v1/pilot-m1-clean-100019-A-normal.log",
+    "sha256": "8e25af81b520d53766f6675790b57b67ab02d950757e145789b4e974db900c13",
+    "bytes": 154
+  },
+  "paired-transport-unique-v1/probe-failures.jsonl": {
+    "original": "/tmp/paired-transport-unique-v1/probe-failures.jsonl",
+    "sha256": "9f0acf461ca3341692a65a77a226810d3b38c245238494ee9eb58e6b1c865b20",
+    "bytes": 990
+  },
+  "paired-transport-unique-v1/requests.jsonl": {
+    "original": "/tmp/paired-transport-unique-v1/requests.jsonl",
+    "sha256": "49ebe65576ba7980f37b17ce46bf4d4b2d885510c5dc8747fd9de21718f2e671",
+    "bytes": 57091
+  },
+  "paired-transport-unique-v1/ros-contract.md": {
+    "original": "/tmp/paired-transport-unique-v1/ros-contract.md",
+    "sha256": "1d38ab8c646228d787d3cf8dba11807a6ef1c13a15471ec886f8bd2ae05297b5",
+    "bytes": 6472
+  },
+  "paired-transport-unique-v1/ros_replay.source.py": {
+    "original": "/tmp/paired-transport-unique-v1/ros_replay.source.py",
+    "sha256": "c5b5187dfdd4d77df7c689066a456f4f1b3a71c2d20babedbebf4b49a1310d66",
+    "bytes": 29604
+  },
+  "paired-transport-unique-v1/summary.json": {
+    "original": "/tmp/paired-transport-unique-v1/summary.json",
+    "sha256": "91022c894af79e79ad43568e8ccf4b672c4c1a455c434056405ac09538e9c37e",
+    "bytes": 58
+  },
+  "ros-normal-pilot-v1/manifest.json": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/manifest.json",
+    "sha256": "90018b94d9ce5332687e7058b85f5c413f6d463019432c446b8610e5123270e4",
+    "bytes": 2188
+  },
+  "ros-normal-pilot-v1/pilot-m0-camera_bias-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-camera_bias-100000-A-normal.log",
+    "sha256": "ae3d1b81157d05aea087e47eba44d499925c2cefb1e7bb03c80f16d6c4017772",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-camera_bias-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-camera_bias-100000-AB-normal.log",
+    "sha256": "938586afce80f15409540f3e5d0890f7cdd0914ed4633c3775d8587c69f71f1c",
+    "bytes": 200
+  },
+  "ros-normal-pilot-v1/pilot-m0-camera_bias-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-camera_bias-100000-B-normal.log",
+    "sha256": "8ceea2842b87f5c967c1138383b7b8cf9e4dce18af3b6887a0abbfacbb129327",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-clean-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-clean-100000-A-normal.log",
+    "sha256": "742ab3580b26a3a1131dacab9963e7390609cc4398c52001d9131fff96bd1310",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-clean-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-clean-100000-AB-normal.log",
+    "sha256": "6921611c7e8a1b46b450ae715e7b0f6664b1732084c54f8f50d1590c2b0cdac4",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-clean-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-clean-100000-B-normal.log",
+    "sha256": "4c2f355348ce2222abd8e7c1b88d71c1c36d7e991d35e7835c3f67d81cb063a3",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-correct_prior-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-correct_prior-100000-A-normal.log",
+    "sha256": "02caf8b934f73cec52360cdecdb5c8a589f53a7e66e037fcbf9369566b39fb58",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-correct_prior-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-correct_prior-100000-AB-normal.log",
+    "sha256": "3b1387fc42a7a01ac6d29e432e9897e3992233ce952f42c231ea7c86480c4462",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-correct_prior-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-correct_prior-100000-B-normal.log",
+    "sha256": "e2dfc17afc51ada56ee2f43ef091c802bf1edbb149c560126f39dd2c296c5671",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-crop-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-crop-100000-A-normal.log",
+    "sha256": "08d3fc371fa7601d18e58f04712bfaf16538df7163b31919835662f17d58cbcc",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-crop-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-crop-100000-AB-normal.log",
+    "sha256": "18a73cd6de9a29685f28d46551aaa7e6446072d29205564acfccac0d56a28d1a",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-crop-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-crop-100000-B-normal.log",
+    "sha256": "1c65ecdd669087034eb741aae15e6894e8ba56aebdcb692d740eb8a35cf375da",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-dropout-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-dropout-100000-A-normal.log",
+    "sha256": "75a70d0f3677d3d4ef02e07b8c2ea17bfed71b453f39aaa540a9ad6d91f03f68",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-dropout-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-dropout-100000-AB-normal.log",
+    "sha256": "2b822b08fe2fde6d700db402f1a276e9de0c317a240559b9526ba6e823015091",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-dropout-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-dropout-100000-B-normal.log",
+    "sha256": "9ecf36a4c9f14291f486205589328f541c0c185f256f31db709d28be721e69b4",
+    "bytes": 186
+  },
+  "ros-normal-pilot-v1/pilot-m0-noise-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-noise-100000-A-normal.log",
+    "sha256": "916384b26745f52df80edd68fc0c8d1644730c2999dde072817933b54f6732a9",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-noise-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-noise-100000-AB-normal.log",
+    "sha256": "c345ea1418ed06e2c3f84cc7d7861568614fc439f77d45aacf5f4bfe63afdd79",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-noise-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-noise-100000-B-normal.log",
+    "sha256": "da78953e73627643aa625704669fba6cb42dc24a25f4e6d9a63c23ba64116c39",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-occlusion-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-occlusion-100000-A-normal.log",
+    "sha256": "31d6f6900179cfe303b15a5a239d7ccf7697e96712010582a2d24e6838c97eba",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-occlusion-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-occlusion-100000-AB-normal.log",
+    "sha256": "fba88a00ee497a2c998498f2d33c4dccac6dd39772c96cf29dc682a7f996599a",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-occlusion-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-occlusion-100000-B-normal.log",
+    "sha256": "8f168bcfc6902e73d9ea16b58f6e034a478535c29d61ba092f8aabf67cadaa1b",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-shared_bias-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-shared_bias-100000-A-normal.log",
+    "sha256": "a629df967c60108ebd24037d4cc76ae26a6228371ebea47f4b4de61cfc980ae9",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-shared_bias-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-shared_bias-100000-AB-normal.log",
+    "sha256": "6800f788032111f87c4b2557de19ab7d4fae23d2284bf72dd9b66e7412fd9144",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-shared_bias-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-shared_bias-100000-B-normal.log",
+    "sha256": "7cc39015fa14f055c82705938f2c3b6c91b0bbc195f2fef6e50138ecaf19dd31",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-tf_gap-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-tf_gap-100000-A-normal.log",
+    "sha256": "a4f41fa0e26a82c101cb3c766fa0f9f44070853408db5b15dcdc2d4ee09baede",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-tf_gap-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-tf_gap-100000-AB-normal.log",
+    "sha256": "1686ca5688f99629d97969c8c483b6f1d706cbdf293d0e03e957191bc4874e1e",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-tf_gap-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-tf_gap-100000-B-normal.log",
+    "sha256": "085c8e8723945b4c700104e236b161c4413ef458af08767dc134d980d3c8bbe0",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-A-normal.log",
+    "sha256": "2b7a1ffff4b6518105b52730ba4c07254625dc19f6f506f23d623b1c9b230c35",
+    "bytes": 200
+  },
+  "ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-AB-normal.log",
+    "sha256": "326ce6f64a373aa5c53b4f696ae46c2817720820e27cb6cd554f5b732cb15748",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m0-weak_complementary-100000-B-normal.log",
+    "sha256": "6026a58df39ace62680f0cd68eb2f17ddb05a42636217fed7058b7679d84be29",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m1-clean-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-clean-100000-A-normal.log",
+    "sha256": "56689142ad069577323d0afd1ec0cb72b9ba615ff8be7a33de7c2c5b36f701ff",
+    "bytes": 184
+  },
+  "ros-normal-pilot-v1/pilot-m1-clean-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-clean-100000-AB-normal.log",
+    "sha256": "0dc431f886b171fb98d9caa9f5190c8b741a27e3a139e7f8d7d972c0a6962cc4",
+    "bytes": 71
+  },
+  "ros-normal-pilot-v1/pilot-m1-clean-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-clean-100000-B-normal.log",
+    "sha256": "32e21c1c8094c1f5ad8e362fdbb590cb49644e80b73413a0c94e920a56595911",
+    "bytes": 200
+  },
+  "ros-normal-pilot-v1/pilot-m1-crop-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-crop-100000-A-normal.log",
+    "sha256": "94109d0a80de04e9b8b823d3e9142ded5598bb92784edbf40893e4f71e0cbbcf",
+    "bytes": 194
+  },
+  "ros-normal-pilot-v1/pilot-m1-crop-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-crop-100000-AB-normal.log",
+    "sha256": "e989646ae70e3351391e8656d299b2f05545a6e09203f101fc0833b08c78eb73",
+    "bytes": 183
+  },
+  "ros-normal-pilot-v1/pilot-m1-crop-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-crop-100000-B-normal.log",
+    "sha256": "85f892b18ad8b66bc8740e41e786955dcc5010e46f9c4529a2dfd62ac0c79d0a",
+    "bytes": 200
+  },
+  "ros-normal-pilot-v1/pilot-m1-noise-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-noise-100000-A-normal.log",
+    "sha256": "6d845d69ac950befda2bddba714dc15105b589a3b7eb96316ec667bf6de487df",
+    "bytes": 184
+  },
+  "ros-normal-pilot-v1/pilot-m1-noise-100000-AB-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-noise-100000-AB-normal.log",
+    "sha256": "391786e992197207a7bd23a833d14c8ffa2e8a91b6b50435bdaf0f8ef78f2ad9",
+    "bytes": 184
+  },
+  "ros-normal-pilot-v1/pilot-m1-noise-100000-B-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-noise-100000-B-normal.log",
+    "sha256": "7a7ad1d88484e088f6924f74ba1c0ebc018488eedd496fac534c91e7e22452d2",
+    "bytes": 194
+  },
+  "ros-normal-pilot-v1/pilot-m1-occlusion-100000-A-normal.log": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/pilot-m1-occlusion-100000-A-normal.log",
+    "sha256": "ea7040de44d14875f319a94306b8253278d8b45f9773daf96d635021b7d0c124",
+    "bytes": 299
+  },
+  "ros-normal-pilot-v1/protocol-failure.json": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/protocol-failure.json",
+    "sha256": "a2d268c92fd6bf370033da42cd02ad1b1a63ff598a5e23c9d4991f2fd5b32606",
+    "bytes": 182
+  },
+  "ros-normal-pilot-v1/requests.jsonl": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/requests.jsonl",
+    "sha256": "d766ee95725162d2c9ab422494f787b0c7ab9f0e3896df5e18d34d3cf70ca630",
+    "bytes": 225132
+  },
+  "ros-normal-pilot-v1/ros-contract.md": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/ros-contract.md",
+    "sha256": "462cfe67aac9a9163f104f601ca576b1c4e3f5665dbe2654a34f92b3e07e3b11",
+    "bytes": 5844
+  },
+  "ros-normal-pilot-v1/ros_replay.source.py": {
+    "original": "/home/renatto-tommasi/workspaces/avatar_tote_ws/publication/tote-fusion/benchmarks/runs/ros-normal-pilot-v1/ros_replay.source.py",
+    "sha256": "3dc66f3ce8ad49f82cdfa48efbc21ac5a320148982d3d3e510f2a3f3cd48081d",
+    "bytes": 26969
+  }
+}

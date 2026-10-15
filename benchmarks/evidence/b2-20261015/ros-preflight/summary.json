@@ -1,0 +1,7534 @@
+{
+  "stage": "ros",
+  "criteria": {
+    "version": 1,
+    "scope": "expert-selected provisional simulation proxies; not hardware requirements",
+    "primary": {
+      "position_m": 0.005,
+      "orientation_rad": 0.017453292519943295,
+      "dimension_m": 0.003,
+      "corner_m": 0.015
+    },
+    "secondary": {
+      "position_m": 0.01,
+      "orientation_rad": 0.03490658503988659,
+      "dimension_m": 0.005,
+      "corner_m": 0.015
+    },
+    "maximum_latency_s": 3.0,
+    "maximum_age_s": 2.0,
+    "maximum_accepted_wrong_fraction": 0.01,
+    "confidence": 0.95,
+    "configured_camera_sigma_m": [
+      0.003,
+      0.006
+    ],
+    "capture_times_s": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "pixel_stride": 4,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 98173
+  },
+  "groups": [
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.00035125832678159773,
+        "p95": 0.00035125832678159773,
+        "maximum": 0.00035125832678159773
+      },
+      "orientation_error_rad": {
+        "median": 0.0004342193061827454,
+        "p95": 0.0004342193061827454,
+        "maximum": 0.0004342193061827454
+      },
+      "corner_error_m": {
+        "median": 0.0005338071262441037,
+        "p95": 0.0005338071262441037,
+        "maximum": 0.0005338071262441037
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031275942,
+        "p95": 1.031275942,
+        "maximum": 1.031275942
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480290862,
+        "p95": 0.480290862,
+        "maximum": 0.480290862
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478458054,
+        "p95": 0.478458054,
+        "maximum": 0.478458054
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.070969874,
+        "p95": 1.070969874,
+        "maximum": 1.070969874
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "wrong_all_requests": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0173123355537903,
+        "p95": 0.0173123355537903,
+        "maximum": 0.0173123355537903
+      },
+      "orientation_error_rad": {
+        "median": 0.0010071352347820956,
+        "p95": 0.0010071352347820956,
+        "maximum": 0.0010071352347820956
+      },
+      "corner_error_m": {
+        "median": 0.017489574760298474,
+        "p95": 0.017489574760298474,
+        "maximum": 0.017489574760298474
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031654174,
+        "p95": 1.031654174,
+        "maximum": 1.031654174
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480591965,
+        "p95": 0.480591965,
+        "maximum": 0.480591965
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478561031,
+        "p95": 0.478561031,
+        "maximum": 0.478561031
+      },
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031576432,
+        "p95": 1.031576432,
+        "maximum": 1.031576432
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480191515,
+        "p95": 0.480191515,
+        "maximum": 0.480191515
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478090926,
+        "p95": 0.478090926,
+        "maximum": 0.478090926
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.010327619613538e-05,
+        "p95": 4.010327619613538e-05,
+        "maximum": 4.010327619613538e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00034424173872005064,
+        "p95": 0.00034424173872005064,
+        "maximum": 0.00034424173872005064
+      },
+      "corner_error_m": {
+        "median": 0.00012798293347093817,
+        "p95": 0.00012798293347093817,
+        "maximum": 0.00012798293347093817
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.051621511,
+        "p95": 1.051621511,
+        "maximum": 1.051621511
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.500520203,
+        "p95": 0.500520203,
+        "maximum": 0.500520203
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.49836676,
+        "p95": 0.49836676,
+        "maximum": 0.49836676
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.00027550708774923255,
+        "p95": 0.00027550708774923255,
+        "maximum": 0.00027550708774923255
+      },
+      "orientation_error_rad": {
+        "median": 0.002077096521528558,
+        "p95": 0.002077096521528558,
+        "maximum": 0.002077096521528558
+      },
+      "corner_error_m": {
+        "median": 0.0007626123393300431,
+        "p95": 0.0007626123393300431,
+        "maximum": 0.0007626123393300431
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030640234,
+        "p95": 1.030640234,
+        "maximum": 1.030640234
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.47955408,
+        "p95": 0.47955408,
+        "maximum": 0.47955408
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478218744,
+        "p95": 0.478218744,
+        "maximum": 0.478218744
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 7.83764697390587e-09,
+        "p95": 7.83764697390587e-09,
+        "maximum": 7.83764697390587e-09
+      },
+      "orientation_error_rad": {
+        "median": 5.28963328496521e-08,
+        "p95": 5.28963328496521e-08,
+        "maximum": 5.28963328496521e-08
+      },
+      "corner_error_m": {
+        "median": 2.463166314271674e-08,
+        "p95": 2.463166314271674e-08,
+        "maximum": 2.463166314271674e-08
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031379716,
+        "p95": 1.031379716,
+        "maximum": 1.031379716
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480130104,
+        "p95": 0.480130104,
+        "maximum": 0.480130104
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478047769,
+        "p95": 0.478047769,
+        "maximum": 0.478047769
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 6.627023394689353e-09,
+        "p95": 6.627023394689353e-09,
+        "maximum": 6.627023394689353e-09
+      },
+      "orientation_error_rad": {
+        "median": 4.779724459776244e-08,
+        "p95": 4.779724459776244e-08,
+        "maximum": 4.779724459776244e-08
+      },
+      "corner_error_m": {
+        "median": 2.1387123985031467e-08,
+        "p95": 2.1387123985031467e-08,
+        "maximum": 2.1387123985031467e-08
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030952751,
+        "p95": 1.030952751,
+        "maximum": 1.030952751
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479376579,
+        "p95": 0.479376579,
+        "maximum": 0.479376579
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.477737794,
+        "p95": 0.477737794,
+        "maximum": 0.477737794
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.0380460781185285e-09,
+        "p95": 4.0380460781185285e-09,
+        "maximum": 4.0380460781185285e-09
+      },
+      "orientation_error_rad": {
+        "median": 1.869923858252567e-08,
+        "p95": 1.869923858252567e-08,
+        "maximum": 1.869923858252567e-08
+      },
+      "corner_error_m": {
+        "median": 9.984685554352583e-09,
+        "p95": 9.984685554352583e-09,
+        "maximum": 9.984685554352583e-09
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030532098,
+        "p95": 1.030532098,
+        "maximum": 1.030532098
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479267354,
+        "p95": 0.479267354,
+        "maximum": 0.479267354
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.477886843,
+        "p95": 0.477886843,
+        "maximum": 0.477886843
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.050651377165047e-05,
+        "p95": 4.050651377165047e-05,
+        "maximum": 4.050651377165047e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004159820919891213,
+        "p95": 0.0004159820919891213,
+        "maximum": 0.0004159820919891213
+      },
+      "corner_error_m": {
+        "median": 0.00015495017744663058,
+        "p95": 0.00015495017744663058,
+        "maximum": 0.00015495017744663058
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031406082,
+        "p95": 1.031406082,
+        "maximum": 1.031406082
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479667034,
+        "p95": 0.479667034,
+        "maximum": 0.479667034
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.477781294,
+        "p95": 0.477781294,
+        "maximum": 0.477781294
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 3.512193538493639e-05,
+        "p95": 3.512193538493639e-05,
+        "maximum": 3.512193538493639e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0003316268273756798,
+        "p95": 0.0003316268273756798,
+        "maximum": 0.0003316268273756798
+      },
+      "corner_error_m": {
+        "median": 0.00012354369949852894,
+        "p95": 0.00012354369949852894,
+        "maximum": 0.00012354369949852894
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.052190811,
+        "p95": 1.052190811,
+        "maximum": 1.052190811
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.501011216,
+        "p95": 0.501011216,
+        "maximum": 0.501011216
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.497773824,
+        "p95": 0.497773824,
+        "maximum": 0.497773824
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.00027550708774923255,
+        "p95": 0.00027550708774923255,
+        "maximum": 0.00027550708774923255
+      },
+      "orientation_error_rad": {
+        "median": 0.002077096521528558,
+        "p95": 0.002077096521528558,
+        "maximum": 0.002077096521528558
+      },
+      "corner_error_m": {
+        "median": 0.0007626123393300431,
+        "p95": 0.0007626123393300431,
+        "maximum": 0.0007626123393300431
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031053152,
+        "p95": 1.031053152,
+        "maximum": 1.031053152
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.47974266,
+        "p95": 0.47974266,
+        "maximum": 0.47974266
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478077002,
+        "p95": 0.478077002,
+        "maximum": 0.478077002
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031004392,
+        "p95": 1.031004392,
+        "maximum": 1.031004392
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479782543,
+        "p95": 0.479782543,
+        "maximum": 0.479782543
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478153685,
+        "p95": 0.478153685,
+        "maximum": 0.478153685
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031099476,
+        "p95": 1.031099476,
+        "maximum": 1.031099476
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479852338,
+        "p95": 0.479852338,
+        "maximum": 0.479852338
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478027758,
+        "p95": 0.478027758,
+        "maximum": 0.478027758
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.011020461,
+        "p95": 1.011020461,
+        "maximum": 1.011020461
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_DATA": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.00035125832678159773,
+        "p95": 0.00035125832678159773,
+        "maximum": 0.00035125832678159773
+      },
+      "orientation_error_rad": {
+        "median": 0.0004342193061827454,
+        "p95": 0.0004342193061827454,
+        "maximum": 0.0004342193061827454
+      },
+      "corner_error_m": {
+        "median": 0.0005338071262441037,
+        "p95": 0.0005338071262441037,
+        "maximum": 0.0005338071262441037
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031439666,
+        "p95": 1.031439666,
+        "maximum": 1.031439666
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480534361,
+        "p95": 0.480534361,
+        "maximum": 0.480534361
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478782289,
+        "p95": 0.478782289,
+        "maximum": 0.478782289
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.000284997075320473,
+        "p95": 0.000284997075320473,
+        "maximum": 0.000284997075320473
+      },
+      "orientation_error_rad": {
+        "median": 0.00036458533697602706,
+        "p95": 0.00036458533697602706,
+        "maximum": 0.00036458533697602706
+      },
+      "corner_error_m": {
+        "median": 0.0004239191701509973,
+        "p95": 0.0004239191701509973,
+        "maximum": 0.0004239191701509973
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.050999509,
+        "p95": 1.050999509,
+        "maximum": 1.050999509
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.499623548,
+        "p95": 0.499623548,
+        "maximum": 0.499623548
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.497822448,
+        "p95": 0.497822448,
+        "maximum": 0.497822448
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0003469661324345971,
+        "p95": 0.0003469661324345971,
+        "maximum": 0.0003469661324345971
+      },
+      "orientation_error_rad": {
+        "median": 0.001418811889855937,
+        "p95": 0.001418811889855937,
+        "maximum": 0.001418811889855937
+      },
+      "corner_error_m": {
+        "median": 0.0005733507535745162,
+        "p95": 0.0005733507535745162,
+        "maximum": 0.0005733507535745162
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.03194594,
+        "p95": 1.03194594,
+        "maximum": 1.03194594
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480794899,
+        "p95": 0.480794899,
+        "maximum": 0.480794899
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478666743,
+        "p95": 0.478666743,
+        "maximum": 0.478666743
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.245110900019519e-05,
+        "p95": 4.245110900019519e-05,
+        "maximum": 4.245110900019519e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0003818375093155684,
+        "p95": 0.0003818375093155684,
+        "maximum": 0.0003818375093155684
+      },
+      "corner_error_m": {
+        "median": 0.00014258029569257061,
+        "p95": 0.00014258029569257061,
+        "maximum": 0.00014258029569257061
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030659641,
+        "p95": 1.030659641,
+        "maximum": 1.030659641
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479350044,
+        "p95": 0.479350044,
+        "maximum": 0.479350044
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478099733,
+        "p95": 0.478099733,
+        "maximum": 0.478099733
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 3.592208437640141e-05,
+        "p95": 3.592208437640141e-05,
+        "maximum": 3.592208437640141e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0003125295356994796,
+        "p95": 0.0003125295356994796,
+        "maximum": 0.0003125295356994796
+      },
+      "corner_error_m": {
+        "median": 0.00011649753393526344,
+        "p95": 0.00011649753393526344,
+        "maximum": 0.00011649753393526344
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.051273682,
+        "p95": 1.051273682,
+        "maximum": 1.051273682
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.49995332,
+        "p95": 0.49995332,
+        "maximum": 0.49995332
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.498261061,
+        "p95": 0.498261061,
+        "maximum": 0.498261061
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0002631852275056265,
+        "p95": 0.0002631852275056265,
+        "maximum": 0.0002631852275056265
+      },
+      "orientation_error_rad": {
+        "median": 0.001977835690152457,
+        "p95": 0.001977835690152457,
+        "maximum": 0.001977835690152457
+      },
+      "corner_error_m": {
+        "median": 0.0007265552043856993,
+        "p95": 0.0007265552043856993,
+        "maximum": 0.0007265552043856993
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.03054649,
+        "p95": 1.03054649,
+        "maximum": 1.03054649
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479343393,
+        "p95": 0.479343393,
+        "maximum": 0.479343393
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.47804954,
+        "p95": 0.47804954,
+        "maximum": 0.47804954
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "wrong_all_requests": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.010333929502864403,
+        "p95": 0.010333929502864403,
+        "maximum": 0.010333929502864403
+      },
+      "orientation_error_rad": {
+        "median": 0.00046079657052944283,
+        "p95": 0.00046079657052944283,
+        "maximum": 0.00046079657052944283
+      },
+      "corner_error_m": {
+        "median": 0.010487710261082818,
+        "p95": 0.010487710261082818,
+        "maximum": 0.010487710261082818
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031026739,
+        "p95": 1.031026739,
+        "maximum": 1.031026739
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479875644,
+        "p95": 0.479875644,
+        "maximum": 0.479875644
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478301717,
+        "p95": 0.478301717,
+        "maximum": 0.478301717
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "wrong_all_requests": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0103264375131345,
+        "p95": 0.0103264375131345,
+        "maximum": 0.0103264375131345
+      },
+      "orientation_error_rad": {
+        "median": 0.0003900677334951315,
+        "p95": 0.0003900677334951315,
+        "maximum": 0.0003900677334951315
+      },
+      "corner_error_m": {
+        "median": 0.01044757740693336,
+        "p95": 0.01044757740693336,
+        "maximum": 0.01044757740693336
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.051344081,
+        "p95": 1.051344081,
+        "maximum": 1.051344081
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.49979901,
+        "p95": 0.49979901,
+        "maximum": 0.49979901
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.497798062,
+        "p95": 0.497798062,
+        "maximum": 0.497798062
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "wrong_all_requests": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.010215921426881365,
+        "p95": 0.010215921426881365,
+        "maximum": 0.010215921426881365
+      },
+      "orientation_error_rad": {
+        "median": 0.0013330673671304704,
+        "p95": 0.0013330673671304704,
+        "maximum": 0.0013330673671304704
+      },
+      "corner_error_m": {
+        "median": 0.010380794114829037,
+        "p95": 0.010380794114829037,
+        "maximum": 0.010380794114829037
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.03077576,
+        "p95": 1.03077576,
+        "maximum": 1.03077576
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479852045,
+        "p95": 0.479852045,
+        "maximum": 0.479852045
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478297021,
+        "p95": 0.478297021,
+        "maximum": 0.478297021
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031607778,
+        "p95": 1.031607778,
+        "maximum": 1.031607778
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480318973,
+        "p95": 0.480318973,
+        "maximum": 0.480318973
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478133836,
+        "p95": 0.478133836,
+        "maximum": 0.478133836
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.00858177154001e-05,
+        "p95": 4.00858177154001e-05,
+        "maximum": 4.00858177154001e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00034465021430446144,
+        "p95": 0.00034465021430446144,
+        "maximum": 0.00034465021430446144
+      },
+      "corner_error_m": {
+        "median": 0.00012796711815764902,
+        "p95": 0.00012796711815764902,
+        "maximum": 0.00012796711815764902
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.050998865,
+        "p95": 1.050998865,
+        "maximum": 1.050998865
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.499854312,
+        "p95": 0.499854312,
+        "maximum": 0.499854312
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.498127267,
+        "p95": 0.498127267,
+        "maximum": 0.498127267
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0002696713392227535,
+        "p95": 0.0002696713392227535,
+        "maximum": 0.0002696713392227535
+      },
+      "orientation_error_rad": {
+        "median": 0.002047351721694992,
+        "p95": 0.002047351721694992,
+        "maximum": 0.002047351721694992
+      },
+      "corner_error_m": {
+        "median": 0.0007485773944765934,
+        "p95": 0.0007485773944765934,
+        "maximum": 0.0007485773944765934
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031410086,
+        "p95": 1.031410086,
+        "maximum": 1.031410086
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480342104,
+        "p95": 0.480342104,
+        "maximum": 0.480342104
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478428844,
+        "p95": 0.478428844,
+        "maximum": 0.478428844
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030516428,
+        "p95": 1.030516428,
+        "maximum": 1.030516428
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 3.1008879552251316e-05,
+        "p95": 3.1008879552251316e-05,
+        "maximum": 3.1008879552251316e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0006623932019416069,
+        "p95": 0.0006623932019416069,
+        "maximum": 0.0006623932019416069
+      },
+      "corner_error_m": {
+        "median": 0.0002580736089429208,
+        "p95": 0.0002580736089429208,
+        "maximum": 0.0002580736089429208
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.051440939,
+        "p95": 1.051440939,
+        "maximum": 1.051440939
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.500541081,
+        "p95": 0.500541081,
+        "maximum": 0.500541081
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.498816392,
+        "p95": 0.498816392,
+        "maximum": 0.498816392
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.00027550708774923255,
+        "p95": 0.00027550708774923255,
+        "maximum": 0.00027550708774923255
+      },
+      "orientation_error_rad": {
+        "median": 0.002077096521528558,
+        "p95": 0.002077096521528558,
+        "maximum": 0.002077096521528558
+      },
+      "corner_error_m": {
+        "median": 0.0007626123393300431,
+        "p95": 0.0007626123393300431,
+        "maximum": 0.0007626123393300431
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031634597,
+        "p95": 1.031634597,
+        "maximum": 1.031634597
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479988364,
+        "p95": 0.479988364,
+        "maximum": 0.479988364
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.477593624,
+        "p95": 0.477593624,
+        "maximum": 0.477593624
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.190669502,
+        "p95": 1.190669502,
+        "maximum": 1.190669502
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.330418607,
+        "p95": 1.330418607,
+        "maximum": 1.330418607
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031295406,
+        "p95": 1.031295406,
+        "maximum": 1.031295406
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_GEOMETRY": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.151269385,
+        "p95": 1.151269385,
+        "maximum": 1.151269385
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 5.125610507377947e-05,
+        "p95": 5.125610507377947e-05,
+        "maximum": 5.125610507377947e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00041777254626825216,
+        "p95": 0.00041777254626825216,
+        "maximum": 0.00041777254626825216
+      },
+      "corner_error_m": {
+        "median": 0.000141573203153523,
+        "p95": 0.000141573203153523,
+        "maximum": 0.000141573203153523
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.590438006461193e-05,
+          "p95": 2.590438006461193e-05,
+          "maximum": 2.590438006461193e-05
+        },
+        "0": {
+          "median": 1.3359560355752365e-06,
+          "p95": 1.3359560355752365e-06,
+          "maximum": 1.3359560355752365e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.471855984,
+        "p95": 1.471855984,
+        "maximum": 1.471855984
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.920737051,
+        "p95": 0.920737051,
+        "maximum": 0.920737051
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.918303227,
+        "p95": 0.918303227,
+        "maximum": 0.918303227
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.171111013,
+        "p95": 1.171111013,
+        "maximum": 1.171111013
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.191678648,
+        "p95": 1.191678648,
+        "maximum": 1.191678648
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 2.8181590024213806e-05,
+        "p95": 2.8181590024213806e-05,
+        "maximum": 2.8181590024213806e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00017503455999902867,
+        "p95": 0.00017503455999902867,
+        "maximum": 0.00017503455999902867
+      },
+      "corner_error_m": {
+        "median": 6.79538251022971e-05,
+        "p95": 6.79538251022971e-05,
+        "maximum": 6.79538251022971e-05
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.671507426244002e-05,
+          "p95": 2.671507426244002e-05,
+          "maximum": 2.671507426244002e-05
+        },
+        "0": {
+          "median": 1.945736944675147e-06,
+          "p95": 1.945736944675147e-06,
+          "maximum": 1.945736944675147e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.350990723,
+        "p95": 1.350990723,
+        "maximum": 1.350990723
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.799969865,
+        "p95": 0.799969865,
+        "maximum": 0.799969865
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.798447257,
+        "p95": 0.798447257,
+        "maximum": 0.798447257
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.370819787,
+        "p95": 1.370819787,
+        "maximum": 1.370819787
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031111208,
+        "p95": 1.031111208,
+        "maximum": 1.031111208
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_GEOMETRY": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.210866413,
+        "p95": 1.210866413,
+        "maximum": 1.210866413
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.190670604,
+        "p95": 1.190670604,
+        "maximum": 1.190670604
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150910396,
+        "p95": 1.150910396,
+        "maximum": 1.150910396
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150772703,
+        "p95": 1.150772703,
+        "maximum": 1.150772703
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.011058583,
+        "p95": 1.011058583,
+        "maximum": 1.011058583
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_DATA": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.169524574,
+        "p95": 1.169524574,
+        "maximum": 1.169524574
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.171132908,
+        "p95": 1.171132908,
+        "maximum": 1.171132908
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031419236,
+        "p95": 1.031419236,
+        "maximum": 1.031419236
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_GEOMETRY": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031535837,
+        "p95": 1.031535837,
+        "maximum": 1.031535837
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_GEOMETRY": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.231250644,
+        "p95": 1.231250644,
+        "maximum": 1.231250644
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.231053356,
+        "p95": 1.231053356,
+        "maximum": 1.231053356
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.15099018,
+        "p95": 1.15099018,
+        "maximum": 1.15099018
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150847132,
+        "p95": 1.150847132,
+        "maximum": 1.150847132
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030949164,
+        "p95": 1.030949164,
+        "maximum": 1.030949164
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_GEOMETRY": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.171267233,
+        "p95": 1.171267233,
+        "maximum": 1.171267233
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 5.2849425673829324e-05,
+        "p95": 5.2849425673829324e-05,
+        "maximum": 5.2849425673829324e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004168224565627287,
+        "p95": 0.0004168224565627287,
+        "maximum": 0.0004168224565627287
+      },
+      "corner_error_m": {
+        "median": 0.00014293694378862492,
+        "p95": 0.00014293694378862492,
+        "maximum": 0.00014293694378862492
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.6298107721756114e-05,
+          "p95": 2.6298107721756114e-05,
+          "maximum": 2.6298107721756114e-05
+        },
+        "0": {
+          "median": 6.0966378381266395e-06,
+          "p95": 6.0966378381266395e-06,
+          "maximum": 6.0966378381266395e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.491747908,
+        "p95": 1.491747908,
+        "maximum": 1.491747908
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.940765087,
+        "p95": 0.940765087,
+        "maximum": 0.940765087
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.938607437,
+        "p95": 0.938607437,
+        "maximum": 0.938607437
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.210996526,
+        "p95": 1.210996526,
+        "maximum": 1.210996526
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.171508594,
+        "p95": 1.171508594,
+        "maximum": 1.171508594
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0003190471962679908,
+        "p95": 0.0003190471962679908,
+        "maximum": 0.0003190471962679908
+      },
+      "orientation_error_rad": {
+        "median": 0.001682314685708702,
+        "p95": 0.001682314685708702,
+        "maximum": 0.001682314685708702
+      },
+      "corner_error_m": {
+        "median": 0.0006588492249499486,
+        "p95": 0.0006588492249499486,
+        "maximum": 0.0006588492249499486
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.4393049972759595e-05,
+          "p95": 2.4393049972759595e-05,
+          "maximum": 2.4393049972759595e-05
+        },
+        "0": {
+          "median": 1.10457108704054e-06,
+          "p95": 1.10457108704054e-06,
+          "maximum": 1.10457108704054e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.452210354,
+        "p95": 1.452210354,
+        "maximum": 1.452210354
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.900851751,
+        "p95": 0.900851751,
+        "maximum": 0.900851751
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.898296105,
+        "p95": 0.898296105,
+        "maximum": 0.898296105
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.231319121,
+        "p95": 1.231319121,
+        "maximum": 1.231319121
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "POOR_FIT": 1
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "camera_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "clean",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "correct_prior",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "crop",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "dropout",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "noise",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "occlusion",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "shared_bias",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "weak_complementary",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "scope": "Same-byte native ROS simulation, equal-time declared/Huber only; no hardware qualification"
+}

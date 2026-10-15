@@ -12,11 +12,18 @@ RViz shows all three registered point clouds together in `world`: **head cyan**,
 
 These are fresh screenshots of the live Gazebo sensor setup, separate from the recorded analytic M3 acceptance examples below. Simulator, robot and segmentation support packages belong to the development workspace and are not bundled in this repository. [Live RViz configuration](tools/live-simulation.rviz) and [capture provenance](evidence/live-simulation-screenshots.json) are included.
 
-ROS 2 packages for bounded, model-based tote pose estimation and observable width/length refinement from registered RGB-D observations. A C++17 geometry core fits an immutable tote model; the ROS adapter collects masked depth from up to three cameras, transforms each observation at its acquisition time, validates the fit and publishes a **candidate**. Simulator truth is never an estimator input.
+ROS 2 packages for model-based tote pose estimation and observable width/length refinement from registered RGB-D observations. A C++17 geometry core fits an immutable tote model; the ROS adapter collects masked depth from up to three cameras, transforms each observation at its acquisition time, validates the fit and publishes a **candidate**. Simulator truth is never an estimator input.
 
 **Current scope: ROS 2 Jazzy simulation profiles.** The node requires `use_sim_time=true` and `/clock`. Hardware operation and calibrated uncertainty remain future work. The package does not control robot motion, run segmentation, commit model revisions, or publish a fused/denoised point cloud.
 
 The experimental [paired A/B/fusion benchmark](benchmarks/README.md) caches scenes once and separates precision from robust loss. Its [contract](benchmarks/contract.md) defines provisional simulation criteria and distinguishes pixel-core evidence from ROS/hardware validation. The [600-scene pilot](benchmarks/results-20261015.md) recovers clean complementary geometry but exposes noisy rejection and accepted shared-calibration errors; it does not establish a general fusion advantage.
+
+The [fresh confirmation and native ROS pilot](benchmarks/results-confirmation-20261015.md)
+retain 1,200 new numerical scenes and 540 isolated ROS requests. Complementary
+views recover usable geometry, while noisy pose shows an acceptance/accuracy
+tradeoff and common calibration bias still yields wrong accepted poses.
+The provisional 1% accepted-wrong target is not qualified. The ROS timing results
+use an explicit replay profile and a pre-acquisition clock pause.
 
 ## Noisy accepted versus noisy rejected
 
@@ -92,7 +99,7 @@ ros2 action send_goal /tote_fusion/estimate tote_fusion_interfaces/action/Estima
 
 For head-only pose estimation, launch with `camera_ids:=head validation_profile:=head_sim_pi_equivalent`; send mode `0`, that same profile, `min_distinct_views: 1` and a bounded collection duration. The shipped model has exercise revision `0`; use the revision of your actual immutable snapshot. `min_distinct_views` counts participating **camera IDs**, not robot poses or time samples. Each participating camera needs separate acquisition samples. Collection duration must be 0.1 seconds to `max_capture_window_s` (default 2 seconds).
 
-One request runs at a time. Results include an explicit success flag, code, message, frame counts and candidate on success; failures publish no new candidate. Initial invalid/busy/stale goals are rejected before execution, with details on `/diagnostics`. An action client should cancel via the ROS action protocol before abandoning a request. Collection, memory and steady-wall-time bounds also apply if simulation time stalls.
+One request runs at a time. Results include an explicit success flag, code, message, frame counts and candidate on success; failures publish no new candidate. Initial invalid/busy/stale goals are rejected before execution, with details on `/diagnostics`. An action client should cancel via the ROS action protocol before abandoning a request. For initialized executing goals, collection, memory and steady-wall-time bounds also apply if simulation time stalls. A goal-response transport timeout can occur before those goal/watchdog fields are initialized; see the [known admission-recovery exception](benchmarks/session-ros-20261015.md#separate-production-availability-finding).
 
 ## Input topics and calibration
 
@@ -167,7 +174,8 @@ The external controller owns recovery. Inspect the result code/message and diagn
 | `POOR_FIT` | Check the prior's local convergence region, model identity, masking, occlusion and depth artifacts. Obtain clearer views or provide a separately validated prior before retrying. A guessed pose/dimension is not a successful estimate. |
 | `TF_UNAVAILABLE`, `TF_CHANGED`, calibration changes, invalid metadata, clock reset or stale observations | Repair TF/time/sensor publication and synchronization. Wait for valid acquisition-time support and fresh matched triples; restart when configuration/calibration changes. After a reset, wait for a positive advancing clock. Do not substitute latest TF or mix data across resets/calibration changes. |
 | Strict-profile π-yaw ambiguity | Symmetric additional views alone cannot resolve symmetric geometry. Use independent orientation/asymmetric evidence with a separately validated model, or explicitly permit the π-equivalence class only when the task/consumer supports both poses. |
-| Stale model revision, expired candidate, cancellation, timeout or busy server | Refresh the actual model snapshot/revision and reject expired observations; wait for the previous terminal state before another request. Diagnose missing streams or exceeded workload bounds before retrying. |
+| Stale model revision, expired candidate, cancellation, executing-goal timeout or known active request | Refresh the actual model snapshot/revision and reject expired observations; wait for the known request's terminal state before another request. Diagnose missing streams or exceeded workload bounds before retrying. |
+| Goal-response/ACK transport timeout or unexplained persistent `BUSY` | Stop new requests and escalate. Preserve native/client logs, goal UUID and timing. Admission can fail before a goal handle or terminal watchdog exists, so waiting for a terminal state may not recover it. The reservation recovery path remains unresolved; no automatic restart recovery is validated. |
 
 **Base motion requires a new frame-consistent prior.** During a request, moving the base changes the tote pose in `base_link`, violating the stationary-object assumption. Finish/cancel collection, use the robot's normal collision-checked planner to reposition, settle, transform an independently validated world/object prior into the new body frame, and restart with that immutable snapshot. Do not combine pre/post-base-motion observations or reuse an old body-relative prior as if it were current. This package does not provide that motion/planning/prior-refresh integration.
 
@@ -175,7 +183,15 @@ Better views and recalibration are decisions based on the actual failure. Repeat
 
 ## Evidence, milestones and remaining limits
 
-M1 established head-camera pose candidates, strict time/TF/input contracts and bounded request/cancel/failure behavior. M2 added multi-camera fusion, per-camera noise and consistency checks, missing-camera reporting and camera-held-out validation. M3 added observable width/length refinement, joint uncertainty, immutable model revision validation and conditional collision geometry. [Milestone notes](docs/milestones.md), [independent M1/M2 review](docs/review_m1_m2.md) and [independent M3 review](docs/review_m3.md) retain implementation findings and lessons.
+M1 established head-camera pose candidates, strict time/TF/input contracts and bounded behavior for the exercised request/cancel/failure lifecycle paths, subject to the later admission exception below. M2 added multi-camera fusion, per-camera noise and consistency checks, missing-camera reporting and camera-held-out validation. M3 added observable width/length refinement, joint uncertainty, immutable model revision validation and conditional collision geometry. [Milestone notes](docs/milestones.md), [independent M1/M2 review](docs/review_m1_m2.md) and [independent M3 review](docs/review_m3.md) retain implementation findings and lessons.
+
+A later benchmark exposed a separate admission-recovery limit: goal-response
+transport timeouts were observed, and source inspection found that a timeout
+before the accepted callback can leave the native reservation outside its normal
+wall watchdog. Persistent subsequent `BUSY` was not dynamically reproduced.
+The production baseline remains unchanged; broader bounded-admission recovery
+and automatic restart recovery are not qualified. See the
+[B2 session record](benchmarks/session-ros-20261015.md#separate-production-availability-finding).
 
 The final development package reported **84 checks, zero errors/failures** (individual cases plus test wrappers). The public checkout is also built/tested independently from the ROS underlay; see [`evidence/standalone-tests.log`](evidence/standalone-tests.log). Historical evaluation and mutation summaries are in [`evidence`](evidence); historical workspace paths identify original artifacts, not files promised in this repository.
 
@@ -193,7 +209,15 @@ python3 tools/cloud_viewer.py --clouds evidence/clouds \
 
 Use `--case rejected` and/or `--stage before` for the other panels. Run from the cloned repository root. The viewer only republishes the included recorded point exports; it has no robot-control or estimator link. [`tools/recorded_clouds.py`](tools/recorded_clouds.py) documents the original bag-to-point export and requires the original recording/report to regenerate the exports.
 
-The completed [robotics README review](docs/robotics-readme-review.md) checked the operational guidance, commands, images and evidence against the shipped implementation; no blocking documentation findings remain.
+The historical [robotics README review](docs/robotics-readme-review.md) checked the
+M1–M3 guidance, commands, images and evidence available at that review. The later
+B2 benchmark and admission finding have separate review records; the historical
+verdict does not qualify the new transport path or hardware operation.
+The later [B2 technical review](benchmarks/evidence/b2-20261015/review/final-report.md)
+closed the simulation comparison, and the
+[robotics guidance review](benchmarks/evidence/b2-20261015/robotics-review.md)
+approved the corrected instructions. Neither qualifies production admission
+recovery or hardware operation; editorial and STE language review remain pending.
 
 ## License and attribution
 

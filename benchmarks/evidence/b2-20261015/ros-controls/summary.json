@@ -1,0 +1,3687 @@
+{
+  "stage": "ros",
+  "criteria": {
+    "version": 1,
+    "scope": "expert-selected provisional simulation proxies; not hardware requirements",
+    "primary": {
+      "position_m": 0.005,
+      "orientation_rad": 0.017453292519943295,
+      "dimension_m": 0.003,
+      "corner_m": 0.015
+    },
+    "secondary": {
+      "position_m": 0.01,
+      "orientation_rad": 0.03490658503988659,
+      "dimension_m": 0.005,
+      "corner_m": 0.015
+    },
+    "maximum_latency_s": 3.0,
+    "maximum_age_s": 2.0,
+    "maximum_accepted_wrong_fraction": 0.01,
+    "confidence": 0.95,
+    "configured_camera_sigma_m": [
+      0.003,
+      0.006
+    ],
+    "capture_times_s": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "pixel_stride": 4,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 98173
+  },
+  "groups": [
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030911469,
+        "p95": 1.030911469,
+        "maximum": 1.030911469
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480033464,
+        "p95": 0.480033464,
+        "maximum": 0.480033464
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.47862728,
+        "p95": 0.47862728,
+        "maximum": 0.47862728
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.03056306,
+        "p95": 1.03056306,
+        "maximum": 1.03056306
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479607626,
+        "p95": 0.479607626,
+        "maximum": 0.479607626
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478607607,
+        "p95": 0.478607607,
+        "maximum": 0.478607607
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.010996589,
+        "p95": 1.010996589,
+        "maximum": 1.010996589
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_DATA": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030928186,
+        "p95": 1.030928186,
+        "maximum": 1.030928186
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479818945,
+        "p95": 0.479818945,
+        "maximum": 0.479818945
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478324098,
+        "p95": 0.478324098,
+        "maximum": 0.478324098
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.00858177154001e-05,
+        "p95": 4.00858177154001e-05,
+        "maximum": 4.00858177154001e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00034465021430446144,
+        "p95": 0.00034465021430446144,
+        "maximum": 0.00034465021430446144
+      },
+      "corner_error_m": {
+        "median": 0.00012796711815764902,
+        "p95": 0.00012796711815764902,
+        "maximum": 0.00012796711815764902
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.051336719,
+        "p95": 1.051336719,
+        "maximum": 1.051336719
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.500211488,
+        "p95": 0.500211488,
+        "maximum": 0.500211488
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.498253765,
+        "p95": 0.498253765,
+        "maximum": 0.498253765
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0002696713392227535,
+        "p95": 0.0002696713392227535,
+        "maximum": 0.0002696713392227535
+      },
+      "orientation_error_rad": {
+        "median": 0.002047351721694992,
+        "p95": 0.002047351721694992,
+        "maximum": 0.002047351721694992
+      },
+      "corner_error_m": {
+        "median": 0.0007485773944765934,
+        "p95": 0.0007485773944765934,
+        "maximum": 0.0007485773944765934
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030850257,
+        "p95": 1.030850257,
+        "maximum": 1.030850257
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479946962,
+        "p95": 0.479946962,
+        "maximum": 0.479946962
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478651833,
+        "p95": 0.478651833,
+        "maximum": 0.478651833
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031044253,
+        "p95": 1.031044253,
+        "maximum": 1.031044253
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.47942994,
+        "p95": 0.47942994,
+        "maximum": 0.47942994
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.477843272,
+        "p95": 0.477843272,
+        "maximum": 0.477843272
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.064015674,
+        "p95": 0.064015674,
+        "maximum": 0.064015674
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "STALE_OBSERVATION": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.065840236,
+        "p95": 0.065840236,
+        "maximum": 0.065840236
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "STALE_OBSERVATION": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031482497,
+        "p95": 1.031482497,
+        "maximum": 1.031482497
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.48060483,
+        "p95": 0.48060483,
+        "maximum": 0.48060483
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478969753,
+        "p95": 0.478969753,
+        "maximum": 0.478969753
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.0085817725543725e-05,
+        "p95": 4.0085817725543725e-05,
+        "maximum": 4.0085817725543725e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.00034465021437471454,
+        "p95": 0.00034465021437471454,
+        "maximum": 0.00034465021437471454
+      },
+      "corner_error_m": {
+        "median": 0.00012796711817966938,
+        "p95": 0.00012796711817966938,
+        "maximum": 0.00012796711817966938
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.031064227,
+        "p95": 1.031064227,
+        "maximum": 1.031064227
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.480208615,
+        "p95": 0.480208615,
+        "maximum": 0.480208615
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478699217,
+        "p95": 0.478699217,
+        "maximum": 0.478699217
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 0.0002696713392145986,
+        "p95": 0.0002696713392145986,
+        "maximum": 0.0002696713392145986
+      },
+      "orientation_error_rad": {
+        "median": 0.002047351721615448,
+        "p95": 0.002047351721615448,
+        "maximum": 0.002047351721615448
+      },
+      "corner_error_m": {
+        "median": 0.000748577394454642,
+        "p95": 0.000748577394454642,
+        "maximum": 0.000748577394454642
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030305086,
+        "p95": 1.030305086,
+        "maximum": 1.030305086
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479239054,
+        "p95": 0.479239054,
+        "maximum": 0.479239054
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478107029,
+        "p95": 0.478107029,
+        "maximum": 0.478107029
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 4.7976970002879095e-05,
+        "p95": 4.7976970002879095e-05,
+        "maximum": 4.7976970002879095e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004229467989178978,
+        "p95": 0.0004229467989178978,
+        "maximum": 0.0004229467989178978
+      },
+      "corner_error_m": {
+        "median": 0.00015760826580688784,
+        "p95": 0.00015760826580688784,
+        "maximum": 0.00015760826580688784
+      },
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.030960028,
+        "p95": 1.030960028,
+        "maximum": 1.030960028
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.479956101,
+        "p95": 0.479956101,
+        "maximum": 0.479956101
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.478650628,
+        "p95": 0.478650628,
+        "maximum": 0.478650628
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "DEGRADED_OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.469731004,
+        "p95": 0.469731004,
+        "maximum": 0.469731004
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "TF_UNAVAILABLE": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.471986765,
+        "p95": 0.471986765,
+        "maximum": 0.471986765
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "TF_UNAVAILABLE": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150970975,
+        "p95": 1.150970975,
+        "maximum": 1.150970975
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.130718669,
+        "p95": 1.130718669,
+        "maximum": 1.130718669
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.010678526,
+        "p95": 1.010678526,
+        "maximum": 1.010678526
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "INSUFFICIENT_DATA": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150608049,
+        "p95": 1.150608049,
+        "maximum": 1.150608049
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 5.284942567356307e-05,
+        "p95": 5.284942567356307e-05,
+        "maximum": 5.284942567356307e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004168224565626135,
+        "p95": 0.0004168224565626135,
+        "maximum": 0.0004168224565626135
+      },
+      "corner_error_m": {
+        "median": 0.00014293694378905535,
+        "p95": 0.00014293694378905535,
+        "maximum": 0.00014293694378905535
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.629810772153407e-05,
+          "p95": 2.629810772153407e-05,
+          "maximum": 2.629810772153407e-05
+        },
+        "0": {
+          "median": 6.096637837904595e-06,
+          "p95": 6.096637837904595e-06,
+          "maximum": 6.096637837904595e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.390941551,
+        "p95": 1.390941551,
+        "maximum": 1.390941551
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.840028408,
+        "p95": 0.840028408,
+        "maximum": 0.840028408
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.838436227,
+        "p95": 0.838436227,
+        "maximum": 0.838436227
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.191021119,
+        "p95": 1.191021119,
+        "maximum": 1.191021119
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.130701469,
+        "p95": 1.130701469,
+        "maximum": 1.130701469
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.080282274,
+        "p95": 0.080282274,
+        "maximum": 0.080282274
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "STALE_OBSERVATION": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.072345554,
+        "p95": 0.072345554,
+        "maximum": 0.072345554
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "STALE_OBSERVATION": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150544983,
+        "p95": 1.150544983,
+        "maximum": 1.150544983
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "spatial_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "end_to_end_usability": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "position_error_m": {
+        "median": 5.284942567306715e-05,
+        "p95": 5.284942567306715e-05,
+        "maximum": 5.284942567306715e-05
+      },
+      "orientation_error_rad": {
+        "median": 0.0004168224565617671,
+        "p95": 0.0004168224565617671,
+        "maximum": 0.0004168224565617671
+      },
+      "corner_error_m": {
+        "median": 0.00014293694378019473,
+        "p95": 0.00014293694378019473,
+        "maximum": 0.00014293694378019473
+      },
+      "dimension_error_m": {
+        "1": {
+          "median": 2.6298107721423047e-05,
+          "p95": 2.6298107721423047e-05,
+          "maximum": 2.6298107721423047e-05
+        },
+        "0": {
+          "median": 6.096637837904595e-06,
+          "p95": 6.096637837904595e-06,
+          "maximum": 6.096637837904595e-06
+        }
+      },
+      "send_to_result_s": {
+        "median": 1.351323681,
+        "p95": 1.351323681,
+        "maximum": 1.351323681
+      },
+      "wall_capture_to_result_s": {
+        "median": 0.800056196,
+        "p95": 0.800056196,
+        "maximum": 0.800056196
+      },
+      "ros_capture_to_issue_s": {
+        "median": 0.798265653,
+        "p95": 0.798265653,
+        "maximum": 0.798265653
+      },
+      "coverage_95_joint": {
+        "count": 1,
+        "total": 1,
+        "fraction": 1.0,
+        "interval": [
+          0.025000000000000022,
+          1.0
+        ],
+        "upper_one_sided": 1.0
+      },
+      "codes": {
+        "OK": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.190958569,
+        "p95": 1.190958569,
+        "maximum": 1.190958569
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "A",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 1.150646755,
+        "p95": 1.150646755,
+        "maximum": 1.150646755
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "CAMERA_CONFLICT": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "AB",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.488541281,
+        "p95": 0.488541281,
+        "maximum": 0.488541281
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "TF_UNAVAILABLE": 1
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "subset": "B",
+      "requests": 1,
+      "acceptance": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "spatial_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "end_to_end_usability": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "accepted_wrong": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "wrong_all_requests": {
+        "count": 0,
+        "total": 1,
+        "fraction": 0.0,
+        "interval": [
+          0.0,
+          0.975
+        ],
+        "upper_one_sided": 0.95
+      },
+      "complete_required_geometry_accepted": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "position_error_m": null,
+      "orientation_error_rad": null,
+      "corner_error_m": null,
+      "dimension_error_m": {
+        "1": null,
+        "0": null
+      },
+      "send_to_result_s": {
+        "median": 0.491908637,
+        "p95": 0.491908637,
+        "maximum": 0.491908637
+      },
+      "wall_capture_to_result_s": null,
+      "ros_capture_to_issue_s": null,
+      "coverage_95_joint": {
+        "count": 0,
+        "total": 0,
+        "fraction": null,
+        "interval": null,
+        "upper_one_sided": null
+      },
+      "codes": {
+        "TF_UNAVAILABLE": 1
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": -1.0,
+        "paired_95_interval": [
+          -1.0,
+          -1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 0,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "mask_skew",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "normal",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "stale_triplet",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "valid_bracket",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 1.0,
+        "paired_95_interval": [
+          1.0,
+          1.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "comparison": "AB-A",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "partition": "pilot",
+      "mode": 1,
+      "condition": "tf_gap",
+      "transport_variant": "wide_gap",
+      "comparison": "AB-B",
+      "accepted_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "spatially_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "end_to_end_usable_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "accepted_wrong_delta": {
+        "mean": 0.0,
+        "paired_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "scope": "Same-byte native ROS simulation, equal-time declared/Huber only; no hardware qualification"
+}

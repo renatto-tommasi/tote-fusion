@@ -1,0 +1,102 @@
+{
+  "stage": "ros",
+  "profile": "paired_ros_v5",
+  "criteria": {
+    "version": 1,
+    "scope": "expert-selected provisional simulation proxies; not hardware requirements",
+    "primary": {
+      "position_m": 0.005,
+      "orientation_rad": 0.017453292519943295,
+      "dimension_m": 0.003,
+      "corner_m": 0.015
+    },
+    "secondary": {
+      "position_m": 0.01,
+      "orientation_rad": 0.03490658503988659,
+      "dimension_m": 0.005,
+      "corner_m": 0.015
+    },
+    "maximum_latency_s": 3.0,
+    "maximum_age_s": 2.0,
+    "maximum_accepted_wrong_fraction": 0.01,
+    "confidence": 0.95,
+    "configured_camera_sigma_m": [
+      0.003,
+      0.006
+    ],
+    "capture_times_s": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ],
+    "pixel_stride": 4,
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 98173
+  },
+  "domain": 91,
+  "cache_index_sha256": "5bd0727171b3111c5c095f7a5c8a2aaac7bf31c532ec801cce381effb537fa4a",
+  "source_sha256": {
+    "benchmarks/ros_replay.py": "58dc9beb87b494cb20605ecad10dd53a89f508b372c19c962bb7deabe0911f5a",
+    "benchmarks/ros-contract.md": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "benchmarks/metrics.py": "0ae5ff491a6dd88fec78725e292fcd4a0a7eaf92a7019c01414f8431b2cf8a5e",
+    "src/tote_fusion/src/node.cpp": "8c8770f428aa81621058aa70f33f09234c97db7e351ebebd5a9fec634e1ee84e",
+    "src/tote_fusion/config/ATTRIBUTION.txt": "d53ae595dd8f7be2985204020e25d19862bd6838a2458e7620c216c22ea7e962",
+    "src/tote_fusion/config/EU6423_geometry.yaml": "7c4ffb013cc103105740e1b7c7a925f6631279b18b23e37b6121e3845c02d22a",
+    "src/tote_fusion/config/cameras.yaml": "0e9ce63955c27e4229c076fe274ec9fab1de768185a0a2982f71ac01f7689c92",
+    "src/tote_fusion/config/tote_model.yaml": "ce1c0a4f096adfcbb566993cf96d6fa2d6ebe8151840f14a0dc638143b292192"
+  },
+  "node_sha256": "bcca3f55150b183bbaa6edc9f51281b6e059a0878b4cf17d0e91e5b399d090a7",
+  "seeds": [
+    100000
+  ],
+  "conditions": [
+    "tf_gap"
+  ],
+  "variants": [
+    "normal",
+    "valid_bracket",
+    "wide_gap",
+    "stale_triplet",
+    "mask_skew"
+  ],
+  "artifacts": {
+    "pilot-m1-tf_gap-100000-A-valid_bracket.log": "aaf5af837ec2119ad3ff5a6c55bd999860ac2c195c0f871d6abdfd5b40dd138c",
+    "pilot-m1-tf_gap-100000-B-valid_bracket.log": "d2f1e73e8671e1c7b8ab53227e344bd462334bd740dc5280379f01150c1c2067",
+    "pilot-m0-tf_gap-100000-B-stale_triplet.log": "9615586514fbde2d984fc1d7014ed59190e80ff8662240cfa171d30df88e9ee2",
+    "pilot-m1-tf_gap-100000-A-wide_gap.log": "bd6d7960545267f280fa7084444ffb179857f2f02f5957871ea17ea0ba4c4289",
+    "pilot-m0-tf_gap-100000-B-mask_skew.log": "ae584e780708c45d587b43a7d618dace22082efcf3848f32e284d60b71529644",
+    "pilot-m1-tf_gap-100000-B-normal.log": "e7f613d712c0c92d37d77ed1af80cbffaee8a291a929a132d5b0f9243fb7af39",
+    "pilot-m1-tf_gap-100000-A-stale_triplet.log": "03f90defdb5b8c9c4f6c896e8f41e6bbadaac56be81dcde5adefe7751a7fe041",
+    "pilot-m0-tf_gap-100000-AB-valid_bracket.log": "0a7cb90660cae3070b04de10e52dc250052837cc07e3822be54f63e709fa7e0f",
+    "pilot-m1-tf_gap-100000-AB-wide_gap.log": "3031d972f839a22f6b4286078906713bca590a881a702b54d481428a4f29c211",
+    "pilot-m1-tf_gap-100000-A-mask_skew.log": "33fb8f3f23862753192fb36861f2bdb1a6b7361c78f5e7e9c7df65806a297157",
+    "pilot-m0-tf_gap-100000-A-stale_triplet.log": "dbb561f70534c37a62653d121f4d537d2f1d63ee09b0e5eabb5b2e6dad1dd436",
+    "pilot-m1-tf_gap-100000-AB-stale_triplet.log": "976a998e03119646d46d3734f4872d76586df2024948d4753739f068fe62f09b",
+    "pilot-m1-tf_gap-100000-A-normal.log": "64659b941218b72fc16da0a820014e82ce71b324a526a9f81c97c8aec386dcc2",
+    "summary.json": "2a4412b5d6b0b58c669388b217cbd26a36b53bcb1415c952529e90e572e0cb1e",
+    "pilot-m0-tf_gap-100000-A-wide_gap.log": "687e9c85bd2d023a6b822f3b7a19f71d00d0be3631b241550d0d1bb4eef282cf",
+    "pilot-m0-tf_gap-100000-AB-normal.log": "4b67c2036dbc9b95527642d2e3e0661cd00c9c46c3412b317ab3314cd4f874f0",
+    "pilot-m1-tf_gap-100000-B-wide_gap.log": "d2ae05ce40e77209e82eeeea0df16f9689f6c890e1cddbb4ad6ed8b272889988",
+    "pilot-m0-tf_gap-100000-A-valid_bracket.log": "5c6f1100b21dfb30f31cb5b2867df11d1e8f2555ef68e2ef641b68145962a632",
+    "contexts.jsonl": "e274c6b4ee653949c95e7a297b5f8eb033c58cc99983711df651f6497333daa2",
+    "pilot-m1-tf_gap-100000-AB-valid_bracket.log": "f74c7dfae868aa9729eb285581edc273d1d83cbe58f1a1cdef12a1cf3a414bee",
+    "pilot-m0-tf_gap-100000-AB-mask_skew.log": "eda934432a9628c97ccba483767a81ddcaabf065b8f71d11a74b7cfe886bd538",
+    "pilot-m0-tf_gap-100000-B-wide_gap.log": "9575ed4d228341548ddacf1d007b24e654822aeae35b0453c968135ff1d2eafe",
+    "pilot-m0-tf_gap-100000-B-valid_bracket.log": "26de3e379aedd3f44b583eb0c092994f9474ef2737d951e0844cfb37cd19af8d",
+    "pilot-m0-tf_gap-100000-A-mask_skew.log": "dd0cc55b4056dc27895996420857a7394e74e14f9efe2c76463d9b66974eb65d",
+    "pilot-m0-tf_gap-100000-AB-stale_triplet.log": "659594c7a2193b7e54d998201298f581d01abe903c4467fd1c85af812e422ff4",
+    "pilot-m0-tf_gap-100000-B-normal.log": "3ca942845085504098423bf0e4935bb4c8b49fdeaac1ebe3701fe779e852a25b",
+    "pilot-m1-tf_gap-100000-AB-normal.log": "b64e84c1e13db26c50457afeb07245d7f674c7d54a3fcbdd1c6d79bcf52f9875",
+    "ros-contract.md": "c4477195ccf0f16b5c7a475734ff512c24ae711df77e1407ef4c3d604091e472",
+    "pilot-m1-tf_gap-100000-B-mask_skew.log": "fb9395f0f400c502e922e15bd17aae0e8cb2f26809c1f3b45b4264bff406a601",
+    "requests.jsonl": "42875c6493c91e334fcab9acd1f5210d468eba40533f57d3682759f7d84ed609",
+    "pilot-m1-tf_gap-100000-AB-mask_skew.log": "003f5be3b5cde0e5348cecf305f4cfc182797215a7ac05de1a43daa0e8364fe5",
+    "pilot-m0-tf_gap-100000-A-normal.log": "819c23fc2dea5ae24e17766132b82dad5cd2a4b232ac3a41f0aa3faaf58b1e1c",
+    "pilot-m1-tf_gap-100000-B-stale_triplet.log": "ee2d2448629c384efde54863d8779ef939a7bcbd0b7d2ace8311f8a15a76a931",
+    "pilot-m0-tf_gap-100000-AB-wide_gap.log": "8ba1c11ec7274b57a721d0206df98dcea0d85ea911327801906f5218e6b3383b",
+    "ros_replay.source.py": "58dc9beb87b494cb20605ecad10dd53a89f508b372c19c962bb7deabe0911f5a"
+  }
+}
