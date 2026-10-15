@@ -16,6 +16,8 @@ ROS 2 packages for bounded, model-based tote pose estimation and observable widt
 
 **Current scope: ROS 2 Jazzy simulation profiles.** The node requires `use_sim_time=true` and `/clock`. Hardware operation and calibrated uncertainty remain future work. The package does not control robot motion, run segmentation, commit model revisions, or publish a fused/denoised point cloud.
 
+The experimental [paired A/B/fusion benchmark](benchmarks/README.md) caches scenes once and separates precision from robust loss. Its [contract](benchmarks/contract.md) defines provisional simulation criteria and distinguishes pixel-core evidence from ROS/hardware validation.
+
 ## Noisy accepted versus noisy rejected
 
 These are actual RViz screenshots of exported observations from the recorded M3 analytic RGB-D corpus. Cyan is the head camera, gold the left wrist, pink the right wrist. The same camera view and point styling are used throughout. Orange outlines the nominal prior; green outlines the accepted pose and proposed outer dimensions. The wireframe is an outer envelope, not the full compound collision model.
